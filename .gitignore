@@ -1,2 +1,4 @@
 .ccls-cache/
-
+.idea/
+**/.DS_Store
+*/build

@@ -12,8 +12,10 @@ int calc_inv(int l){
 	return (M-M/l)*calc_inv(M%l)%M;
 }
 
-void precompute(int N){
+void precompute(){
 	inv[1]=1;
-	for(int i=2;i<N;++i)
-		inv[i]=calc_inv(i);
+	for(int i=2;i<=TS;++i){
+		inv[i]=(M-M/i)*inv[M%i]%M;
+		if(inv[i]<0) inv[i]+=M;
+	}
 }

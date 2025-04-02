@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[slovene,english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{url}
+\usepackage{breakurl}
+\usepackage[top=1cm, bottom=1.5cm, inner=1cm, outer=1cm]{geometry}
+\usepackage{fancyvrb}
+
+\overfullrule=2cm
+
+\titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge}
+
+\newenvironment{no_pagebreak} {\par\nobreak\vfil\penalty0\vfilneg
+  \vtop\bgroup} {\par\xdef\tpd{\the\prevdepth}\egroup \prevdepth=\tpd}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\input{.style_defs.tex}
+
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}}
+
+\begin{document}
+
+\input{.include.tex}
+
+\end{document}
+

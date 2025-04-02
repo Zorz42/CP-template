@@ -78,17 +78,25 @@ def test_file(name: str) -> (int, int):
 
     success = 0
     fail = 0
+
+    test_files = []
     for file in os.listdir(directory):
         if file.find("input") != -1:
             input_path = os.path.join(directory, file)
             output_path = os.path.join(directory, file.replace("input", "output"))
-            (res, verd, elapsed) = run_testcase(exec_path, input_path, output_path)
-            l = " " * (20 - len(file))
-            print(f"Test {file} {l} {verd} {elapsed:.3f}s")
-            if res:
-                success += 1
-            else:
-                fail += 1
+            test_files.append((input_path, output_path, file))
+
+    # sort test files lexicographically
+    test_files.sort(key=lambda x: x[0])
+
+    for input_path, output_path, file in test_files:
+        (res, verd, elapsed) = run_testcase(exec_path, input_path, output_path)
+        l = " " * (20 - len(file))
+        print(f"Test {file} {l} {verd} {elapsed:.3f}s")
+        if res:
+            success += 1
+        else:
+            fail += 1
 
     return success, fail
 

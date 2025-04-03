@@ -1,6 +1,5 @@
 .*.tex
 *.out
-*.pdf
 *.log
 *.aux
 __pycache__/

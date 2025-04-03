@@ -39,6 +39,21 @@ def generate_latex(source):
     fnout = f'.{ime}.{lang}.tex'
     with open(f'../{source}', 'r') as fin, open(fnout, 'w') as fout:
         highlight(fin.read().replace('\t', '  '), lexer[lang], formatter, fout)
+
+    lines: list[str]
+    with open(fnout, 'r') as fin:
+        lines = fin.readlines()
+
+    # ugly
+    lines[0] = lines[0][:-2] + ",frame=single,fontsize=\\tiny]\n"
+
+    line = "\subsection*{" + ime.replace("_","\\_") + "}\n"
+    lines.insert(0, line)
+
+    with open(fnout, 'w') as fout:
+        for line in lines:
+            fout.write(line)
+
     with open(f'.include.tex', 'a') as fincl:
         print(f'\\input{{{fnout}}}', file=fincl)
 

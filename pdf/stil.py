@@ -21,15 +21,15 @@ class CodeblocksStyle(Style):
 class MladiRTKcrnobeloStyle(Style):
     default_style = ""
     styles = {
-        Comment:          'italic #a0a0a0',
-        Comment.Preproc:  '#404040',  # Why is this under comments ??
-        Keyword:          'underline bold #000',
+        Comment:          '#a0a0a0',
+        Comment.Preproc:  '#707070',  # Why is this under comments ??
+        Keyword:          'bold #000',
         Operator:         '#000',
-        Operator.Word:    'underline bold #000',
+        Operator.Word:    'bold #000',
         Punctuation:      '#000',
         Name:             '#303030',
-        String:           '#707070',
-        Number:           '#707070',
+        String:           '#303030',
+        Number:           '#303030',
     }
 
 #   algol, algol_nu

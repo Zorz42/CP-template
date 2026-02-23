@@ -2,7 +2,6 @@ import sys
 import os
 import contextlib
 
-from configparser import ConfigParser
 from pygments import highlight
 from pygments.lexers.c_cpp import CLexer, CppLexer
 from pygments.lexers.jvm import JavaLexer
@@ -37,7 +36,7 @@ def generate_latex(source):
         print(formatter.get_style_defs(), file=fstyles)
     ime, lang = source.split('.', maxsplit=1)
     fnout = f'.{ime}.{lang}.tex'
-    with open(f'../{source}', 'r') as fin, open(fnout, 'w') as fout:
+    with open(f'../algos/{source}', 'r') as fin, open(fnout, 'w') as fout:
         highlight(fin.read().replace('\t', '  '), lexer[lang], formatter, fout)
 
     lines: list[str]
@@ -59,13 +58,13 @@ def generate_latex(source):
 
 
 if __name__ == '__main__':
-    config = ConfigParser()
-    config.read('../.config.ini')
-
-    sources = config.get('kode', 'imena')
+    sources = []
+    for file in os.listdir("../algos"):
+        if file.endswith(".cpp"):
+            sources += [file]
     if os.path.exists('.include.tex'):
         os.remove('.include.tex')
 
-    for source in sources.split(' '):
+    for source in sources:
         print(f'source {source}')
         generate_latex(source)

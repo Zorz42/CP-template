@@ -59,7 +59,7 @@ def run_testcase(exec_path: str, testcase_in_path: str, testcase_out_path) -> (b
         return False, "WA", elapsed_time
 
 def test_file(name: str) -> (int, int):
-    directory = name
+    directory = os.path.join("tests", name)
     if not os.path.isdir(directory):
         print(f"> Skipping {name} (no tests found)")
         return 0, 0
@@ -70,7 +70,7 @@ def test_file(name: str) -> (int, int):
         os.mkdir(build_dir)
 
     cpp_path = os.path.join(directory, "code.cpp")
-    algo_path = name + ".cpp"
+    algo_path = os.path.join("algos", name + ".cpp")
     res_path = os.path.join(build_dir, "res.cpp")
     setup_cpp(cpp_path, algo_path, res_path)
     exec_path = os.path.join(build_dir, "exec")
@@ -104,7 +104,7 @@ def test_file(name: str) -> (int, int):
 if __name__ == "__main__":
     success = 0
     fail = 0
-    for file in os.listdir("."):
+    for file in os.listdir("algos"):
         if file.endswith(".cpp"):
             # remove the .cpp extension
             succ, fal = test_file(file[:-4])

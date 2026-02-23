@@ -17,4 +17,4 @@ python gen_latex.py
 make
 ```
 
-output.pdf
+pdf/output.pdf is ready to print (for ICPC contest) already without running any scripts.

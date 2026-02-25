@@ -14,34 +14,24 @@
 #include<random>
 #include<cassert>
 #include<sstream>
-#include<complex>
 typedef long long ll;
 typedef unsigned long long ull;
 typedef long double ld;
 using namespace std;
 
-// cses: apples and bananas
+// cses: string matching
 
 // ALGO
 
 void solve(){
-    int k,n,m;
-    cin>>k>>n>>m;
-    vector<int>a(k+1),b(k+1);
-    for(int i=0;i<n;i++){
-        int c;
-        cin>>c;
-        a[c]++;
-    }
-    for(int i=0;i<m;i++){
-        int c;
-        cin>>c;
-        b[c]++;
-    }
-    vector<ll>res=multiply(a,b);
-    for(int i=2;i<=2*k;i++)
-        cout<<res[i]<<" ";
-    cout<<"\n";
+	string a,b;
+	cin>>b>>a;
+	vector<int>res=z_function(a+b);
+	int r=0;
+	int n=(int)a.size(),m=(int)b.size();
+	for(int i=n;i<n+m;i++)
+		r+=res[i]>=n;
+	cout<<r<<"\n";
 }
 
 int main(){

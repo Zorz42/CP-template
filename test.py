@@ -1,4 +1,5 @@
 import os
+import sys
 import subprocess
 import string
 import time
@@ -81,13 +82,13 @@ def test_file(name: str) -> (int, int, str):
 
     test_files = []
     for file in os.listdir(directory):
-        if file.find("input") != -1:
+        if file.find("in") != -1:
             input_path = os.path.join(directory, file)
-            output_path = os.path.join(directory, file.replace("input", "output"))
+            output_path = os.path.join(directory, file.replace("in", "out"))
             test_files.append((input_path, output_path, file))
 
     # sort test files lexicographically
-    test_files.sort(key=lambda x: x[0])
+    test_files.sort(key=lambda x: int(x[0].split("/")[-1].split(".")[0]))
 
     avgs, maxs = 0, 0 
 
@@ -96,7 +97,8 @@ def test_file(name: str) -> (int, int, str):
         maxs = max(maxs, elapsed)
         avgs += elapsed / len(test_files)
         l = " " * (20 - len(file))
-        print(f"Test {file} {l} {verd} {elapsed:.3f}s")
+        test_num = file.split(".")[0]
+        print(f"Test {test_num} {l} {verd} {elapsed:.3f}s")
         if res:
             success += 1
         else:
@@ -110,9 +112,12 @@ def test_file(name: str) -> (int, int, str):
 if __name__ == "__main__":
     success = 0
     fail = 0
+    req = None
+    if len(sys.argv) > 1:
+        req = sys.argv[1]
     with open("perf_report.txt", "w") as report_file:
         for file in os.listdir("algos"):
-            if file.endswith(".cpp"):
+            if file.endswith(".cpp") and (req is None or file == req + ".cpp"):
                 # remove the .cpp extension
                 succ, fal, report = test_file(file[:-4])
                 report_file.write(report)

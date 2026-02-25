@@ -19,6 +19,8 @@ typedef unsigned long long ull;
 typedef long double ld;
 using namespace std;
 
+// cses: download speed
+
 // ALGO
 
 void solve(){

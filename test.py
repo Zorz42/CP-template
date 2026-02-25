@@ -58,11 +58,11 @@ def run_testcase(exec_path: str, testcase_in_path: str, testcase_out_path) -> (b
     else:
         return False, "WA", elapsed_time
 
-def test_file(name: str) -> (int, int):
+def test_file(name: str) -> (int, int, str):
     directory = os.path.join("tests", name)
     if not os.path.isdir(directory):
         print(f"> Skipping {name} (no tests found)")
-        return 0, 0
+        return 0, 0, ""
 
     print(f"> Testing {name}...")
     build_dir = os.path.join(directory, "build")
@@ -89,8 +89,12 @@ def test_file(name: str) -> (int, int):
     # sort test files lexicographically
     test_files.sort(key=lambda x: x[0])
 
+    avgs, maxs = 0, 0 
+
     for input_path, output_path, file in test_files:
         (res, verd, elapsed) = run_testcase(exec_path, input_path, output_path)
+        maxs = max(maxs, elapsed)
+        avgs += elapsed / len(test_files)
         l = " " * (20 - len(file))
         print(f"Test {file} {l} {verd} {elapsed:.3f}s")
         if res:
@@ -98,18 +102,22 @@ def test_file(name: str) -> (int, int):
         else:
             fail += 1
 
-    return success, fail
+    report = f"test {name}: avg: {avgs:.2f}s, max: {maxs:.2f}s\n"
+
+    return success, fail, report
 
 
 if __name__ == "__main__":
     success = 0
     fail = 0
-    for file in os.listdir("algos"):
-        if file.endswith(".cpp"):
-            # remove the .cpp extension
-            succ, fal = test_file(file[:-4])
-            success += succ
-            fail += fal
+    with open("perf_report.txt", "w") as report_file:
+        for file in os.listdir("algos"):
+            if file.endswith(".cpp"):
+                # remove the .cpp extension
+                succ, fal, report = test_file(file[:-4])
+                report_file.write(report)
+                success += succ
+                fail += fal
     print(f"Success: {success}")
     print(f"Fail: {fail}")
     if fail > 0:

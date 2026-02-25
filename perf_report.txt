@@ -1,0 +1,4 @@
+test fft: avg: 0.44s, max: 0.90s
+test li_chao: avg: 0.45s, max: 0.70s
+test max_flow: avg: 0.01s, max: 0.18s
+test modulo_int: avg: 0.11s, max: 0.13s

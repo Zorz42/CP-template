@@ -1,5 +1,6 @@
-test fft: avg: 0.43s, max: 0.88s
-test li_chao: avg: 0.44s, max: 0.68s
-test max_flow: avg: 0.02s, max: 0.47s
-test z_algorithm: avg: 0.03s, max: 0.32s
-test modulo_int: avg: 0.12s, max: 0.12s
+test min_cost_flow: avg: 0.06s, max: 0.09s
+test fft: avg: 0.24s, max: 0.50s
+test li_chao: avg: 0.25s, max: 0.39s
+test max_flow: avg: 0.01s, max: 0.12s
+test z_algorithm: avg: 0.01s, max: 0.11s
+test modulo_int: avg: 0.06s, max: 0.06s

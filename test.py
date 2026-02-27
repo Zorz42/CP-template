@@ -30,7 +30,10 @@ def setup_cpp(cpp_path: str, algo_path: str, res_path: str):
 def compile_cpp(cpp_path: str, res_path: str):
     if does_file_need_updating(cpp_path, res_path):
         print(f"Compiling {cpp_path}...")
-        os.system(f"g++ -o{res_path} {cpp_path} -O2 -std=c++17")
+        ret_val = os.system(f"g++ -o{res_path} {cpp_path} -O2 -std=c++17")
+        if ret_val != 0:
+            print("Compilation failed, exiting")
+            exit()
 
 def compare(s1: str, s2: str) -> bool:
     remove = string.whitespace

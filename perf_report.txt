@@ -1,6 +1,6 @@
 test min_cost_flow: avg: 0.06s, max: 0.09s
-test fft: avg: 0.24s, max: 0.50s
+test fft: avg: 0.24s, max: 0.49s
 test li_chao: avg: 0.25s, max: 0.39s
 test max_flow: avg: 0.01s, max: 0.12s
 test z_algorithm: avg: 0.01s, max: 0.11s
-test modulo_int: avg: 0.06s, max: 0.06s
+test modulo_int: avg: 0.05s, max: 0.06s

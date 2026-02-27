@@ -1,25 +1,6 @@
-#include<iostream>
-#include<vector>
-#include<queue>
-#include<stack>
-#include<algorithm>
-#include<limits.h>
-#include<math.h>
-#include<map>
-#include<set>
-#include<unordered_map>
-#include<unordered_set>
-#include<iomanip>
-#include<cstring>
-#include<random>
-#include<cassert>
-#include<sstream>
-typedef long long ll;
-typedef unsigned long long ull;
-typedef long double ld;
-using namespace std;
-
 // cses: task assignment (without construction)
+
+// HEAD
 
 // ALGO
 

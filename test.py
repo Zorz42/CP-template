@@ -22,7 +22,13 @@ def setup_cpp(cpp_path: str, algo_path: str, res_path: str):
     with open(algo_path, "r") as algo_file:
         algo_code = algo_file.read()
 
+    head_path = "tests/head.h"
+    head_code: str
+    with open(head_path, "r") as head_file:
+        head_code = head_file.read()
+
     cpp_code = cpp_code.replace("// ALGO", algo_code)
+    cpp_code = cpp_code.replace("// HEAD", head_code)
 
     with open(res_path, "w") as res_file:
         res_file.write(cpp_code)
@@ -62,7 +68,7 @@ def run_testcase(exec_path: str, testcase_in_path: str, testcase_out_path) -> (b
     else:
         return False, "WA", elapsed_time
 
-def test_file(name: str) -> (int, int, str):
+def test_file(name: str, verbose: bool) -> (int, int, str):
     directory = os.path.join("tests", name)
     if not os.path.isdir(directory):
         print(f"> Skipping {name} (no tests found)")
@@ -101,13 +107,15 @@ def test_file(name: str) -> (int, int, str):
         avgs += elapsed / len(test_files)
         l = " " * (20 - len(file))
         test_num = file.split(".")[0]
-        print(f"Test {test_num} {l} {verd} {elapsed:.3f}s")
+        if verbose:
+            print(f"Test {test_num} {l} {verd} {elapsed:.3f}s")
         if res:
             success += 1
         else:
             fail += 1
 
     report = f"test {name}: avg: {avgs:.2f}s, max: {maxs:.2f}s\n"
+    print(report)
 
     return success, fail, report
 
@@ -116,13 +124,21 @@ if __name__ == "__main__":
     success = 0
     fail = 0
     req = None
-    if len(sys.argv) > 1:
-        req = sys.argv[1]
+    allowed = set()
+    verbose = False
+    for i, x in enumerate(sys.argv):
+        if i == 0:
+            continue
+        if x == "--verbose":
+            verbose = True
+            continue
+        allowed.add(x)
+
     with open("perf_report.txt", "w") as report_file:
         for file in os.listdir("algos"):
-            if file.endswith(".cpp") and (req is None or file == req + ".cpp"):
+            if file.endswith(".cpp") and (len(allowed) == 0 or file[:-4] in allowed):
                 # remove the .cpp extension
-                succ, fal, report = test_file(file[:-4])
+                succ, fal, report = test_file(file[:-4], verbose)
                 report_file.write(report)
                 success += succ
                 fail += fal

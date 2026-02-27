@@ -36,7 +36,7 @@ def setup_cpp(cpp_path: str, algo_path: str, res_path: str):
 def compile_cpp(cpp_path: str, res_path: str):
     if does_file_need_updating(cpp_path, res_path):
         print(f"Compiling {cpp_path}...")
-        ret_val = os.system(f"g++ -o{res_path} {cpp_path} -O2 -std=c++17")
+        ret_val = os.system(f"g++ -o{res_path} {cpp_path} -O2 -std=c++17 -Wl,-stack_size,0x20000000")
         if ret_val != 0:
             print("Compilation failed, exiting")
             exit()
@@ -72,6 +72,7 @@ def test_file(name: str, verbose: bool) -> (int, int, str):
     directory = os.path.join("tests", name)
     if not os.path.isdir(directory):
         print(f"> Skipping {name} (no tests found)")
+        print()
         return 0, 0, ""
 
     print(f"> Testing {name}...")
@@ -109,12 +110,16 @@ def test_file(name: str, verbose: bool) -> (int, int, str):
         test_num = file.split(".")[0]
         if verbose:
             print(f"Test {test_num} {l} {verd} {elapsed:.3f}s")
+        else:
+            print(f"{test_num}: {verd}", end="   ")
+
         if res:
             success += 1
         else:
             fail += 1
 
     report = f"test {name}: avg: {avgs:.2f}s, max: {maxs:.2f}s\n"
+    print()
     print(report)
 
     return success, fail, report

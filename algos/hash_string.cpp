@@ -22,7 +22,7 @@ struct FastString{
 	}
 	ll get(int l,int r){
 		ll hsh1=(h1[r]+HMOD1-h1[l])%HMOD1*p1[sz(s)-l]%HMOD1;
-		ll hsh2=(h2[r]+HMOD2-h2[l])%HMOD2*p1[sz(s)-l]%HMOD2;
+		ll hsh2=(h2[r]+HMOD2-h2[l])%HMOD2*p2[sz(s)-l]%HMOD2;
 		return hsh1+(hsh2<<32);
 	}
 };

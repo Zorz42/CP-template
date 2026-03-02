@@ -1,8 +1,9 @@
 test min_cost_flow: avg: 0.06s, max: 0.09s
-test fft: avg: 0.23s, max: 0.47s
-test li_chao: avg: 0.24s, max: 0.37s
-test tarjan_bridge: avg: 0.12s, max: 0.30s
-test max_flow: avg: 0.01s, max: 0.11s
-test z_algorithm: avg: 0.01s, max: 0.10s
-test modulo_int: avg: 0.05s, max: 0.06s
-test fenwick: avg: 0.71s, max: 0.98s
+test fft: avg: 0.24s, max: 0.49s
+test li_chao: avg: 0.25s, max: 0.39s
+test hash_string: avg: 0.02s, max: 0.14s
+test tarjan_bridge: avg: 0.12s, max: 0.32s
+test max_flow: avg: 0.01s, max: 0.12s
+test z_algorithm: avg: 0.01s, max: 0.11s
+test modulo_int: avg: 0.05s, max: 0.05s
+test fenwick: avg: 0.72s, max: 1.00s

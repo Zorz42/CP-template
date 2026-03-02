@@ -1,7 +1,7 @@
 int timer,tin[maxN],low[maxN];
 bool vis[maxN];
 vi nodes[maxN];
-vector<pii>bridges;
+vc<pii>bridges;
 
 void tarjan_bridge(int u=0,int p=0){
 	vis[u]=true;

@@ -1,5 +1,5 @@
-struct FT {
-	vector<ll>s;
+struct FT{
+	vl s;
 	FT(int n):s(n){}
 	void upd(int i,int x){
 		for(;i<sz(s);i|=i+1)s[i]+=x;
@@ -11,8 +11,8 @@ struct FT {
 	}
 };
 
-struct FT2 {
-	vector<vi>ys;vector<FT>ft;
+struct FT2{
+	vc<vi>ys;vc<FT>ft;
 	FT2(int h):ys(h){}
 	void inform(int x,int y){
 		for(;x<sz(ys);x|=x+1)ys[x].pb(y);

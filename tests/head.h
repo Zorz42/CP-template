@@ -24,10 +24,13 @@ using namespace std;
 #define rep(i,n) fwd(i,0,n)
 #define all(X) (X).begin(), (X).end()
 #define sz(X)((int)(X).size())
-#define st first
-#define nd second
+#define f1 first
+#define f2 second
 #define pb push_back
+#define vc vector
  
 typedef vector<int> vi;
 typedef pair<int,int> pii;
+typedef vector<ll> vl;
+typedef pair<ll,ll> pll;
 

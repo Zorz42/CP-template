@@ -43,15 +43,15 @@ template<typename T1,typename T2>
 auto& operator<<(ostream& out, pair<T1, T2> a) {return out<<"("<<a.st<<", "<<a.nd<<")";}
 template<typename T>
 auto& operator<<(ostream& out, vector<T>& a) {
-    out<<"{";
-		int cnt=0;
-    for(auto b:a){
-			cnt++;
-			out<<b;
-			if(cnt!=a.size())
-				out<<", ";
-		}
-    return out<<"}";
+	out<<"{";
+	int cnt=0;
+	for(auto b:a){
+		cnt++;
+		out<<b;
+		if(cnt!=a.size())
+			out<<", ";
+	}
+	return out<<"}";
 }
  
 #define debug(x) cerr<<"[" #x "]: "<<x<<"\n";

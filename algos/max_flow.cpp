@@ -1,30 +1,30 @@
 struct MaxFlow{
 	int n;
-	vector<vector<int>>adj;
-	vector<vector<ll>>cp;
+	vc<vi>adj;
+	vc<vl>cp;
 
 	MaxFlow(int n):n(n){
-		adj=vector<vector<int>>(n);
-		cp=vector(n,vector(n,0LL));
+		adj=vc<vc<int>>(n);
+		cp=vc(n,vc(n,0LL));
 	}
 
 	// connect a and b with capacity c
 	void add(int a,int b,int c){
 		if(cp[a][b]==0){
-			adj[a].push_back(b);
-			adj[b].push_back(a);
+			adj[a].pb(b);
+			adj[b].pb(a);
 		}
 		cp[a][b]+=c;
 	}
 
-	ll bfs(int s,int t,vector<int>&p){
-		fill(p.begin(),p.end(),-1);
+	ll bfs(int s,int t,vi&p){
+		fill(all(p),-1);
 		p[s]=-2;
-		queue<pair<int,int>>q;
+		queue<pii>q;
 		q.push({s,1e9});
 		while(!q.empty()){
-			int c=q.front().first;
-			ll f=q.front().second;
+			int c=q.front().f1;
+			ll f=q.front().f2;
 			q.pop();
 			for(int x:adj[c]){
 				if(p[x]==-1&&cp[c][x]){
@@ -36,14 +36,13 @@ struct MaxFlow{
 				}
 			}
 		}
-
 		return 0;
 	}
 
 	// call only once
 	ll maxflow(int s,int t){
 		ll f=0,r;
-		vector<int>pr(n);
+		vi pr(n);
 		while((r=bfs(s,t,pr))){
 			f+=r;
 			int cu=t;

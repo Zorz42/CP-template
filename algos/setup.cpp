@@ -30,13 +30,16 @@ typedef long long ll;
 typedef long double ld;
 #define fwd(i,a,b) for(int i=(a); i<(b);i++)
 #define rep(i,n) fwd(i,0,n)
-#define all(X) (X).begin(), (X).end()
-#define sz(X)((int)(X).size())
-#define st first
-#define nd second
+#define all(x) (x).begin(), (x).end()
+#define sz(x)((int)(x).size())
+#define f1 first
+#define f2 second
 #define pb push_back
+#define vc vector
 typedef vector<int> vi;
+typedef vector<ll> vl;
 typedef pair<int,int> pii;
+typedef pair<ll,ll> pll;
 
 #ifdef LOC
 template<typename T1,typename T2>

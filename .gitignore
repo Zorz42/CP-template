@@ -3,3 +3,4 @@
 **/.DS_Store
 tests/*/build
 tests/cses
+pdf/

@@ -6,23 +6,17 @@ Algorithms are implemented in C++ and in `algos` folder. Tests are mostly downlo
 ## Running tests
 
 ```shell
-python test.py [algo names...] [--verbose]
+python3 test.py [algo names...] [--verbose]
 ```
+
+`--report` updates `perf_report.txt` with the timings of the tests that were run.
 
 Tests are downloaded from https://cses-tests.pages.dev on first use (into `tests/cses`).
 
 ## Generating pdfs
 
-On unix just run
-
 ```shell
-./all.sh
-```
-or
-
-```shell
-python gen_latex.py
-make
+python3 pdf.py
 ```
 
-pdf/output.pdf is ready to print (for ICPC contest) already without running any scripts.
+This builds `output.pdf` (needs `pygments` and LaTeX), which is ready to print (for ICPC contest). Intermediate files go to the gitignored `pdf` folder.

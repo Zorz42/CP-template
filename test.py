@@ -236,11 +236,15 @@ if __name__ == "__main__":
     compile_fail = 0
     allowed = set()
     verbose = False
+    write_report = False
     for i, x in enumerate(sys.argv):
         if i == 0:
             continue
         if x == "--verbose":
             verbose = True
+            continue
+        if x == "--report":
+            write_report = True
             continue
         allowed.add(x)
 
@@ -270,8 +274,9 @@ if __name__ == "__main__":
         fail += fal
         compile_fail += not compiled
 
-    with open(PERF_REPORT_PATH, "w") as report_file:
-        report_file.writelines(reports.values())
+    if write_report:
+        with open(PERF_REPORT_PATH, "w") as report_file:
+            report_file.writelines(reports.values())
 
     summary = [style(f"{success} passed", GREEN, BOLD)]
     if fail > 0:

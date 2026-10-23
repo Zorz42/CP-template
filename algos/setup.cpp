@@ -20,7 +20,7 @@ typedef long long ll;
 #define fwd(i,a,b) for(int i=(a); i<(b);i++)
 #define rep(i,n) fwd(i,0,n)
 #define all(x) (x).begin(), (x).end()
-#define sz(x)((int)(x).size())
+#define sz(x) ((int)(x).size())
 #define f1 first
 #define f2 second
 #define pb push_back
@@ -42,8 +42,6 @@ void solve(){
 }
 
 int main(){
-	cin.tie(0);ios::sync_with_stdio(false);
-	int t=1;//cin>>t;
-	while(t--)solve();
-	return 0;
+	cin.tie(0);cout.tie(0);ios::sync_with_stdio(false);
+	solve();return 0;
 }

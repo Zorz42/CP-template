@@ -1,0 +1,2001 @@
+2000
+intersect line 1 -2 -2 2 pt 0 2
+inside 4 -2 2 1 1 -2 -2 -2 -1 2 -2
+intersect pt 2 2 poly 3 0 1 2 -1 -1 -2
+inside 4 0 1 2 1 2 0 -1 -2 -2 -2
+intersect line 0 -1 1 1 pt -2 2
+intersect seg 0 0 2 1 pt -2 0
+intersect pt -2 0 poly 5 -2 1 1 0 2 -2 1 -2 0 -1
+intersect line 1 1 1 -2 line 1 1 2 0
+intersect poly 4 -2 -1 0 0 1 2 0 2 line 2 2 -2 1
+intersect poly 4 -1 -2 1 -2 1 1 -2 1 poly 4 -2 -2 2 -2 2 -1 -2 0
+intersect pt -2 -1 poly 4 1 -2 2 0 0 0 -2 1
+intersect poly 5 -2 2 -1 2 0 2 0 -1 0 -2 line 2 2 2 0
+intersect line -1 1 -1 -1 poly 5 -2 -2 0 -1 2 0 1 0 0 1
+intersect line -2 -1 1 -1 seg -1 1 2 -2
+intersect seg -2 -2 -1 1 line 1 0 -2 1
+intersect pt -1 -1 line -2 -1 2 1
+intersect line 2 2 1 0 line 2 2 -1 -2
+inside 3 1 -1 2 -1 -1 -2 0 2
+intersect seg 0 2 -1 -2 seg 1 2 2 1
+intersect line 2 -1 2 2 pt 1 -1
+intersect line -1 -1 1 2 pt 2 -2
+intersect poly 3 0 -2 2 -2 -1 -1 poly 3 -2 1 2 2 0 2
+intersect poly 4 -2 -1 1 -2 1 0 -1 0 line 0 -1 1 -1
+intersect pt 1 1 line -1 -1 1 2
+intersect poly 3 1 0 2 2 0 2 pt -1 -2
+inside 5 -2 -1 0 -1 1 -1 1 0 2 2 0 -2
+intersect line 1 -2 0 -2 pt 0 -2
+intersect line -2 0 -2 1 pt 0 2
+intersect seg 2 -1 2 -1 line -2 -1 0 -2
+inside 3 -1 2 2 2 -2 -2 1 -2
+intersect poly 4 -1 -1 0 -1 2 0 2 1 line 1 0 -2 -1
+inside 5 0 2 1 2 1 -1 -2 -2 -1 0 -1 -1
+intersect pt 0 0 seg 2 0 0 -1
+intersect pt 0 1 pt 1 0
+intersect line -1 2 -2 -2 seg -2 -1 -2 1
+inside 5 -1 2 2 2 1 0 1 -1 -1 -2 2 -1
+inside 3 -2 1 1 2 -1 0 -2 2
+intersect poly 5 -1 -1 0 -2 1 1 -1 1 -2 1 line -2 2 -1 0
+intersect seg 2 2 1 -2 poly 5 -2 -1 1 -2 2 0 1 0 1 1
+intersect seg -2 1 -2 1 poly 3 0 1 2 1 -1 -1
+inside 4 -2 1 1 1 1 0 0 -1 -2 0
+inside 5 -1 -2 0 -2 1 -2 1 1 0 0 2 -2
+intersect poly 5 -2 0 -1 0 1 2 0 -1 -2 -2 seg 1 -2 1 2
+intersect pt -2 1 poly 4 -2 2 0 1 1 1 -1 -1
+intersect seg 1 -1 2 1 pt -1 -1
+inside 4 -1 2 1 1 2 -1 1 0 -2 -1
+intersect pt 0 -1 seg 0 2 -2 1
+intersect line 1 0 0 -2 poly 5 -1 1 -1 2 2 0 2 -1 -2 0
+intersect seg -2 -1 -2 -1 poly 4 1 2 1 1 -1 -2 -2 -2
+inside 3 -2 -1 2 -2 1 -2 -2 0
+intersect seg 2 1 -2 -2 pt 0 2
+intersect line 1 0 -1 2 pt -2 2
+intersect poly 5 -1 2 1 2 1 0 0 -1 -1 -2 line 1 1 -2 0
+intersect poly 5 0 -2 1 -2 2 -1 2 1 -1 1 line 1 -2 -1 -2
+intersect line 1 -2 -2 -1 poly 4 -2 -1 0 -2 0 -1 -1 2
+inside 4 -2 0 0 0 1 -1 -2 -2 1 -2
+intersect line 1 0 0 1 pt -2 1
+inside 4 -2 1 -1 1 0 1 -1 0 -2 1
+inside 3 -2 2 0 0 0 -1 2 -2
+intersect seg 0 0 0 0 pt -2 -1
+inside 4 -1 -2 1 0 1 1 -1 1 0 -1
+intersect seg 0 1 2 -2 line 1 -1 -1 1
+inside 3 2 0 1 2 -1 1 -2 0
+intersect line -2 1 1 1 line -1 -1 1 1
+intersect line 2 -2 0 0 seg 2 0 0 -1
+intersect line -1 -1 -1 0 line 0 -2 1 0
+intersect line -2 1 -2 -2 pt 1 -1
+intersect seg -2 0 -2 -1 line -2 0 2 -1
+intersect seg -2 -2 2 0 line -2 0 0 -1
+inside 5 -2 2 0 1 2 0 0 -1 -1 -2 -2 1
+intersect pt 1 -2 poly 4 0 0 -1 1 0 1 2 -2
+inside 5 -2 0 1 -1 1 1 -1 1 -2 1 1 -2
+intersect poly 4 -2 1 2 1 0 -2 0 -1 line -1 2 1 2
+intersect poly 4 1 2 2 -2 0 -2 -1 -2 seg 1 0 1 1
+intersect poly 4 -1 -2 1 1 -1 1 -2 2 poly 4 -1 0 1 1 1 0 -2 -2
+intersect pt -2 -1 pt 0 2
+inside 4 -2 2 -1 1 -1 -2 -2 -1 -1 -1
+inside 4 -1 2 0 2 2 -1 0 0 -1 1
+inside 5 -2 0 -1 0 0 1 1 2 -2 2 -2 0
+intersect poly 5 -1 0 0 2 0 1 1 -1 0 -2 pt 0 2
+intersect seg -2 -2 0 2 poly 4 -2 -1 2 0 1 -1 2 -2
+inside 5 0 2 1 2 2 0 2 -1 0 -2 0 2
+intersect line -1 -2 -1 -1 poly 3 0 1 0 -2 -2 -1
+intersect seg 2 2 2 1 line -1 -2 -2 -2
+intersect poly 4 -2 2 2 -1 -1 -1 -2 -2 line 2 2 2 1
+intersect line 2 0 -2 0 pt 1 2
+inside 4 -1 -2 1 -2 1 -1 0 -1 -2 0
+intersect seg -2 0 1 2 seg 0 -1 0 -1
+intersect line 0 -1 -1 -1 seg -1 1 -1 1
+intersect poly 4 -2 1 -1 2 2 -2 0 -1 pt 2 -1
+inside 3 -2 -2 2 -1 0 -1 -2 -2
+inside 3 -2 -2 0 -1 -2 2 2 -2
+intersect poly 3 -2 -2 -1 -2 -1 -1 pt 0 1
+inside 5 0 -2 2 -2 2 2 1 0 0 0 -2 1
+intersect pt 0 1 pt 2 2
+intersect pt 2 0 line 1 -2 2 -1
+intersect pt -2 0 poly 3 0 2 1 2 1 -1
+intersect seg -1 -1 -2 -2 poly 3 -2 1 0 0 1 -2
+intersect seg -1 0 2 2 line 1 -1 2 2
+intersect pt 0 2 seg 2 -1 1 2
+intersect line 1 1 0 2 line -1 0 1 -1
+intersect seg 0 2 -1 -1 seg 2 2 -1 0
+intersect seg -2 -1 -2 -1 poly 4 -1 0 0 1 0 -1 -2 -2
+intersect poly 3 -2 1 2 0 1 -1 line 0 2 1 -2
+intersect poly 4 -2 1 -1 2 1 0 -1 -1 pt 1 -1
+intersect line 0 1 1 1 pt 2 1
+intersect line 0 -2 1 1 pt -2 0
+intersect line -1 2 0 -2 poly 4 1 2 1 1 2 0 -2 0
+intersect poly 3 0 1 2 0 -2 0 pt -2 1
+intersect seg 2 0 0 1 line 1 1 -1 -1
+inside 3 2 -1 -1 1 -1 0 1 1
+intersect line 1 0 -1 0 poly 5 -1 0 0 0 0 1 1 -1 1 -2
+intersect pt 0 -1 seg 1 -2 1 -2
+intersect seg -1 2 2 -2 pt -1 -2
+intersect seg 2 -2 -1 -1 poly 5 -1 2 1 2 2 0 2 -2 -1 -1
+intersect pt 1 -2 pt 0 1
+intersect line 1 1 2 -2 poly 4 -2 -1 0 0 1 -1 0 -2
+intersect line 0 1 0 2 pt 0 0
+intersect poly 5 -2 1 2 2 2 1 2 -2 0 -1 seg -2 -2 -2 -2
+intersect poly 3 -1 -2 1 -1 -2 -1 poly 4 1 2 2 -2 1 -2 0 -2
+intersect pt 1 2 poly 4 -2 -2 2 -1 1 1 1 2
+inside 3 -2 0 -1 1 2 -1 -1 -2
+intersect line -2 0 2 1 poly 4 -2 0 1 1 1 2 0 2
+inside 5 0 0 2 -2 2 0 -1 2 -2 2 2 1
+intersect line 1 1 1 2 line 1 0 -2 0
+intersect poly 4 0 -1 2 -2 2 -1 0 2 poly 5 0 2 1 1 2 2 2 -2 -1 -1
+intersect line 0 2 -2 1 poly 3 -2 -1 2 0 1 2
+intersect seg 1 2 -1 -1 line -2 -1 0 0
+intersect seg 1 2 -1 -2 poly 5 1 -2 2 -2 0 0 -1 0 -2 0
+inside 3 -1 2 1 2 2 -1 0 1
+inside 4 2 2 -1 -1 -1 0 -2 0 -2 -2
+inside 5 -2 2 0 2 1 1 1 -2 -2 0 -2 2
+intersect poly 4 0 -2 0 -1 -2 0 -1 -1 pt -2 0
+intersect poly 3 0 -2 -1 0 -2 -1 poly 3 0 0 1 0 1 -2
+intersect poly 5 -2 1 -1 1 1 0 0 -1 -2 -2 seg -1 0 -2 -1
+intersect line 1 -1 0 1 poly 4 -1 0 0 2 0 0 -1 -2
+intersect poly 3 -2 -1 2 1 -1 2 pt 0 -1
+intersect poly 5 -1 -1 -1 -2 0 -1 0 1 -2 1 pt 1 2
+intersect line 1 -2 2 0 line 0 1 -2 1
+intersect line -1 -1 2 -1 line -1 2 -2 -2
+intersect poly 4 -2 2 0 1 0 0 -2 -2 poly 4 0 -2 0 -1 -1 2 -1 0
+intersect seg 2 1 -2 -2 seg -1 0 1 2
+intersect pt 0 -2 poly 4 -2 -2 -1 -2 2 -2 0 0
+intersect seg -2 2 1 2 line 1 -2 0 -2
+intersect pt 0 -2 poly 4 -2 -2 0 -2 1 -1 2 2
+intersect line -1 2 1 1 line -2 1 1 2
+intersect pt 1 -2 seg 0 1 0 1
+intersect seg 1 2 1 2 line 0 -1 1 -2
+intersect line -2 0 1 -1 pt -1 -1
+intersect poly 3 0 0 0 -2 -1 -2 seg -2 1 -1 1
+inside 4 -2 2 0 1 2 0 0 -1 1 2
+intersect line 1 -1 2 0 poly 5 -2 -1 0 -1 1 0 2 1 -1 2
+intersect poly 3 -1 0 2 0 0 -1 seg -1 0 -1 0
+inside 3 1 -2 2 0 2 1 0 -2
+intersect line 1 0 0 -1 line 2 2 0 2
+inside 4 -2 1 2 2 1 -2 0 -1 1 2
+inside 4 -1 2 1 1 1 0 0 -2 -1 1
+intersect line -2 0 0 2 line 0 -1 1 -2
+inside 4 0 -2 1 -2 2 0 1 1 2 -1
+inside 5 -2 0 -1 0 0 0 2 -1 2 -2 0 0
+intersect poly 3 -2 1 0 2 -2 -2 pt 0 1
+intersect pt -2 -1 line 1 2 2 0
+intersect line 2 -1 1 2 pt -1 -1
+intersect pt -2 -2 pt -1 2
+intersect poly 4 0 0 2 0 -2 -2 -1 -1 seg -2 2 -2 2
+inside 4 -2 -2 1 -2 2 -2 -1 1 -1 -1
+inside 4 0 -2 1 0 1 2 0 1 -2 -1
+intersect line 1 0 1 1 pt -1 -2
+inside 5 -2 0 0 -2 1 -1 1 2 0 2 0 1
+intersect pt 1 0 line 1 -1 1 0
+intersect poly 3 -1 -1 0 -1 0 -2 seg 2 -1 1 -1
+inside 4 -1 -2 1 -2 2 -2 2 0 2 -1
+intersect poly 3 -2 -2 0 -1 -1 -1 seg 2 0 0 -2
+intersect line 1 0 0 1 poly 4 -2 1 0 1 0 -1 -2 0
+intersect seg -2 -1 0 2 line -2 1 -2 2
+inside 4 0 -1 1 -2 2 0 -1 2 2 1
+intersect seg 1 2 -2 -2 seg -2 2 -2 -1
+intersect pt 0 -1 seg -2 1 1 2
+intersect seg 2 -2 1 1 seg 2 1 -1 1
+intersect line 1 -1 -2 2 seg -1 2 -1 2
+intersect pt -1 0 seg 1 -2 0 -1
+inside 4 -1 -2 1 -1 2 1 -1 0 -1 -1
+intersect line 0 -2 2 1 line -1 2 1 1
+intersect pt 0 -2 seg 1 -1 1 -1
+intersect seg -1 -2 1 -2 line 0 1 1 2
+intersect line 2 -2 -2 -2 poly 4 -2 1 1 1 2 0 -2 0
+intersect pt 0 -2 seg 2 0 -2 -1
+intersect pt 1 -1 seg 0 -1 2 -1
+inside 5 -1 0 0 0 1 -1 2 0 -1 2 0 -1
+inside 3 1 1 2 1 -2 -1 -1 0
+intersect pt -1 -1 line -1 1 1 -2
+intersect poly 4 -2 2 2 1 0 -2 -1 -1 pt -2 2
+intersect seg -2 1 -2 1 line -1 1 0 -2
+intersect seg 2 -1 2 0 poly 4 2 -2 2 -1 1 2 -2 0
+intersect poly 5 -1 -1 0 0 1 -1 2 -2 1 -2 seg 2 2 0 2
+intersect poly 4 -2 -1 -1 -1 0 -2 -1 2 seg -2 -1 0 1
+intersect poly 4 -2 1 2 2 -1 2 -2 2 poly 4 -1 0 -1 2 2 -2 1 -2
+inside 3 0 -2 -1 1 -2 2 1 -2
+intersect line 2 -2 0 -1 seg 0 -2 -2 -1
+intersect seg 1 -2 0 -2 seg 2 0 -2 -2
+intersect line 0 0 -1 1 pt 2 1
+inside 3 1 -2 -2 0 -1 -1 0 1
+intersect seg 2 0 -2 -2 seg -1 1 -2 -2
+inside 4 -1 2 1 1 2 -2 1 -1 2 -1
+intersect line 2 2 -2 -1 line 0 1 0 2
+intersect seg 0 -2 1 0 line -2 -1 1 2
+inside 4 -1 0 0 0 1 0 -2 2 2 2
+intersect pt 2 -2 line 1 2 -2 0
+intersect line -1 -2 0 0 seg 2 -1 2 1
+intersect seg 0 1 -1 -1 seg -1 -1 1 1
+intersect seg -1 2 -1 2 seg 0 0 2 0
+inside 4 0 1 0 2 2 -1 2 -2 1 -2
+intersect seg -1 0 2 -2 line 0 -1 -2 -1
+inside 4 -2 -1 -1 -2 0 2 -1 2 2 -2
+inside 3 -1 -2 2 0 1 1 -2 -2
+intersect seg 1 2 1 -2 pt 0 2
+intersect seg -2 1 0 -1 pt -2 -1
+intersect pt 0 0 poly 4 -2 0 2 0 2 1 0 2
+intersect seg -2 2 0 -1 line 1 -2 -2 2
+inside 3 -1 0 2 2 -1 2 0 -1
+intersect line 2 -2 0 -1 poly 3 -2 1 -1 2 0 -2
+intersect poly 4 1 -1 2 -1 1 0 0 0 line 0 0 -2 0
+inside 4 1 -1 2 -2 2 2 -1 0 -1 0
+inside 4 -1 1 -1 0 -1 -2 -2 -2 0 -1
+intersect seg -2 -1 1 -2 poly 5 -2 -2 -1 -1 1 0 -1 2 -2 2
+intersect pt -2 -2 seg -2 -2 1 -1
+intersect pt -1 -1 line 2 2 -2 2
+intersect poly 5 -2 1 -1 2 2 0 0 -2 -2 -2 pt 1 2
+intersect seg 1 0 0 2 poly 4 -1 -2 1 1 -1 2 -1 1
+intersect poly 4 -2 2 1 2 -1 -2 -2 -2 poly 4 2 0 2 1 0 2 0 1
+intersect pt 2 0 line 2 -1 0 -1
+intersect line 1 -1 -2 0 poly 5 1 -2 1 -1 0 1 0 2 -2 0
+intersect pt 0 1 seg 1 -2 1 -1
+intersect line -2 -1 0 1 line 2 0 1 0
+inside 4 -2 2 0 2 2 -1 0 -2 0 0
+intersect poly 3 -2 -1 2 1 -1 1 seg 2 0 1 1
+intersect seg 1 1 0 0 line 1 2 -1 2
+inside 5 -2 1 1 1 2 1 0 -2 -2 -1 -2 -2
+intersect poly 3 -2 0 -1 -1 1 2 poly 4 -2 1 2 -2 -1 -2 -2 -2
+intersect poly 3 1 -2 2 1 -1 0 line 1 -2 -1 0
+intersect pt -1 2 seg 2 0 2 0
+intersect seg 2 1 1 -2 seg 0 -1 1 2
+intersect line -1 -2 -1 2 seg 1 1 -1 0
+intersect seg -1 1 2 -2 seg -2 2 -2 2
+intersect seg -2 0 1 0 line -1 2 2 1
+intersect poly 4 -1 -2 2 -1 1 -1 0 -1 line -1 -1 2 -2
+intersect line -2 -2 1 -1 seg 1 1 -2 -1
+inside 4 0 0 2 0 2 -1 0 -1 -1 -1
+intersect line 1 -2 0 1 line 0 -1 2 -2
+inside 4 -2 -2 0 -2 0 1 -1 1 -1 2
+intersect seg 1 0 1 0 poly 3 0 0 2 2 -1 1
+inside 4 -1 2 2 2 1 0 0 -2 -2 0
+inside 4 -1 0 0 1 1 -1 0 -2 0 -1
+inside 5 -2 2 -1 2 1 1 2 -2 1 -2 -2 2
+intersect poly 3 -1 0 1 0 0 -2 line -2 -1 1 0
+intersect pt 0 1 line -1 2 2 -2
+intersect seg -1 0 -1 -1 line 2 2 -1 -2
+inside 3 1 2 -1 -1 -2 -1 0 -2
+intersect pt 0 2 pt -2 2
+intersect line 2 2 -2 -1 pt 2 0
+intersect pt -1 2 line 0 0 -2 1
+intersect line -2 0 1 1 pt -2 -1
+inside 4 -2 -1 2 0 -2 2 -2 1 -2 0
+intersect pt 0 2 line 1 1 -1 0
+intersect seg -2 1 2 -1 poly 4 2 2 2 0 0 -1 -2 -2
+intersect line 1 2 -2 1 poly 5 0 2 1 1 1 0 -2 -1 -2 0
+inside 3 1 2 1 1 0 1 2 -1
+inside 4 0 -2 0 -1 1 2 -2 0 1 1
+intersect line -2 -1 -2 1 line 1 0 0 -1
+intersect line 0 2 1 0 poly 5 -1 -1 -2 -2 -1 -2 2 2 1 2
+intersect seg 0 -2 2 1 line 0 1 -2 2
+intersect poly 5 0 0 0 1 1 1 2 -2 0 -2 pt 2 1
+intersect line 2 1 -2 0 poly 4 -1 -1 2 -2 2 2 -2 0
+inside 5 1 -2 2 -2 1 1 1 2 -1 0 0 0
+intersect poly 3 -1 -1 2 0 2 -2 line 0 -2 2 0
+intersect seg -1 0 1 -1 seg 1 1 0 0
+intersect poly 4 0 -2 1 -1 1 2 -1 2 seg -2 -1 2 1
+intersect poly 3 0 1 2 2 -2 -2 seg 0 -1 2 -2
+intersect poly 3 -1 -2 0 -1 1 1 seg 1 1 0 0
+intersect line 2 2 1 0 line -1 0 -2 1
+inside 3 1 -1 2 -1 2 1 0 -1
+inside 4 0 -2 2 -2 1 0 -1 1 0 -2
+intersect seg 2 -1 0 -2 seg 2 -2 2 -2
+inside 5 -1 -2 1 -1 2 -2 1 0 1 2 -2 -2
+intersect poly 3 0 0 1 -1 0 2 line 2 -1 0 2
+intersect pt -1 -1 pt 2 0
+intersect pt 0 -2 pt 1 1
+intersect poly 4 -2 0 1 2 2 0 0 -2 poly 3 -1 0 1 -1 2 -2
+intersect seg -2 2 -2 0 line 1 -2 2 0
+intersect line 2 0 0 0 pt -2 -1
+intersect poly 3 0 -2 1 -2 -1 0 poly 4 0 1 2 2 -1 -2 -2 0
+intersect seg 0 -2 -1 0 poly 4 -2 -2 -1 -1 -1 1 -1 2
+inside 3 1 -2 2 -2 -1 2 0 2
+intersect poly 4 -2 -2 -1 -2 -1 -1 0 1 line -1 1 1 2
+intersect poly 3 -1 -2 1 -2 1 -1 poly 5 -2 -2 1 -2 2 -2 2 2 -2 2
+intersect pt -2 2 seg 1 1 2 -1
+inside 3 -2 -1 0 0 -2 -2 0 -1
+intersect seg -1 -2 -1 -2 pt -2 2
+intersect poly 4 -1 2 0 1 1 -2 0 -1 seg 0 -2 -2 -1
+intersect poly 5 -2 -2 0 -2 2 -1 0 1 -2 -1 seg -2 2 1 -1
+intersect pt 2 -1 poly 3 -1 -1 0 -2 0 1
+intersect line 2 1 2 -1 seg 1 -1 -2 -2
+intersect line 0 2 2 -1 pt 2 -2
+intersect seg -2 -2 2 -2 pt 0 -2
+inside 3 0 1 1 2 -1 -2 1 1
+intersect line 1 -2 1 0 seg -1 -2 -1 -2
+intersect seg 0 0 -1 -2 pt -1 2
+intersect seg -1 -2 -2 -2 poly 5 -2 -2 0 -2 0 -1 2 -1 -2 2
+intersect line -1 0 0 0 seg -1 2 -1 -1
+intersect poly 3 -1 -1 0 -1 -1 1 poly 5 -2 1 1 1 0 -1 0 -2 -2 -2
+inside 3 0 0 1 1 -1 -2 0 2
+inside 4 1 -2 1 -1 2 2 -2 1 -1 2
+inside 3 -2 1 -1 0 0 -2 -1 2
+inside 3 1 2 2 -1 1 -2 0 -1
+intersect seg -2 0 -1 -1 pt 2 1
+intersect pt 1 -1 pt 0 1
+intersect line 0 0 2 -1 pt 1 -2
+intersect pt 0 1 line -2 1 0 2
+intersect poly 4 -1 0 -1 1 1 0 2 -1 seg -2 1 1 -2
+intersect line -1 -2 -1 2 seg 2 1 2 1
+inside 4 -1 -1 2 -2 2 -1 0 1 -2 -1
+intersect line -2 2 1 1 seg 2 -1 0 1
+inside 4 -1 1 0 -1 0 -2 -2 -2 1 0
+intersect pt 1 -1 poly 5 -1 1 1 -1 2 2 0 2 -2 2
+intersect line 1 0 2 0 pt -2 2
+intersect line 0 -2 1 1 seg -1 1 -1 1
+inside 4 -1 0 1 -1 2 1 0 1 0 -1
+intersect line 0 -2 -2 2 line 1 2 1 -2
+intersect poly 5 -1 1 2 2 1 0 0 0 -2 -1 pt 0 2
+intersect line 2 -1 0 0 seg -1 -2 2 -2
+inside 3 1 2 2 2 0 -2 -2 -1
+inside 4 -2 -1 -1 -1 0 -1 -2 -2 -2 -1
+inside 5 0 -2 0 0 1 0 0 1 -2 2 0 -1
+intersect pt 2 -2 seg -1 0 1 -1
+inside 3 -1 1 1 0 -2 -1 -2 1
+inside 4 -1 1 1 2 2 -2 1 -1 -2 -1
+intersect line -2 1 -1 0 poly 5 -1 2 1 2 0 -1 -1 -2 -2 -2
+inside 5 -1 -2 0 -1 1 0 0 0 -1 1 0 -2
+intersect seg -2 0 -2 0 line -1 -1 -1 1
+inside 5 -2 -2 0 -2 2 0 1 2 -2 2 1 1
+inside 3 -2 2 1 -2 0 -1 1 2
+inside 3 2 -2 0 1 -1 1 -2 -2
+intersect line 2 -2 -2 0 line 2 2 1 -1
+intersect poly 4 1 2 0 0 -2 -2 -2 -1 poly 4 -2 0 0 -1 2 1 -2 2
+intersect seg 0 -1 0 -1 poly 3 -2 -1 2 0 -2 0
+intersect seg -1 0 0 0 seg 0 2 1 0
+inside 4 -1 0 -2 1 2 -1 -2 -1 0 1
+intersect seg -1 -1 0 -2 seg -1 0 -1 2
+intersect pt 2 1 seg 1 1 -1 0
+intersect pt -2 -2 seg -2 -2 -2 2
+inside 3 -1 1 1 1 1 0 2 1
+intersect seg 0 0 -2 2 pt 1 1
+intersect line -1 -1 0 2 seg -2 2 -2 2
+intersect poly 3 -2 -1 2 0 -1 1 seg -2 -1 2 -2
+intersect poly 4 1 -2 1 -1 0 2 0 0 line 1 2 2 -2
+intersect line 2 1 2 -1 line -2 2 0 -2
+intersect line 2 -2 2 -1 poly 4 1 -2 2 -1 1 -1 -1 -1
+intersect seg -1 1 1 -2 pt -2 0
+intersect line -1 2 0 -1 line -1 2 -1 -1
+intersect pt 1 2 line 0 1 2 -2
+intersect pt 1 -2 pt 2 1
+inside 4 -1 1 0 2 1 0 0 -1 -1 2
+intersect seg -1 1 1 2 poly 4 -2 -2 1 0 2 2 -1 1
+intersect poly 4 -2 -1 2 0 0 1 -1 2 line 0 -1 2 2
+intersect line 0 -2 -1 -2 seg 1 1 0 2
+intersect seg 2 2 0 1 pt 0 0
+intersect seg -2 0 -2 0 pt 0 0
+intersect poly 4 -2 -1 -1 -1 1 -2 -1 -2 line -2 1 0 -2
+intersect pt -1 2 pt -1 1
+intersect pt 1 1 poly 3 -1 2 -1 0 -2 -2
+inside 3 -2 1 0 -1 -1 -2 2 0
+intersect line 0 -2 1 0 poly 4 -2 -1 -1 -1 0 1 -1 1
+intersect pt 1 2 pt 1 2
+intersect pt 1 1 pt 2 0
+intersect line -2 2 2 -1 poly 4 1 -1 2 -2 0 1 -2 2
+inside 4 0 1 1 2 2 -1 1 0 -1 2
+intersect seg 0 2 2 0 line 2 2 1 0
+intersect pt 1 -2 line 1 -2 2 1
+intersect poly 3 -1 -2 1 0 -2 2 poly 5 0 1 0 0 2 2 1 2 -1 2
+intersect poly 3 -2 -1 0 -2 2 2 line 0 1 -1 0
+intersect pt 1 1 pt -2 -2
+intersect pt -1 1 poly 3 -1 -2 2 -1 0 0
+intersect seg 0 -1 -1 1 line 0 0 -2 -1
+inside 4 -1 1 -1 0 1 2 -1 2 2 0
+intersect line -1 1 1 1 seg 2 0 2 0
+intersect seg -1 0 0 1 pt -1 1
+intersect seg 1 2 0 -2 seg -1 1 0 1
+intersect seg 1 -1 -1 0 line 2 -1 0 0
+intersect line 2 -2 1 -2 line 2 -2 -1 2
+intersect pt -1 -2 seg -2 -1 -2 0
+inside 4 -2 0 1 0 0 2 -2 2 2 2
+intersect pt 2 -1 line -1 -2 0 2
+intersect seg 1 1 -2 -2 poly 3 0 -2 0 2 -1 1
+intersect poly 4 -1 -2 2 -2 -1 0 -1 -1 pt 2 1
+intersect pt -2 -1 poly 4 -1 0 1 -1 1 0 -2 2
+intersect line -2 0 2 -2 seg -2 -2 -1 2
+intersect line -1 1 0 1 pt -1 1
+inside 4 -2 2 -1 1 0 0 1 -2 0 0
+intersect poly 4 -2 -2 -1 -2 1 -2 2 -1 pt 1 2
+intersect seg -1 -2 1 2 poly 3 -2 -2 0 -1 -2 -1
+intersect seg -1 0 0 -1 poly 5 -1 1 2 -1 2 2 1 2 0 2
+inside 4 -2 2 0 2 0 0 -2 1 2 2
+intersect seg 0 1 -2 0 poly 5 -1 -1 0 0 1 0 -1 1 -2 0
+intersect seg 0 -2 -2 0 seg 1 -2 2 2
+intersect seg -1 0 -2 -1 poly 3 -2 -1 0 -1 0 1
+intersect poly 5 0 0 1 -1 0 -1 -1 -1 -2 -1 line -2 1 1 -1
+inside 4 -1 -2 0 -2 1 -2 0 0 -1 -1
+inside 4 -1 -1 0 -2 2 2 -1 1 -2 -2
+intersect pt 2 1 pt -1 -1
+intersect poly 3 -2 1 2 2 1 -1 poly 4 -1 -2 1 -1 0 1 -2 0
+inside 3 -2 1 1 2 -1 0 0 2
+intersect line -2 2 2 1 pt 0 0
+intersect line -1 1 0 0 seg 0 -2 0 -2
+intersect seg -1 0 -2 0 line 1 -2 0 -1
+intersect line -1 2 1 0 poly 5 -1 -1 0 -2 1 -1 -1 0 -2 1
+intersect poly 4 -1 2 0 2 -1 -2 -1 -1 line 2 0 0 2
+intersect poly 3 -1 0 0 0 -1 2 line 1 0 2 -1
+intersect seg 1 1 -1 -2 pt -2 2
+intersect line 0 -2 -1 2 pt -2 2
+intersect poly 3 -1 0 -1 -1 1 2 seg 2 -2 0 -2
+intersect pt 2 -2 pt -1 0
+intersect seg -2 -1 1 2 seg 2 -2 0 -1
+intersect poly 4 1 2 1 1 1 -1 -1 0 line -1 0 1 -2
+intersect line 1 0 1 2 seg 2 1 2 1
+intersect seg 1 -1 1 1 line 2 -1 1 -1
+intersect line -1 -1 0 2 pt 0 0
+intersect pt 1 0 poly 4 -2 0 0 -1 2 2 0 1
+intersect line -1 0 -2 1 poly 4 -1 2 1 0 -1 -2 -1 -1
+intersect poly 4 0 2 2 -2 -2 -2 -1 -1 seg 0 -2 -1 0
+inside 4 -1 1 -1 0 -2 -2 -2 -1 -2 1
+intersect pt -1 -1 seg -2 0 1 2
+intersect seg 1 -2 2 1 poly 4 1 1 2 -1 -1 -2 0 -1
+intersect line 2 2 -2 -2 seg 1 -2 1 -2
+intersect line -1 1 -1 0 poly 4 -2 0 1 0 -1 1 -2 1
+intersect pt -1 -2 pt 0 -2
+intersect seg 2 -1 -2 0 pt 0 -1
+intersect poly 3 -2 2 1 1 1 0 poly 4 0 1 1 1 2 2 1 -1
+inside 3 -1 -1 1 0 1 1 0 0
+inside 4 -2 1 -2 2 1 -1 0 -1 2 1
+intersect seg 2 1 -2 -2 pt 1 0
+intersect pt 1 0 line 1 -2 -2 -2
+inside 4 2 2 2 -1 -2 -2 -2 -1 1 1
+intersect line 0 -2 2 -2 poly 5 -2 -2 1 -2 2 -2 2 -1 2 0
+intersect poly 3 0 1 0 2 2 0 pt -2 2
+intersect line 0 -2 0 2 seg 0 0 2 0
+intersect line 1 1 0 2 line -1 2 -2 -2
+intersect line 0 0 2 -1 poly 4 -1 1 2 1 0 -2 -1 -2
+inside 4 1 2 1 1 2 0 -1 0 1 -1
+intersect line 2 0 2 1 pt -2 -1
+intersect pt 2 -1 seg 0 1 0 2
+intersect line 2 -1 -1 -2 line 2 2 -1 1
+intersect pt 2 -1 line 2 -1 0 0
+intersect seg -1 1 1 -1 poly 4 -2 1 1 0 1 -2 -2 -1
+intersect poly 4 2 2 1 0 -1 -2 -2 -1 pt -2 2
+inside 4 0 0 2 1 2 -1 1 -1 -1 -2
+intersect seg 2 1 0 2 seg -2 2 -2 -2
+intersect seg 0 1 1 1 poly 4 -2 2 2 0 -1 -2 -1 -1
+intersect seg -1 0 1 1 pt -1 -2
+inside 3 -2 -2 1 1 -2 1 -2 1
+intersect line -2 2 1 -1 seg 0 1 -2 2
+inside 3 2 1 0 -2 -1 -1 -2 1
+intersect poly 4 0 -2 2 0 2 1 -2 1 poly 3 1 2 2 1 -2 1
+intersect poly 4 -2 -2 0 -2 2 1 2 2 poly 5 -1 0 1 -2 2 1 0 2 -2 1
+intersect line 2 1 2 -2 poly 4 1 0 2 -2 2 2 -1 2
+intersect pt -1 0 pt -1 -2
+intersect line 0 -1 1 -1 seg 2 2 -2 -1
+intersect poly 5 -2 2 -1 2 0 1 0 0 -1 1 pt -1 -2
+intersect pt 0 0 pt -1 1
+inside 4 -2 -2 0 -2 0 -1 -1 1 0 -1
+intersect seg 1 -1 2 1 seg 0 2 -1 2
+intersect line -1 -2 -2 -1 seg -2 0 0 1
+intersect line 1 -2 -2 0 poly 4 -2 1 -1 -1 -2 -2 -2 -1
+intersect poly 4 -1 -1 -2 -2 1 0 2 1 poly 5 -2 1 -2 2 -1 1 0 1 2 -2
+intersect poly 5 1 -1 0 1 2 -1 2 -2 1 -2 poly 4 -1 0 2 -1 1 2 0 2
+intersect poly 3 1 0 0 2 -1 1 poly 4 -1 1 0 1 -1 -2 -2 -1
+intersect poly 4 -2 -1 2 -2 0 1 -2 0 poly 4 1 -1 2 2 0 2 -1 2
+intersect poly 3 1 2 1 0 -1 -1 pt -2 -2
+inside 4 -2 -1 0 0 -1 2 -2 1 1 -1
+inside 3 -2 1 1 0 0 0 -1 0
+inside 4 -1 1 2 1 2 -2 0 -1 0 0
+intersect pt 2 0 poly 4 0 0 1 1 2 0 -2 -2
+intersect line 0 -1 0 2 poly 4 -2 0 0 1 1 -1 1 -2
+intersect line 1 2 -1 0 poly 4 -2 -2 1 0 0 0 -1 0
+inside 4 -1 1 0 2 0 -2 -1 -2 2 1
+intersect poly 5 -1 1 -2 2 2 1 1 0 0 -2 pt 0 1
+intersect seg 2 -1 0 -1 line 0 2 -2 -1
+intersect line -2 -1 2 -1 line 2 1 0 1
+intersect pt -1 -1 poly 4 0 -1 1 -1 2 -1 -2 2
+intersect pt 1 0 poly 4 -1 -1 0 -2 2 2 1 1
+inside 5 0 1 1 1 2 -2 1 -2 0 -2 0 0
+intersect pt -1 1 line -2 -1 0 2
+intersect pt -2 2 pt 2 -1
+inside 4 0 0 2 0 1 2 -2 1 0 -1
+intersect line -1 -1 -1 -2 seg -1 1 -2 1
+intersect pt 2 -2 poly 3 -1 -1 1 -1 1 1
+intersect line 2 1 0 0 pt -1 -2
+intersect seg 2 -2 2 2 line 2 -1 -1 -2
+inside 4 0 -1 2 1 -1 2 -1 1 -1 -2
+intersect line 0 -2 -1 1 pt -2 0
+intersect line -2 0 2 -2 poly 4 -1 0 -2 1 1 1 2 -2
+intersect poly 4 0 0 1 0 2 -2 1 -2 pt 1 1
+intersect pt 0 -2 line 2 -2 -1 -2
+intersect seg 1 0 -1 -1 poly 5 -1 -1 0 -2 1 -2 1 1 0 2
+intersect poly 3 -2 2 -1 2 1 1 seg -1 2 -2 1
+intersect line 2 0 -2 0 pt -2 0
+intersect line 2 0 -2 1 pt 0 2
+intersect seg 2 2 2 0 seg 2 0 -1 0
+intersect poly 5 -1 2 1 1 1 0 1 -1 0 -2 line 1 0 -1 -1
+intersect seg 1 2 -1 -1 line 0 2 0 -2
+intersect poly 5 0 1 1 2 2 1 2 -2 -1 -1 seg 0 -2 0 2
+intersect pt -1 2 seg 0 0 -2 -1
+intersect pt -2 2 poly 5 -1 2 2 0 1 0 2 -1 0 -1
+intersect pt 2 -1 pt -1 0
+intersect poly 5 -1 -1 -1 -2 2 -2 0 0 -2 2 poly 4 -1 2 0 2 0 1 -1 1
+intersect seg 2 1 -2 2 pt 2 0
+intersect line 0 0 1 -2 pt -2 -1
+intersect poly 5 -2 0 -1 0 -1 1 0 0 0 -2 pt 0 0
+intersect pt 0 -2 seg 2 1 0 2
+intersect seg 1 0 -2 0 pt -1 1
+inside 4 -2 -1 1 0 2 1 -1 2 0 2
+intersect poly 3 1 -1 0 1 -1 2 seg -2 1 2 -1
+inside 4 -2 1 1 0 2 -2 1 -2 2 1
+intersect seg 1 -2 2 2 poly 5 0 -2 1 0 2 0 2 1 -2 2
+intersect line 1 1 1 0 poly 3 2 0 -1 2 -2 1
+intersect poly 4 0 -2 2 -2 0 2 -1 0 seg 1 2 0 0
+intersect seg 0 -1 -2 2 pt 1 2
+intersect seg -1 2 0 -1 poly 5 0 -2 2 -2 0 0 0 2 -2 2
+intersect poly 3 -1 -1 2 0 1 1 seg 1 0 2 2
+intersect line -2 -2 2 2 pt -1 1
+intersect poly 4 2 0 2 -1 1 -1 -2 -2 poly 4 -2 1 2 0 0 -2 -2 -2
+intersect pt 1 -1 pt -1 -2
+intersect pt 1 2 pt 0 1
+intersect poly 3 -2 -1 1 -2 1 2 seg -1 -2 1 1
+intersect poly 4 1 -1 2 -2 2 1 1 0 line 0 0 -1 2
+intersect line -1 1 1 2 poly 4 -1 -1 0 0 2 -1 -2 -2
+intersect poly 5 -1 -2 2 -2 -1 0 -2 2 -2 0 pt -2 1
+intersect poly 4 -2 -1 0 -2 2 1 -1 2 poly 5 -2 -2 2 0 2 1 0 0 -2 0
+inside 3 -1 -2 2 2 -1 1 2 -2
+intersect poly 4 2 -2 -1 0 -2 -1 -1 -1 poly 3 1 -1 0 1 -1 2
+intersect line 0 1 -1 1 line 0 -2 0 1
+intersect poly 3 -1 -2 2 -2 -1 2 poly 4 -1 1 0 1 0 -1 -1 0
+intersect pt 0 -1 line 1 0 2 2
+intersect seg -2 2 -1 -2 pt -1 -1
+intersect line 1 -1 -2 2 seg 0 1 1 -2
+intersect line 0 -1 1 0 seg 0 0 2 0
+intersect poly 3 -1 -2 1 1 -1 1 pt 2 1
+intersect pt -2 0 line 2 2 -1 2
+intersect poly 3 -2 -1 2 0 -2 -2 seg -2 -1 1 0
+intersect seg 1 2 1 -1 seg 1 1 2 -1
+inside 3 -1 -2 0 -2 1 0 2 -2
+inside 3 -2 0 2 2 2 -2 2 1
+intersect seg 0 1 2 2 line 2 -2 0 -1
+intersect poly 4 1 -1 1 1 -1 1 -2 1 seg 1 0 1 -2
+intersect seg 2 -2 -1 2 seg 0 -2 -2 -2
+intersect poly 3 2 -2 0 0 -1 0 seg 1 1 -2 -1
+inside 4 0 -1 1 -1 2 1 1 0 2 -2
+intersect line 0 -2 -1 2 pt 0 0
+intersect poly 5 0 2 1 2 1 0 0 -1 -1 -1 pt -1 1
+intersect pt 1 2 seg -2 -2 -2 0
+intersect line 1 -2 1 0 seg -1 1 -1 -1
+intersect line -1 1 0 1 pt -2 1
+intersect line 2 2 0 -2 seg 2 -2 -1 -1
+intersect poly 4 -1 -1 1 -2 2 0 0 0 pt 0 1
+inside 4 -2 -1 -1 0 0 1 -1 2 -1 1
+inside 5 -1 -1 1 -2 1 0 2 1 -1 0 1 -2
+inside 3 -1 -1 1 -1 -1 -2 -2 -2
+intersect seg -2 -2 -1 2 pt 1 2
+intersect seg -2 0 -2 1 pt 0 -2
+intersect pt 0 0 pt 1 -1
+intersect pt -1 -1 line -2 2 -1 2
+intersect pt -2 -2 line 0 2 0 -1
+intersect pt -2 0 line 2 2 -2 -1
+intersect poly 4 -1 -2 1 -2 0 2 -2 2 seg 0 2 1 -2
+intersect seg -1 2 -1 2 line 1 1 -1 0
+intersect line 0 0 -1 0 pt 2 2
+inside 3 -2 -1 2 0 -2 0 2 1
+intersect poly 3 1 -2 2 -2 0 1 pt -2 1
+intersect pt 2 -1 pt 0 -2
+intersect pt 2 -1 line -2 0 1 1
+intersect line -1 2 0 -2 pt -2 2
+intersect poly 5 0 -1 1 -2 2 -1 1 2 0 0 line 1 2 0 1
+intersect line -1 -1 0 1 seg 1 -2 1 -2
+intersect seg -2 -2 -2 -2 line 0 -2 2 1
+intersect line 2 2 -1 -2 poly 4 -2 2 2 1 1 -1 0 0
+intersect pt 0 1 pt 0 2
+intersect seg -1 1 0 1 pt -1 2
+intersect seg 0 2 -1 0 pt 1 0
+intersect pt 2 0 poly 4 -2 -1 1 -2 2 2 -2 0
+intersect seg -1 -2 2 0 seg 2 2 -2 0
+intersect pt 1 -1 seg 0 -2 2 -1
+inside 3 -2 -1 2 2 -2 1 0 2
+intersect pt -1 2 line -2 0 2 2
+intersect line -1 0 -1 2 poly 4 0 1 1 2 0 -2 -1 0
+inside 5 -1 2 1 1 2 1 2 -2 -1 -1 1 -1
+intersect pt 2 -1 seg 2 1 1 1
+intersect seg 1 2 -2 2 line -1 2 0 -1
+intersect pt 0 0 line 0 1 -1 0
+intersect pt 0 1 poly 5 1 2 2 1 2 0 1 -2 0 -1
+intersect seg -1 2 0 -1 line -1 -1 1 -1
+intersect seg -2 -2 1 2 poly 3 0 1 0 -2 -2 -2
+inside 5 -2 -1 -1 -2 2 -1 2 0 0 0 1 -1
+intersect pt -1 -1 seg 0 2 0 1
+inside 4 -2 0 0 -1 2 1 1 2 0 2
+intersect pt -2 -1 line 2 0 -2 -2
+inside 4 -1 -2 1 -1 2 0 -1 -1 -2 2
+inside 4 0 1 2 1 2 -2 0 -2 2 2
+inside 4 -2 1 -1 2 2 2 -2 -1 2 1
+intersect pt 1 1 pt -1 1
+inside 3 2 2 1 -2 1 -1 1 -1
+intersect poly 3 1 2 0 1 -2 1 line 0 1 -2 -2
+intersect seg 2 -2 2 2 poly 4 0 1 2 2 -1 -2 -2 -1
+inside 4 -2 -1 -2 -2 2 -1 0 1 -2 2
+intersect pt 2 1 poly 4 -2 1 -2 2 1 0 1 -1
+intersect line 0 1 -1 1 line 1 -1 -1 0
+intersect line 1 1 0 1 poly 4 -2 -1 -1 -1 2 0 0 0
+inside 5 -2 0 -1 0 2 0 2 -1 -1 -2 1 2
+intersect pt -2 2 pt 2 -2
+intersect poly 5 -1 2 2 2 2 -1 1 -1 -2 -1 poly 3 -2 2 2 2 0 1
+intersect poly 5 -1 -2 1 -2 2 -1 0 0 -1 1 pt -1 -1
+inside 3 -2 -1 -1 -1 0 -2 -2 2
+intersect seg 1 -2 2 -2 line 1 -2 -1 2
+intersect line -1 -1 0 -2 line -1 0 2 -2
+intersect seg 2 0 2 0 seg 2 0 -1 1
+intersect seg -1 -1 -2 -1 seg -2 0 -2 0
+intersect pt 2 -1 seg 2 0 -1 -1
+intersect seg -2 0 -2 -2 poly 4 1 -2 2 2 0 2 -1 1
+intersect pt 1 -2 pt 0 -1
+inside 4 -1 2 0 2 1 2 1 1 2 2
+intersect seg 1 -1 0 -2 line 2 -2 1 0
+intersect line 0 1 -2 -2 seg 0 1 -2 0
+intersect poly 4 1 0 2 0 2 1 0 2 pt -2 -2
+intersect poly 3 -2 -1 2 -1 0 2 pt -2 2
+intersect seg -1 -1 1 2 line -1 -2 -1 1
+inside 5 -2 0 -2 -1 1 0 2 0 2 2 0 -2
+inside 5 -2 1 -2 2 1 -1 -1 0 -1 -1 -1 1
+intersect line -2 0 2 2 line 2 2 1 2
+intersect seg -1 2 1 -2 poly 4 2 -2 2 2 1 2 -1 2
+intersect pt 2 -2 pt 1 -2
+intersect poly 5 -1 0 0 0 0 1 0 2 -1 1 seg -1 0 1 2
+intersect seg -1 1 1 1 seg 0 1 1 1
+intersect seg -1 0 -2 -1 seg 0 -1 1 -1
+intersect poly 3 -1 -2 2 -2 -1 -1 pt 0 -1
+intersect line -1 -2 1 2 seg -2 -2 0 -2
+inside 4 -1 -2 2 -1 1 0 -1 -1 -2 2
+intersect seg -1 2 -2 -1 seg -2 1 1 -2
+inside 5 1 2 1 1 2 1 2 -1 -2 -1 0 1
+inside 5 -2 1 -1 1 -1 2 2 -1 -1 -2 2 1
+intersect seg -2 -2 1 0 line 2 2 -1 -1
+intersect line -1 -2 0 2 seg 1 0 -2 0
+intersect pt 0 2 pt 0 1
+intersect pt -2 2 pt 2 0
+intersect line -1 -1 1 -1 seg 2 -1 1 -2
+inside 3 -2 -2 -1 -1 -2 0 0 2
+intersect pt -1 -1 poly 3 2 2 2 -2 1 -2
+intersect seg -2 2 1 0 poly 3 -2 1 2 1 -1 -2
+intersect seg 1 -2 -1 -1 line -2 2 -1 -1
+intersect pt -2 -2 pt 0 2
+intersect pt 2 1 pt -2 -1
+intersect seg 0 -1 0 -1 pt 2 1
+intersect poly 3 -1 1 2 0 -1 -2 poly 4 0 -1 1 -1 -2 2 -2 1
+intersect poly 4 -1 -1 2 0 0 1 -2 2 pt -2 -1
+intersect poly 4 -2 2 1 0 2 -1 0 -1 seg -2 2 2 -2
+intersect poly 5 -2 0 -1 0 -1 -1 1 0 1 2 poly 3 -2 0 2 2 -1 2
+inside 4 0 -1 0 0 0 1 -1 0 0 -2
+intersect pt 0 0 pt -1 2
+intersect line -2 1 1 -1 line -2 1 -1 1
+intersect line -2 0 -1 -2 poly 4 0 -2 2 -2 -2 1 -2 -1
+inside 3 -2 0 2 1 -1 2 0 0
+inside 5 -2 -2 2 -2 1 1 0 1 0 0 2 2
+intersect poly 4 -1 0 1 0 0 -2 -1 -1 seg -1 0 -2 0
+intersect line 1 -1 1 0 poly 4 0 -2 2 2 -2 2 -2 1
+intersect line -1 -2 -1 2 seg 2 -1 2 1
+inside 3 1 2 2 2 -2 1 -1 -1
+intersect poly 3 0 0 1 1 -1 -2 line -2 0 2 2
+inside 5 0 1 2 2 2 1 0 -2 0 -1 0 0
+intersect poly 4 -2 0 -1 1 2 -2 0 -1 pt 0 -1
+intersect poly 5 -1 0 2 -2 2 0 1 1 0 2 seg -2 -1 2 -2
+intersect line 1 2 1 1 seg -2 -1 -1 0
+inside 5 0 -2 2 -2 1 2 0 2 0 1 1 -1
+intersect poly 4 0 2 2 1 2 -2 -2 -2 seg 1 -1 -1 0
+intersect pt 1 -1 poly 4 -2 0 -2 2 -1 -1 -1 -2
+inside 4 0 -1 1 0 2 1 -1 1 -1 1
+intersect pt 1 0 poly 5 -1 -2 0 -1 2 1 0 2 0 0
+inside 5 -1 1 -1 2 1 2 1 0 1 -2 1 1
+intersect line 1 1 -2 -2 poly 4 -2 -1 2 -1 1 2 -2 1
+intersect poly 3 0 0 2 2 1 2 line 0 1 2 -2
+intersect pt 0 -2 pt -1 1
+intersect poly 4 0 0 0 1 1 -1 0 -1 pt -1 -2
+intersect seg -1 1 -1 0 pt 2 2
+intersect line -2 0 2 0 line -2 2 -2 0
+intersect seg -1 1 2 -2 poly 4 0 -1 2 1 1 2 -2 2
+intersect pt 2 -1 poly 4 0 -1 1 -1 0 -2 -2 -2
+intersect line 1 0 -2 0 pt 0 0
+intersect line 0 -2 1 2 poly 3 -1 -2 0 0 -2 0
+intersect line 1 1 -2 -2 seg -2 1 2 2
+intersect poly 4 -2 0 -1 0 -1 1 -2 2 line -2 2 1 -1
+intersect line 1 -1 2 0 seg 0 1 -1 1
+intersect poly 3 -1 0 2 1 1 2 line 2 1 1 0
+intersect seg 2 -2 -1 1 seg -2 2 -2 -2
+intersect poly 4 -1 2 2 0 2 -2 1 -2 pt 0 1
+intersect pt -1 -1 poly 5 -1 2 -1 1 0 1 -1 -2 -2 -1
+intersect seg 0 -2 -2 -1 poly 4 -2 2 0 2 1 -1 -2 -2
+intersect poly 4 -2 0 1 -2 2 1 2 2 poly 3 -2 0 -1 2 0 -2
+intersect seg -1 0 -1 -2 poly 3 1 2 0 -1 0 0
+inside 5 0 0 0 2 2 -2 1 -2 -2 -1 -2 1
+intersect pt 1 -2 poly 4 -1 -2 1 -2 0 2 -2 0
+intersect poly 3 0 2 2 2 -1 1 pt 0 -2
+intersect line 0 -1 2 -2 seg -1 -2 2 0
+intersect poly 3 2 0 -1 2 0 1 pt -1 -2
+intersect pt -1 0 line 1 -2 1 2
+intersect pt 2 -2 pt 0 -1
+intersect poly 3 -1 -1 2 1 0 1 pt 2 0
+intersect line 0 -2 -1 1 line 2 1 2 -2
+intersect pt -1 1 pt -1 2
+intersect line 2 2 1 2 line 2 1 1 2
+intersect seg 1 -2 2 2 poly 3 -2 2 1 1 1 0
+intersect poly 5 0 2 2 2 0 0 -1 -2 -1 0 seg 2 -2 1 -1
+intersect pt 2 -2 seg 1 -1 2 0
+inside 5 -2 0 -1 1 1 0 0 -1 0 -2 2 -2
+intersect poly 3 2 -2 2 1 0 1 poly 5 1 -1 2 -2 2 0 1 0 0 0
+intersect line -1 -1 0 -2 pt 2 2
+intersect pt 1 0 pt -1 2
+intersect line -2 2 -1 1 seg 1 -2 -1 1
+intersect poly 4 0 0 0 -2 2 2 0 2 pt 1 1
+intersect poly 4 -2 -2 -1 -1 0 0 -2 2 poly 4 -2 2 0 1 1 -1 0 -1
+intersect seg 0 1 -1 1 seg 2 -1 2 -1
+intersect pt -1 1 poly 3 -1 0 2 2 -1 1
+intersect pt 2 0 poly 4 0 -1 2 -1 1 0 0 2
+intersect poly 4 -2 0 -1 1 0 1 1 -2 poly 3 -1 -2 1 1 0 2
+intersect seg 1 2 -2 -2 line -1 -2 2 0
+intersect poly 5 -2 0 -2 1 1 -1 1 -2 -2 -1 poly 3 -2 -1 0 -1 1 0
+intersect poly 5 -1 2 0 2 1 1 1 0 0 0 seg 2 0 -1 1
+intersect seg 0 2 2 1 seg -1 2 -1 2
+intersect line -1 2 1 2 line -1 -2 -2 0
+intersect line 2 0 0 2 pt -2 1
+intersect pt 1 1 seg -2 0 0 2
+intersect poly 4 -2 1 1 2 2 0 1 0 poly 4 0 -1 1 0 1 -2 0 -2
+intersect seg 0 1 -2 2 pt 1 2
+intersect pt -2 2 pt 0 0
+intersect poly 4 -2 1 -1 1 1 1 -2 -2 poly 4 -2 2 -1 2 0 -1 -2 -1
+intersect pt 0 -1 poly 5 -2 2 -1 1 1 -1 0 -1 -1 0
+intersect pt -1 -1 pt -2 2
+intersect line 0 2 1 -2 poly 4 2 -2 1 0 0 2 -2 1
+intersect line 0 2 1 2 line 1 -1 1 1
+intersect seg 0 1 -1 -1 seg 1 -1 0 2
+intersect poly 4 0 -1 1 -2 1 2 0 0 line 0 2 1 -1
+inside 4 -2 2 2 1 1 0 0 -1 -1 -1
+intersect poly 4 1 -2 2 -2 0 2 -1 0 seg -1 0 2 1
+intersect poly 4 0 -2 1 1 0 1 -1 0 poly 4 -2 -2 2 -1 2 2 -2 1
+intersect line 1 1 0 2 poly 4 2 -2 2 -1 2 2 -1 0
+intersect seg 2 2 -2 -2 line 2 2 -1 0
+intersect line 2 -1 1 -2 line -1 0 1 -2
+intersect seg 2 -1 2 -1 seg -1 -1 2 2
+inside 4 -1 -1 1 -2 2 -1 -1 2 0 1
+inside 4 -1 1 2 0 2 -1 1 -1 0 -1
+inside 3 -1 1 1 2 1 0 1 -1
+inside 4 -2 1 0 1 -1 -1 -2 -1 2 2
+intersect pt -1 2 poly 4 -1 2 1 1 -1 -1 -2 -1
+intersect seg 1 0 1 0 pt 0 0
+intersect pt 1 1 line -2 -1 0 -1
+intersect poly 4 1 1 2 1 0 -2 -2 -1 line 0 0 -2 -1
+intersect line 0 0 -1 2 pt 2 2
+intersect pt -1 1 seg 0 -1 0 -1
+intersect seg 1 -1 0 -2 pt 2 1
+intersect line 1 -2 0 2 line 1 2 -2 0
+intersect pt 2 -2 pt 1 1
+intersect poly 5 1 -2 1 0 2 2 0 2 -2 2 poly 4 0 0 2 1 2 2 -2 1
+intersect poly 4 1 2 2 0 2 -2 -1 -1 line 1 -2 1 -1
+intersect poly 4 -1 -2 2 1 0 2 0 1 seg 0 2 2 0
+intersect poly 5 -2 -1 0 -2 1 -2 1 0 -2 2 pt -2 -2
+inside 5 -1 1 0 1 2 -2 1 -2 -2 -2 2 1
+intersect seg 0 -1 -2 0 line 2 -1 1 1
+intersect seg 1 0 -1 0 seg 2 0 -2 2
+intersect seg -2 2 1 0 pt 0 2
+intersect poly 5 -2 0 -1 2 0 0 0 -1 0 -2 line 0 2 -2 -2
+intersect pt -1 2 poly 3 -2 2 0 2 -1 1
+intersect poly 4 -2 1 2 -1 1 -2 0 -2 line 0 1 2 -1
+intersect seg 0 -2 -2 2 line 2 0 0 2
+intersect line 2 1 0 0 seg 1 -1 1 0
+intersect pt -2 2 pt -1 0
+intersect seg -2 0 1 2 poly 4 -2 0 2 1 -1 -2 -2 -2
+intersect line 2 1 0 2 pt 1 0
+intersect pt 2 0 line 1 0 -1 0
+inside 4 -2 2 1 0 -1 0 -2 -1 2 -1
+intersect pt -1 0 seg 2 1 -2 -1
+inside 4 0 -2 1 -1 2 2 0 1 1 2
+intersect poly 5 0 0 1 1 2 0 2 -1 1 -1 poly 4 -1 1 1 2 2 -2 -1 0
+intersect line -1 -2 -2 -1 poly 4 -2 2 2 1 2 0 0 0
+intersect poly 5 -2 0 0 1 1 -1 1 -2 0 -1 pt -1 1
+intersect line -2 1 0 1 poly 3 -1 2 1 2 -1 0
+inside 5 -2 -2 -1 -2 1 -1 0 0 0 1 -1 0
+intersect poly 4 1 -2 2 0 2 2 0 0 line -1 0 -1 -2
+inside 5 1 1 2 2 2 0 2 -1 -1 0 0 -1
+intersect seg -1 -1 2 -2 line 2 -1 -1 1
+intersect pt -2 -1 poly 3 1 0 2 -1 1 2
+intersect seg -1 -2 -1 -2 poly 4 2 -2 2 0 1 2 -1 0
+intersect poly 4 0 -2 1 -2 0 1 -2 2 line -1 2 2 2
+intersect line -2 2 -2 0 pt 1 -1
+inside 4 0 1 1 2 1 1 1 -1 -1 1
+intersect pt 1 -2 line 2 2 2 0
+intersect pt 2 1 seg 1 2 1 2
+intersect seg -1 2 1 0 poly 5 0 1 1 2 1 1 2 1 -2 -2
+intersect line -2 2 2 2 poly 4 -1 -2 0 -2 0 -1 0 1
+intersect line 2 2 0 0 poly 3 -1 1 0 2 2 -1
+inside 3 1 2 0 -1 0 0 -1 0
+intersect poly 3 1 0 2 -1 2 2 line -2 -2 1 -1
+intersect pt -2 0 seg 0 2 0 2
+intersect pt -2 1 poly 3 -1 -2 1 1 -1 2
+intersect pt 0 -1 seg -1 0 2 1
+intersect pt -2 0 poly 3 -1 1 -1 2 2 0
+intersect line -2 2 -2 1 poly 5 -2 2 -1 2 2 1 2 0 1 0
+intersect pt 1 0 line 1 -2 -2 -2
+intersect pt 1 -2 pt 2 -1
+intersect poly 4 -2 2 0 2 2 -1 -1 -1 pt -2 -2
+inside 3 -1 -2 2 2 0 0 0 1
+inside 4 1 2 2 1 -2 -1 -1 0 2 1
+intersect pt -1 1 line -1 0 0 -2
+inside 4 0 -2 0 -1 0 0 -1 -1 2 -1
+intersect poly 4 -1 -1 1 -1 2 2 -1 1 seg -1 0 -1 -2
+intersect seg 1 -1 -2 -2 pt -1 -1
+intersect poly 4 2 -2 1 0 0 2 0 1 line 1 -2 -2 1
+intersect poly 4 -2 -1 -1 -1 1 -1 1 0 pt 0 2
+inside 4 -1 1 2 1 1 0 -2 0 2 -2
+intersect line 0 1 2 0 pt 0 0
+intersect line -2 -2 2 1 poly 4 0 2 2 1 -1 -2 -2 -2
+intersect pt -1 -1 line -1 1 -1 2
+inside 3 -2 -1 1 0 0 -2 1 2
+intersect seg -2 -2 -2 -2 seg 2 2 -1 -1
+intersect poly 4 -2 2 2 2 0 -1 -1 0 poly 5 -2 -2 1 -1 2 -1 0 2 -2 2
+intersect pt -2 -2 pt -2 2
+intersect poly 3 -1 0 -1 1 0 -1 line 1 1 0 -2
+intersect line 2 1 1 -1 poly 3 1 -2 2 1 -2 1
+intersect seg 1 -2 -1 2 line 2 2 -2 2
+intersect line -1 1 -1 0 poly 4 -1 1 2 2 2 -1 0 -1
+intersect seg -2 -2 2 -1 seg 0 0 0 0
+intersect line -1 1 1 -1 seg 0 -1 0 -1
+intersect pt -1 0 seg 2 -2 2 0
+intersect pt 2 1 poly 4 -2 1 0 -1 -2 -2 -2 -1
+intersect line 2 0 -1 0 seg 0 -1 2 0
+inside 4 0 -2 2 0 -1 0 -2 0 -2 0
+intersect pt 1 1 poly 4 -2 -2 1 -2 2 -1 0 2
+inside 4 -1 -1 -1 0 0 1 -2 2 -2 0
+intersect line 0 -2 -1 0 poly 3 -1 -1 2 2 -1 2
+intersect line 1 -2 0 2 seg 0 -1 0 -2
+intersect poly 4 -1 1 0 0 2 -2 0 -1 line -1 -2 1 -2
+intersect seg -2 -2 -2 -2 line 0 0 -2 -1
+intersect seg -2 -1 -1 -2 line -1 2 2 0
+intersect poly 5 0 -2 1 -1 2 1 2 2 -1 2 seg -2 0 0 0
+intersect poly 4 -2 1 1 1 2 0 2 -1 pt 1 2
+intersect pt 1 1 poly 4 -2 0 0 1 2 0 0 -1
+intersect pt -2 -1 pt -2 2
+intersect line 2 -2 0 2 line 1 -2 -1 -2
+intersect line 1 0 -1 -2 seg 0 -1 1 0
+inside 3 1 -1 2 -1 -2 0 -1 -1
+intersect line 0 0 -1 0 seg 0 2 -1 1
+inside 4 -1 2 2 2 1 0 -2 -2 -2 2
+intersect poly 5 -2 2 -1 1 2 1 1 -2 -2 0 poly 4 -2 1 2 2 0 0 -1 -2
+intersect pt 1 -1 poly 4 -2 0 -2 -2 1 1 0 2
+intersect poly 4 -2 2 0 0 2 -2 0 -1 seg 1 -1 -1 2
+intersect pt 2 -2 poly 3 -2 -1 2 1 -2 1
+intersect seg 2 -2 1 -2 pt -1 2
+intersect seg -1 -1 0 -1 line 2 -1 -1 -1
+intersect line -1 2 -1 -1 line -1 1 -2 -1
+intersect line -1 1 0 1 poly 4 -2 -1 -1 0 -2 1 -2 0
+inside 4 2 0 2 1 -1 2 0 1 0 -1
+inside 4 -1 -2 1 -2 2 -1 1 0 1 2
+intersect poly 4 0 -1 2 0 -1 1 -1 0 poly 4 -1 2 1 2 2 2 0 -1
+intersect line -1 2 0 0 seg 1 1 1 2
+intersect poly 3 -1 2 0 0 -1 -2 poly 3 0 -1 1 1 0 0
+intersect poly 4 1 -1 2 -1 1 2 -2 1 pt 2 2
+intersect seg 2 1 0 -2 seg -2 0 -1 -2
+intersect pt -1 1 seg 0 1 1 1
+intersect line 2 0 -1 -2 line -2 2 0 -1
+intersect seg -2 0 -1 -2 seg -1 -2 0 -2
+intersect seg -1 1 2 1 seg -1 0 -2 1
+inside 4 2 -2 0 -1 -1 -1 -2 -1 -2 2
+inside 5 -1 0 -2 1 0 0 2 -1 2 -2 2 2
+intersect seg -2 -2 -1 -2 seg 2 -1 -2 2
+intersect seg 2 -2 -2 2 poly 4 0 2 2 1 -1 -2 -1 0
+intersect seg -1 -1 2 -1 pt -2 -1
+inside 4 -1 1 -1 2 1 1 0 0 1 0
+intersect poly 5 -1 2 2 1 1 -1 1 -2 0 -2 line 1 1 0 1
+inside 4 0 -1 2 -1 1 1 0 1 2 1
+intersect pt -1 -1 line 1 1 0 -2
+inside 5 -2 -1 -1 -1 2 -1 2 0 -2 0 -2 1
+intersect poly 4 1 -2 1 0 -1 2 -1 0 line 1 -2 -2 -2
+inside 4 0 1 1 1 2 0 2 -2 -1 2
+intersect poly 5 -1 1 0 2 2 -1 2 -2 -2 -1 line 0 2 2 1
+intersect seg 1 0 1 -1 seg 1 2 -2 -1
+intersect pt 0 1 seg -2 -2 -2 1
+intersect line 0 2 1 2 pt 0 2
+inside 5 -1 1 1 0 0 -2 -1 -2 -2 -1 2 0
+intersect seg -1 0 1 1 poly 4 2 1 2 -1 1 -1 -1 -1
+intersect poly 5 -2 0 -2 1 -1 2 2 -2 0 -1 poly 5 -2 1 1 1 2 -1 1 -2 -1 -1
+intersect line 0 2 -1 -1 poly 5 -2 -1 0 -2 1 2 0 2 -2 2
+intersect pt -2 2 poly 4 -2 -2 1 0 0 1 -1 2
+inside 3 0 1 1 1 -2 2 0 1
+inside 4 -1 1 0 2 2 0 -2 0 -2 0
+intersect line 2 -1 2 0 pt 2 1
+intersect line 1 0 0 -1 seg 0 0 2 -2
+inside 3 -2 2 2 0 1 -1 1 -2
+intersect seg 0 -2 -2 -2 poly 3 -1 1 2 -1 2 -2
+intersect poly 5 1 0 1 2 2 -1 2 -2 1 -1 line -2 0 0 -2
+inside 4 -2 -2 0 -2 -1 -1 -1 0 -2 -2
+inside 4 -1 -2 0 -2 1 1 -2 0 1 2
+inside 4 -1 0 1 -1 1 0 2 2 -1 0
+inside 4 2 2 2 0 2 -1 -1 0 1 2
+intersect poly 4 -2 1 2 2 1 -2 -1 0 pt 1 0
+inside 5 1 -2 2 -2 2 0 -1 2 0 0 -1 1
+intersect seg -2 2 -1 1 poly 3 2 2 1 1 -2 0
+intersect poly 5 1 2 1 1 0 0 -1 -2 -1 -1 seg 2 0 2 1
+intersect seg 2 -2 -1 0 pt 2 -1
+intersect seg 1 -2 0 2 pt -2 1
+intersect line -1 -1 1 2 line 0 1 0 -1
+intersect line 1 -1 0 -1 pt 2 -2
+intersect pt 0 2 line 0 1 1 1
+inside 5 -2 0 1 2 2 0 1 -2 -2 -2 2 -1
+intersect poly 4 1 -1 2 0 1 1 0 0 pt -2 -1
+intersect pt -2 2 line -1 0 -1 -1
+inside 3 -2 -1 -1 -2 -1 2 0 -1
+intersect pt 2 0 pt 1 -2
+inside 3 0 -1 0 0 -1 2 0 2
+intersect poly 4 1 -2 0 1 0 2 -2 1 seg 1 0 2 -2
+intersect line 2 0 -1 -1 line -2 -1 -1 -1
+intersect seg 1 -2 -2 0 pt 0 1
+intersect pt 1 1 seg 1 -2 1 -2
+intersect line -1 -1 -1 1 pt 1 -1
+intersect seg -2 2 0 2 poly 3 1 1 2 -2 1 -1
+inside 3 1 1 1 -1 -1 -1 1 -2
+intersect line 1 2 0 1 seg -2 1 1 -1
+intersect poly 4 0 0 1 0 1 -1 -1 -1 seg 2 -1 2 0
+intersect seg 0 1 2 -1 line 0 -2 -1 1
+intersect pt 1 -1 seg 1 -1 1 -1
+intersect seg 2 0 2 0 seg 0 2 -2 -2
+intersect line 1 0 1 -2 line 0 2 0 1
+intersect line -2 -2 0 -2 line 2 2 -1 2
+inside 3 0 -1 2 0 -1 2 0 1
+inside 4 2 2 1 1 1 0 -2 0 2 1
+intersect line -2 0 2 0 poly 3 -1 0 2 0 -2 2
+intersect poly 5 -1 1 0 1 1 2 0 2 -1 2 pt -2 2
+intersect pt 0 0 poly 3 -1 2 1 -1 0 -1
+inside 3 1 2 2 0 2 -2 0 2
+inside 4 1 -1 1 0 2 2 -2 2 0 -1
+intersect pt -1 -1 line -1 -2 -2 -1
+intersect pt -2 -1 pt -2 2
+inside 4 -2 -1 -2 -2 0 -1 -1 2 2 0
+intersect line -2 2 -2 1 poly 4 -2 0 0 -1 2 2 -2 1
+intersect line -2 1 1 1 line -1 -2 -2 -1
+inside 3 -2 -1 0 -2 0 2 -1 1
+intersect line 2 2 0 -1 line 2 -2 1 -2
+inside 4 1 -1 2 0 -1 0 -2 0 0 2
+inside 3 0 -1 1 0 -1 2 1 -2
+intersect pt 1 0 poly 4 1 0 2 -1 1 1 0 1
+intersect line 0 0 0 2 poly 4 -1 1 1 1 0 -1 -1 -2
+intersect poly 4 2 1 2 -1 2 -2 -2 -1 poly 5 -1 0 0 2 0 1 1 -1 -1 -2
+intersect line 2 0 1 0 line -2 2 0 0
+intersect pt 2 2 line 1 -2 0 1
+intersect pt 1 0 line 1 -1 2 1
+intersect pt -1 1 pt -2 1
+intersect line -1 -1 2 0 poly 4 -1 -2 2 -2 0 -1 -2 1
+inside 4 -2 -2 0 -2 2 -1 -2 -1 -1 0
+intersect line 1 -1 2 0 pt -2 -1
+intersect poly 4 -2 1 1 2 0 -1 0 -2 line 1 2 1 -2
+intersect pt -1 0 poly 4 -2 2 -1 2 -2 -1 -2 0
+intersect seg 0 -1 2 2 pt -1 -2
+intersect seg 2 -1 -2 1 seg 1 1 1 1
+intersect seg -1 2 2 1 pt 2 -1
+intersect pt 2 1 seg 0 -2 2 -2
+intersect line 2 -1 -1 -1 seg 2 -1 1 0
+intersect poly 3 -1 0 0 0 0 -2 seg -1 1 -2 1
+intersect poly 4 -1 -2 0 -2 -1 -1 -2 1 poly 4 2 -2 2 0 -2 2 -2 1
+intersect pt -1 2 poly 4 -2 1 2 0 0 -1 0 -2
+intersect poly 3 2 -2 2 2 -1 1 line -2 0 0 -2
+intersect poly 3 -1 2 1 0 -2 -2 poly 5 -2 -2 -1 -2 1 0 2 1 2 2
+intersect pt 2 1 poly 4 0 1 2 2 0 -2 0 0
+intersect seg -1 -2 2 1 line 0 1 2 2
+inside 4 -1 -2 1 -2 2 2 1 1 0 2
+inside 3 -2 1 -1 2 -1 -1 2 1
+intersect pt 0 0 poly 4 0 0 2 0 1 -1 0 -2
+inside 3 0 -1 -1 1 -2 0 1 -1
+intersect poly 5 -1 0 1 1 1 0 2 -1 -2 -2 poly 3 -2 -1 2 -1 -1 2
+intersect seg -1 2 1 2 seg 2 0 1 1
+intersect poly 4 -1 -1 0 -1 2 0 -1 2 line -2 2 2 2
+intersect poly 3 -1 -1 0 1 -1 2 seg -1 0 2 0
+intersect poly 4 -2 0 -1 1 -1 0 -2 -1 seg 2 -2 -1 1
+inside 4 -1 0 0 -1 2 1 2 2 -2 0
+inside 5 -2 -2 0 -2 0 1 -1 1 -2 0 0 2
+intersect poly 5 -1 2 1 2 1 1 0 0 -2 0 poly 3 2 1 0 -2 -1 -1
+intersect seg 0 2 0 2 pt -2 2
+intersect seg -1 0 2 -1 line 1 2 1 -1
+intersect line 2 -2 -2 -2 line 1 0 -2 0
+inside 3 0 -1 0 0 -2 1 1 0
+intersect seg -1 2 0 1 pt -1 0
+intersect poly 3 -2 2 -1 -1 -1 -2 seg -1 0 -2 -2
+inside 4 -2 -1 -1 -2 0 -1 0 1 2 -1
+intersect seg -1 2 -2 -2 pt 1 1
+intersect seg 1 2 2 -1 seg 0 1 0 2
+inside 4 -2 0 1 0 0 -2 -1 -2 -2 -2
+inside 4 0 -1 0 0 -1 2 -1 1 -1 1
+intersect pt 2 1 poly 4 -2 -1 1 1 0 -2 -2 -2
+intersect seg -2 1 0 1 pt 2 -1
+intersect line -2 -2 -2 0 seg -1 -2 -1 1
+intersect pt 0 -1 poly 4 -2 -2 0 -1 1 0 -2 2
+intersect poly 4 -1 -2 2 0 0 2 0 1 seg 0 -2 0 0
+intersect pt 1 0 poly 4 -2 -2 1 0 0 2 -2 0
+intersect pt 2 -1 seg 1 -2 0 -2
+inside 4 -2 2 2 1 2 0 -1 -1 0 1
+intersect poly 4 -2 -1 0 -1 2 0 0 1 seg 0 1 0 2
+intersect seg -1 -2 1 1 poly 5 -1 -2 0 -1 2 -1 2 2 1 2
+intersect pt 1 0 pt -2 1
+inside 4 1 2 2 2 1 -1 -2 -2 0 -2
+intersect poly 4 0 -2 -1 -1 -1 0 -2 -1 poly 5 0 -2 2 0 2 2 -2 0 0 0
+inside 3 -1 -2 2 0 -2 -1 0 -1
+intersect seg -2 0 0 0 pt 0 -1
+inside 3 2 2 -1 -1 -2 -1 0 2
+intersect poly 4 -2 2 -1 1 -1 0 -2 -1 line 1 1 -2 -2
+intersect poly 5 -2 1 1 2 1 1 2 0 -2 -1 line 1 2 -1 1
+inside 4 -1 0 0 1 2 -2 0 -2 -2 2
+intersect pt -1 1 pt -2 2
+intersect pt -2 1 poly 3 0 0 1 1 1 -2
+intersect pt 1 2 seg -2 -2 2 1
+intersect poly 3 -2 -1 2 -2 -2 -2 line -2 -2 2 2
+intersect line -1 1 1 1 line 1 -2 1 0
+intersect seg 0 1 -2 -1 pt 0 -1
+intersect line 1 1 0 1 poly 3 0 -1 1 -2 1 2
+intersect pt 0 1 poly 3 -1 2 0 1 1 -2
+intersect seg -1 1 1 -2 seg -1 1 0 0
+intersect line -2 1 2 -1 line -1 -2 -2 0
+intersect line -2 2 2 2 poly 4 -2 -1 -1 -2 1 1 -1 0
+intersect pt 0 -2 seg -1 -2 2 2
+inside 5 -2 2 0 1 2 0 1 -1 -1 -2 0 1
+intersect seg 2 -1 -1 0 line 1 -2 1 2
+intersect line 2 -2 1 -1 pt -2 1
+intersect line -1 1 2 2 line 0 -1 -1 1
+inside 4 -2 0 -1 0 2 -1 1 -2 1 1
+intersect poly 4 -2 2 -1 2 -1 1 -2 1 pt -2 0
+inside 4 -2 1 -1 1 2 2 2 -1 0 -1
+inside 4 -1 0 1 1 2 -1 1 -1 2 2
+intersect pt 2 0 pt 0 1
+intersect line 0 -1 1 -2 seg 0 2 1 1
+intersect seg -2 -1 1 2 seg -2 -1 1 -2
+inside 4 -2 1 2 2 1 0 -1 -1 1 1
+inside 3 -1 2 0 1 -2 0 0 -1
+intersect pt -2 1 pt -1 0
+intersect pt 1 1 seg 0 0 2 2
+intersect pt 0 1 poly 4 1 0 2 2 1 -2 -1 -2
+intersect line -2 1 2 -2 seg 2 0 2 0
+intersect pt 0 -1 seg 0 -1 0 -1
+intersect seg 1 -2 2 2 line 0 -2 -1 -1
+inside 4 -1 -1 0 1 2 2 -2 2 1 0
+inside 5 -1 0 1 0 1 1 0 2 -2 1 1 1
+inside 3 1 0 1 1 0 1 1 0
+intersect pt -2 -2 seg -1 0 2 0
+intersect poly 4 0 1 1 1 1 0 -2 -2 seg 2 -2 1 -1
+intersect poly 4 -2 -1 1 -2 1 0 -2 2 seg -2 -1 -1 1
+intersect poly 3 1 2 2 1 1 -2 pt 2 -2
+intersect poly 4 -2 -1 1 0 2 0 1 1 seg 1 -2 2 0
+intersect pt 2 2 pt -1 2
+intersect seg 1 -1 -2 0 seg 1 -1 2 -2
+inside 3 -2 -2 -1 0 -1 1 2 -1
+intersect seg -2 -2 -2 -1 poly 4 0 0 2 0 2 1 0 2
+intersect poly 4 -2 -2 1 2 0 2 -1 2 pt 2 -1
+intersect line -2 -1 0 1 poly 4 0 2 0 1 0 -1 -2 -1
+intersect line -1 0 0 0 pt 0 1
+intersect line 0 1 -1 2 poly 4 0 -2 1 -2 2 0 -1 -1
+inside 4 1 -2 2 1 0 2 -2 2 0 2
+inside 5 -1 1 2 2 1 -2 0 -1 -2 -1 1 2
+inside 4 0 -2 1 -2 -1 2 -1 1 -1 1
+intersect line -2 -2 -1 1 pt 0 0
+intersect line 2 1 -1 -1 poly 4 2 2 0 0 -1 0 -2 0
+intersect seg 2 2 -1 -1 line 0 -2 2 2
+intersect line 0 2 0 -1 pt -2 1
+intersect line -1 -2 2 -2 line 0 2 2 -2
+intersect seg -1 -1 -1 0 seg -1 0 2 2
+intersect seg 0 -2 0 2 line 0 1 2 2
+intersect pt 2 2 seg 0 1 -2 -2
+inside 3 -2 -2 2 1 1 1 -2 -2
+intersect line 1 0 -2 2 poly 3 0 -2 2 -2 0 -1
+intersect seg -1 -1 0 0 line 0 -2 -1 1
+inside 4 -2 0 -1 1 0 0 -1 -1 2 1
+inside 5 0 2 0 1 2 -2 0 0 -2 0 -1 -1
+intersect pt 1 0 seg -1 0 -1 -1
+intersect poly 5 -2 2 2 2 2 -2 1 -1 0 0 line 0 2 0 -2
+inside 4 0 -1 1 -1 0 0 -1 1 -1 2
+intersect poly 3 0 1 1 -2 -2 -2 poly 3 -1 -1 2 -2 0 2
+inside 4 -2 -1 -1 -2 2 -2 0 2 -1 -1
+inside 4 0 1 1 1 2 1 -1 -2 2 0
+intersect line -1 -2 -2 1 poly 4 2 2 2 0 1 0 0 -1
+intersect line 0 -1 1 -2 pt 0 2
+intersect poly 3 -2 1 0 0 -1 -2 line -1 2 -2 1
+intersect poly 4 -1 1 2 -1 2 -2 -1 -2 line -1 -1 2 2
+intersect poly 4 0 -1 2 -2 0 1 -1 2 poly 3 -2 1 2 0 2 -1
+intersect seg 0 -1 0 -1 pt -2 -1
+intersect pt 2 -1 poly 3 -2 1 2 -2 0 -1
+intersect line -1 2 0 -2 line 1 -1 0 -2
+intersect line -2 2 -1 1 poly 4 -2 -2 1 -1 0 -1 -1 -1
+inside 4 -2 -1 1 -2 0 2 -2 0 1 0
+intersect seg 2 2 2 -2 seg 2 0 0 2
+inside 5 0 2 2 2 2 1 1 -1 -1 -1 1 0
+intersect line -1 -2 -1 1 line -2 -1 1 -1
+intersect poly 4 -2 1 1 1 2 2 2 -1 pt 2 -1
+intersect poly 4 -2 1 0 2 -2 -2 -2 -1 seg 2 0 0 1
+inside 5 -1 0 -1 -2 1 1 -1 1 -2 1 -2 -1
+intersect pt 0 0 line -1 2 1 1
+intersect seg -1 -1 -1 0 line 2 -2 0 -1
+intersect poly 4 -1 1 2 0 1 -1 0 -1 seg 0 2 2 -2
+intersect seg 2 0 0 0 pt -1 -1
+intersect poly 5 -1 1 0 0 1 0 2 -2 -2 -1 poly 4 1 2 1 0 -1 -1 -1 0
+intersect poly 5 0 -2 2 -1 1 1 -1 1 0 0 poly 3 2 1 2 2 1 2
+intersect seg 2 1 2 2 seg 2 2 -2 1
+intersect line 2 2 -2 1 poly 4 1 0 0 -1 -1 -1 -2 -1
+intersect line 0 2 2 0 poly 4 0 1 1 1 2 1 2 -1
+intersect pt 0 -1 poly 4 -1 1 1 2 1 0 2 -2
+intersect seg 2 -2 2 -1 pt -2 -1
+intersect seg 2 0 1 0 pt 0 -2
+intersect poly 4 1 0 2 0 1 -2 0 -2 pt -1 2
+intersect line -2 -2 -2 2 pt -1 -2
+intersect poly 4 -1 -1 0 0 1 -1 1 -2 line 2 1 1 -2
+intersect seg 1 2 1 1 poly 3 -2 -2 0 -2 -2 2
+intersect pt 1 -2 seg 2 -1 -2 -2
+intersect pt 2 2 pt 2 1
+intersect seg -2 0 0 -2 line 0 -1 2 1
+intersect seg -2 1 2 -1 poly 4 -2 -2 0 -2 1 -1 -1 2
+intersect poly 4 -2 -1 1 -1 1 -2 0 -2 seg 0 -1 1 2
+intersect line 0 1 -2 0 poly 3 2 -2 1 -1 -1 -1
+inside 4 1 -1 1 1 2 2 -1 1 0 1
+inside 4 -1 2 1 0 0 -1 -1 -2 0 -1
+intersect poly 3 -2 0 2 -1 2 -2 line 2 -1 -2 -2
+intersect poly 3 -1 1 0 1 1 2 seg -1 0 1 1
+intersect poly 3 0 0 1 -2 -2 -2 pt -1 0
+inside 4 -1 1 1 1 2 1 -1 0 1 2
+intersect seg -2 -2 -1 1 seg -1 0 2 -1
+inside 4 -2 -2 2 -2 2 -1 2 0 -2 -1
+intersect seg 2 2 1 -1 seg -2 0 1 -2
+intersect line 0 2 2 2 line 1 2 2 2
+intersect seg 0 0 2 -1 poly 4 -2 -2 2 -2 2 -1 -1 -1
+inside 4 1 2 2 2 1 -2 0 -2 1 1
+intersect seg -2 1 2 2 line 2 0 1 1
+intersect poly 5 -1 -2 2 -1 2 2 1 2 0 1 seg 1 2 1 2
+intersect pt -1 1 pt -2 0
+intersect poly 3 -2 -1 0 2 -2 1 poly 3 -2 -2 -1 -2 2 1
+intersect line 1 2 0 -2 poly 4 0 -1 1 0 -1 1 -2 1
+inside 4 -1 2 2 1 -1 -2 -1 0 -1 2
+intersect poly 4 1 2 2 0 0 0 -2 -1 poly 3 1 -1 2 0 -2 1
+inside 4 -2 2 0 0 0 -1 -2 0 -2 1
+intersect seg -2 -1 -2 -1 poly 3 -1 1 2 -2 -1 -1
+intersect seg 2 2 0 1 pt 1 -1
+inside 4 -2 1 -1 1 0 2 1 -2 0 -1
+inside 4 0 1 0 -1 -1 -1 -2 -1 0 2
+intersect line 0 1 2 -1 poly 3 -2 2 1 0 0 -2
+inside 5 -1 2 0 2 1 1 1 0 -1 -1 -2 -2
+inside 4 -1 -2 2 -1 -1 0 -1 -1 -1 0
+intersect pt 0 2 pt 0 1
+inside 4 0 2 2 0 1 0 -2 0 -2 1
+intersect pt -1 2 seg -2 -1 2 -1
+intersect seg -2 1 1 0 line 2 1 0 2
+intersect seg -2 0 -2 2 poly 5 -2 2 0 2 0 1 2 -2 -2 0
+intersect line 0 -1 -1 -1 pt 0 2
+intersect seg -2 -1 -1 -1 poly 3 2 2 1 -1 -1 -2
+intersect line -1 1 2 2 line 1 -2 -2 -1
+intersect poly 5 -2 -1 -1 -1 0 -1 2 -2 -1 2 pt 2 0
+intersect poly 4 0 0 1 1 1 2 -1 2 poly 3 0 0 2 -1 0 -1
+intersect pt -1 0 line -1 1 1 -1
+intersect seg -2 -2 1 0 pt 2 -2
+intersect pt 1 0 seg -2 1 1 -1
+intersect pt 1 1 line -2 -2 -2 -1
+inside 3 0 -1 2 1 2 2 2 -1
+intersect pt 1 2 pt 1 -2
+intersect seg 1 -1 -2 2 pt 0 1
+intersect poly 4 0 0 1 0 -1 -2 -2 -2 poly 5 1 -2 2 1 1 1 -1 2 -2 1
+intersect line 1 1 -1 0 pt 0 0
+intersect poly 4 -2 2 1 2 2 -2 -2 0 poly 3 2 1 2 0 -1 -1
+intersect poly 3 -1 0 1 1 -1 -2 seg -1 2 -1 -2
+inside 3 0 -2 0 -1 -1 0 2 1
+intersect pt -1 -1 seg 2 0 -2 -2
+intersect pt -2 1 line 2 -1 0 -2
+intersect seg 1 0 1 0 line -1 1 -2 2
+inside 4 1 -2 1 0 -2 2 -1 1 -2 1
+intersect pt -2 -1 line 2 -1 1 -1
+intersect line 1 1 -2 2 pt -1 -2
+intersect line 1 0 2 -1 poly 4 -1 -1 0 -1 2 -2 -2 2
+intersect poly 4 -1 -1 0 0 1 2 -2 2 seg -2 2 -2 1
+inside 4 -1 -2 1 -2 0 0 0 1 2 0
+intersect poly 3 0 2 2 -1 0 -1 line 1 1 -2 1
+intersect line 0 2 0 0 seg 1 -1 -2 -2
+intersect poly 5 0 -1 0 -2 2 0 2 2 1 2 pt 2 0
+intersect pt 1 -2 poly 4 1 1 2 1 0 -1 -1 -2
+intersect line -2 -2 2 -2 pt -2 2
+intersect poly 3 1 -1 2 0 -2 1 line -1 0 0 1
+intersect line 0 0 -2 -2 poly 4 -1 -2 1 0 0 2 -2 0
+intersect poly 3 -2 -1 1 2 -1 2 line -2 -2 -1 -2
+intersect pt 0 1 line -2 1 2 0
+intersect poly 4 -1 1 2 0 1 -2 0 -2 line 0 2 1 2
+intersect poly 3 1 1 2 2 0 -2 poly 3 2 0 1 -2 -1 -2
+intersect line 2 0 2 -1 seg -1 -2 1 1
+inside 5 -1 0 0 -2 1 0 1 1 1 2 1 0
+intersect pt -1 0 seg 1 2 0 2
+intersect poly 5 -2 -1 0 1 2 -2 0 -2 -1 -2 seg -1 1 -2 -2
+intersect poly 5 -2 -2 -1 0 0 1 -1 2 -1 1 poly 5 2 2 2 1 1 0 -1 -1 -1 0
+intersect poly 5 0 -1 0 -2 2 2 1 1 -2 0 line 1 0 0 1
+intersect line 2 0 -2 2 seg 0 2 -1 -2
+intersect poly 4 -1 0 2 0 1 -1 -1 -2 seg -1 0 0 0
+intersect seg 2 -1 2 -1 seg 0 1 1 -1
+inside 4 -2 0 -1 -1 1 1 0 1 2 -1
+intersect pt 2 -2 pt 0 2
+intersect seg 2 0 2 0 pt -1 1
+intersect line -2 -2 0 1 pt 2 -1
+intersect seg 0 1 2 0 line -1 0 2 1
+intersect pt 0 -1 seg -2 2 2 1
+intersect seg 2 -1 -2 1 seg -1 -2 0 1
+intersect seg -2 -1 2 0 seg -1 -2 -1 -2
+intersect pt 0 1 pt 1 2
+intersect line -1 -2 -1 0 pt 1 1
+intersect line 2 -2 0 -2 seg 1 0 2 0
+intersect poly 4 -2 2 0 1 2 -1 0 -2 pt 1 2
+intersect line -2 -1 2 -1 line 1 -2 2 2
+intersect poly 4 -1 1 0 -1 -1 -1 -2 -1 pt -2 2
+intersect line 1 1 -1 0 pt -2 -2
+intersect seg 0 0 0 -1 poly 4 0 -2 0 0 1 1 -2 1
+intersect pt 2 1 poly 4 2 -2 2 1 2 2 1 1
+intersect pt -1 0 seg 2 2 1 -1
+intersect pt -1 -1 pt -1 -2
+intersect poly 3 -1 -2 0 -1 0 1 poly 3 -2 1 0 1 -1 -1
+intersect pt 0 0 pt -2 0
+intersect seg -1 1 1 2 seg -2 1 1 2
+inside 4 -2 -1 0 -2 0 0 -2 2 2 -2
+inside 4 -1 0 -2 1 2 -1 0 -2 2 1
+inside 4 -1 2 2 -1 0 -1 -2 -1 2 1
+intersect pt -2 0 pt -2 -1
+inside 4 -2 0 1 2 0 -1 -1 -1 2 -1
+intersect poly 4 0 1 1 2 -1 -1 -2 -1 seg 2 -2 0 1
+intersect seg 0 2 0 -2 line -2 0 2 -1
+intersect seg -1 0 -1 -1 seg -1 1 2 2
+inside 3 -2 -1 -2 -2 2 1 1 2
+intersect seg 1 -2 -2 2 seg 2 0 0 -1
+intersect seg -1 0 0 0 poly 5 -1 -2 0 -2 0 -1 1 1 -1 2
+intersect poly 3 0 -1 1 1 -2 0 pt 0 2
+intersect poly 4 -1 -1 0 -1 1 -1 -2 2 poly 3 -1 -2 1 1 1 2
+intersect seg 0 -2 -2 -2 poly 4 -2 -1 1 1 -1 1 -2 1
+intersect line 2 0 -1 -1 poly 5 -2 -1 1 -2 2 -2 2 2 1 2
+intersect line -1 -2 -1 -1 line 2 1 0 1
+intersect poly 5 0 -1 2 -2 1 0 -1 2 -1 1 line 0 2 -2 -1
+intersect pt -1 -1 poly 5 0 -1 1 -1 1 -2 2 1 1 1
+intersect pt 2 1 poly 4 -2 -1 1 -1 0 2 -2 1
+inside 3 2 1 0 -2 -2 -1 -2 2
+intersect seg 1 -2 1 0 line 2 -1 -2 1
+intersect poly 3 0 2 1 2 -1 -1 seg 2 1 2 2
+intersect pt 0 1 poly 4 1 -2 0 0 1 1 -2 1
+inside 3 -1 -1 1 -1 -1 2 -2 -2
+intersect seg -2 2 2 -2 seg 1 -1 -2 2
+intersect pt 2 -1 seg 0 -2 2 2
+intersect seg 2 2 0 0 line -1 -1 -1 1
+intersect line -1 1 0 0 seg -1 2 1 2
+inside 4 -1 0 1 0 0 -1 -2 -1 2 -2
+intersect seg 0 -1 2 -2 line -1 -1 -1 -2
+intersect pt -1 -1 poly 5 -1 -1 0 -1 2 0 1 0 0 1
+intersect poly 4 0 0 1 -1 1 0 1 2 poly 4 1 -1 2 -1 -2 2 -1 1
+intersect line -1 0 -2 1 seg 0 0 0 0
+intersect pt 2 0 pt 1 -2
+inside 4 -1 -1 -1 0 0 -1 2 -2 -1 0
+intersect pt 2 0 seg 0 1 0 0
+intersect pt 0 -2 poly 4 -1 0 -1 -1 1 0 0 2
+intersect seg 1 2 -1 -1 line 2 1 0 2
+intersect pt -1 -1 line -2 2 -2 0
+intersect pt 0 0 seg 1 0 2 1
+intersect seg -2 -1 -2 0 pt 2 0
+intersect line 2 2 -2 1 line 1 -2 2 2
+intersect pt 0 -1 line 0 0 -2 1
+intersect seg 0 -2 1 1 seg 0 1 0 1
+intersect seg -2 -1 -2 -1 pt 0 0
+intersect line -1 2 -1 0 poly 5 -2 1 -1 2 0 0 -1 0 -1 -1
+intersect line 1 1 -2 -1 pt 1 -2
+intersect seg 0 1 0 0 seg -1 1 -2 -1
+intersect seg 0 -1 -2 1 poly 5 2 -2 2 0 1 2 -1 1 -2 1
+intersect seg 2 -2 -2 -1 pt 2 -2
+inside 3 -1 0 1 -1 -1 -1 -2 0
+intersect seg -2 2 1 -1 line 1 0 -2 -1
+intersect seg 0 2 2 1 poly 3 0 -1 2 1 0 2
+intersect line 2 1 0 -2 line 1 0 1 -2
+intersect pt 2 -1 seg 0 -2 2 1
+intersect poly 3 2 2 1 -1 -2 0 poly 4 1 -2 2 2 -2 2 -2 1
+intersect poly 4 -1 2 0 2 2 2 1 -1 poly 5 1 -2 2 1 0 2 -1 2 -2 1
+intersect pt -1 2 line -1 0 2 -2
+intersect pt 2 0 pt -2 0
+intersect line 0 -1 2 -2 seg -2 1 -2 0
+intersect line 2 -2 -2 1 pt -1 1
+intersect seg -2 0 1 -2 seg -1 -1 -1 0
+intersect line -1 0 -2 -1 pt 2 1
+intersect line 2 -2 -1 -2 line 1 2 1 1
+inside 4 2 1 0 -2 -1 -2 -2 -2 2 1
+intersect line 1 2 -1 1 pt 0 1
+intersect line -2 1 -2 0 pt 0 2
+intersect line 0 2 -1 0 line 1 2 2 2
+intersect line 1 -1 2 -2 seg 0 1 2 -1
+intersect poly 4 -2 2 2 2 1 -1 0 0 seg -2 -2 -2 0
+inside 3 -2 2 0 1 -1 0 2 0
+intersect pt -2 1 pt 2 -2
+intersect line -1 -1 -1 0 line 2 1 0 -2
+intersect seg 1 2 1 2 seg -2 0 1 2
+intersect seg 1 -1 2 2 seg 0 -1 0 1
+intersect poly 4 1 2 2 1 2 -1 -1 -2 line -2 2 -1 1
+inside 4 -2 -1 1 -2 1 0 -2 2 1 0
+intersect poly 4 0 -2 2 -2 2 0 1 1 poly 4 -1 1 -1 2 2 -2 -2 -1
+intersect seg 1 -1 2 1 seg 2 2 0 -2
+intersect pt 0 1 pt 0 2
+intersect poly 3 0 -2 2 -2 -2 0 poly 4 -2 0 0 2 2 -1 0 -2
+intersect poly 4 2 2 2 -1 1 -2 0 -2 poly 3 0 2 2 0 -1 -1
+intersect poly 3 -2 2 1 -2 -2 -1 line -2 0 -2 1
+intersect poly 4 -2 -1 2 -1 2 0 -2 1 line -1 2 1 0
+intersect seg 1 -2 -2 2 line 1 0 -1 1
+intersect pt -2 -1 poly 5 -1 1 1 2 2 1 2 -2 -2 0
+inside 3 -1 -2 -1 -1 -2 -1 2 2
+inside 5 -1 0 0 0 2 1 2 2 0 1 -2 2
+intersect seg 2 0 1 2 seg -2 0 -2 1
+intersect pt -2 0 pt -1 2
+intersect seg 0 2 1 0 line 1 0 2 -2
+inside 5 0 -1 2 1 1 1 0 1 -2 2 2 -1
+inside 5 -1 -2 2 -2 1 0 -2 2 -2 0 2 2
+intersect poly 3 -1 -2 2 -1 0 2 poly 4 2 2 1 1 -1 -1 -2 0
+intersect seg -1 1 -1 2 poly 4 -1 -1 0 0 2 2 -2 1
+inside 4 -1 1 0 0 0 -1 -1 -2 -1 2
+inside 3 -1 1 1 1 2 0 1 2
+intersect pt 0 0 poly 3 1 -1 1 1 -2 2
+inside 4 -1 1 2 1 -1 -2 -2 -1 1 -1
+inside 5 -1 0 0 -1 2 1 1 1 0 2 -1 1
+intersect seg -1 -2 -1 2 pt 0 -1
+inside 4 2 -2 2 0 1 2 -1 1 0 1
+intersect poly 4 -1 1 1 1 1 0 -1 0 line 0 -1 0 -2
+intersect poly 4 -2 -2 -1 -2 0 -1 -2 1 pt -1 -2
+intersect line -1 -1 2 0 seg -2 2 -1 -1
+inside 3 -2 2 0 2 -2 0 0 0
+inside 4 -1 0 -1 1 1 -1 -2 -1 0 1
+inside 5 -2 0 0 -1 2 1 2 2 0 1 1 2
+inside 3 -1 0 2 2 0 2 1 -1
+inside 4 -1 -1 0 -1 -1 1 -2 2 2 1
+intersect poly 4 0 -2 2 -2 1 0 0 2 seg -2 -1 -2 -1
+intersect poly 4 -2 1 2 0 2 -1 -2 -2 pt -1 0
+intersect line 1 -2 -1 -2 line 2 1 -2 -2
+intersect pt 1 0 pt 2 -1
+intersect line -1 1 2 -1 pt 1 0
+intersect pt 1 0 pt 1 -1
+intersect poly 4 -2 0 0 0 1 1 -1 1 line 1 -1 2 2
+inside 3 0 2 1 2 0 0 0 -2
+intersect poly 5 0 0 2 -2 2 -1 -1 2 -2 2 line 1 2 -1 0
+intersect poly 4 0 2 0 1 -1 0 -2 -1 pt -1 -1
+intersect line 1 -1 1 2 line 1 1 -1 2
+intersect seg 1 -2 0 1 pt 0 2
+inside 3 2 0 -1 -2 -2 -2 1 -1
+intersect pt 2 -1 seg 2 0 -2 1
+intersect pt 0 -1 line 2 -2 -2 2
+inside 3 -1 1 2 -2 0 -1 1 -2
+inside 4 -1 -1 0 -2 2 1 1 0 -1 -2
+intersect pt 0 -2 poly 5 -2 -2 2 0 2 2 0 2 -1 1
+intersect line -1 0 -2 -2 line -2 2 2 2
+intersect pt 1 1 pt 1 0
+inside 4 -2 1 0 -1 1 -2 0 -2 0 2
+intersect poly 3 2 0 -2 2 -1 1 line -1 -2 -2 1
+intersect line 1 -2 -2 -2 seg 1 1 -1 2
+intersect seg -2 1 -1 1 seg 2 -1 2 -1
+intersect line 2 -2 -2 1 seg 2 -2 -1 1
+intersect line 2 -2 0 0 pt -2 2
+intersect seg -1 1 0 0 poly 5 -2 -2 -1 -1 1 1 0 2 -1 2
+inside 5 1 0 2 2 2 -1 2 -2 0 -1 0 0
+intersect seg 0 2 1 -2 line 1 -1 2 1
+intersect seg -1 1 -1 -2 poly 5 0 -2 1 -2 2 -2 1 2 -2 1
+intersect pt 1 2 pt -2 -1
+intersect seg -1 0 -2 2 poly 5 -2 2 -1 2 2 0 -2 -2 -2 0
+intersect poly 4 1 -2 2 -2 2 0 2 1 poly 4 -2 0 2 1 2 2 -2 1
+intersect pt 2 1 poly 5 -2 2 -1 2 2 1 2 -2 -2 -1
+intersect seg -2 0 -2 -2 pt -2 -1
+inside 4 -2 2 0 0 -1 0 -2 0 -1 -1
+intersect seg -1 1 -1 1 poly 4 0 0 0 2 2 0 2 -2
+intersect pt 0 2 seg 0 2 2 0
+intersect pt 2 0 pt 1 0
+intersect pt 0 -2 poly 4 0 1 1 0 2 -2 0 -1
+intersect poly 4 -1 -1 1 -2 2 1 1 1 pt -2 -2
+intersect seg 0 2 -1 0 pt 0 -1
+intersect pt 2 1 poly 4 0 -1 2 -2 1 -1 -2 2
+intersect line -1 0 1 -2 line 1 2 2 -2
+inside 5 0 1 1 0 2 0 2 -2 0 -1 2 -1
+intersect poly 3 -2 1 -1 1 0 0 pt 2 0
+intersect line 2 0 2 -1 seg 2 0 1 1
+inside 4 1 -2 1 -1 2 1 -2 0 1 -1
+intersect seg 2 -2 -1 1 seg -2 -2 -2 1
+inside 3 -2 0 0 1 1 -2 0 1
+intersect poly 4 -2 2 -1 1 0 2 0 -2 poly 3 -1 -1 2 1 1 2
+intersect line 2 1 -1 0 line -1 1 -1 -2
+intersect pt 1 0 poly 4 -1 0 -2 2 0 -1 0 -2
+intersect poly 4 0 2 2 -2 1 -2 0 -1 pt -2 2
+intersect seg 1 1 2 -1 pt 0 -2
+intersect pt 2 0 poly 4 -2 0 1 0 -1 1 -2 2
+intersect poly 4 -2 2 0 1 2 0 -1 0 pt -1 0
+intersect line -2 -1 1 -1 seg 2 -1 -2 0
+inside 3 -1 2 1 -1 0 -2 2 -1
+inside 5 -2 -1 0 0 1 0 -2 1 -1 0 1 -2
+inside 5 -2 0 -1 -2 0 0 -1 2 -2 2 -1 -1
+inside 5 -2 0 -1 0 0 -2 2 2 -1 2 0 0
+intersect poly 3 0 -2 1 1 -1 2 poly 3 -2 1 2 -1 -2 -1
+inside 5 0 0 -2 2 2 0 1 -2 0 -1 2 2
+intersect pt 1 -1 seg -1 2 -1 -2
+inside 4 -1 1 2 2 2 -2 0 -2 0 2
+intersect seg -1 0 0 -2 seg -1 -2 2 -1
+intersect poly 3 -2 1 0 1 0 0 poly 5 -1 -2 1 -1 1 1 0 2 -1 0
+inside 4 2 -1 2 0 0 2 -1 1 1 2
+intersect seg -1 2 2 2 line -2 -2 1 1
+intersect poly 3 -1 0 1 1 0 2 line -2 -2 -1 -2
+intersect pt 2 1 line 2 0 0 1
+inside 5 -1 0 0 0 2 1 1 2 0 1 -2 -1
+intersect poly 3 -1 1 1 -1 1 -2 poly 4 0 -2 1 -2 1 0 1 1
+intersect seg 0 1 1 -1 pt 2 1
+intersect seg 1 -2 1 -2 poly 3 -1 0 -1 2 -2 2
+intersect pt 0 2 poly 4 0 -1 2 -1 2 2 0 1
+intersect seg 2 1 -1 2 seg -2 2 -2 0
+intersect pt -2 0 seg -1 0 -1 2
+intersect seg 2 2 2 2 line 2 -2 -1 -2
+intersect pt 1 -1 line -2 -1 0 0
+inside 4 -2 2 -1 2 0 -1 0 -2 0 -2
+inside 4 0 1 2 -1 0 -2 -1 -2 -1 -2
+intersect pt 2 2 pt 2 0
+intersect seg 2 -2 -2 -1 line -2 1 2 2
+inside 3 -1 2 0 1 1 -1 -1 2
+intersect pt -2 1 seg -2 1 1 -2
+intersect poly 4 -2 2 2 1 -1 -2 -2 -1 poly 5 -2 0 1 0 1 -1 2 -2 0 -1
+intersect line 2 -2 -1 1 poly 4 -2 2 1 2 2 -1 0 -1
+intersect pt -1 -2 poly 4 -1 -1 2 -2 2 1 -2 2
+intersect pt 2 -1 poly 4 -2 -1 2 1 2 2 1 1
+intersect pt 2 1 line 0 1 -2 1
+inside 3 0 2 1 -2 -2 -1 -2 -2
+intersect line 0 -1 1 2 pt -2 1
+intersect seg 2 -2 1 1 seg 0 1 -1 -2
+intersect pt -2 2 seg -2 0 1 1
+intersect poly 5 -2 -1 -2 -2 -1 -2 -1 0 -1 2 pt 2 -2
+intersect seg -2 -1 -1 -1 poly 3 -1 -2 1 -1 -1 0
+intersect poly 4 -2 1 -1 2 1 -1 -1 -2 seg 2 0 -1 1
+intersect poly 4 -1 2 2 0 2 -1 0 0 line 0 2 -2 2
+intersect line -2 0 1 -1 seg -2 2 0 -2
+intersect pt 1 -2 line 1 2 -2 -1
+intersect line -2 1 -2 -1 line 1 -1 -1 2
+intersect poly 4 -1 0 -1 -2 1 2 -2 1 line 1 2 -2 0
+intersect poly 4 2 2 1 1 -1 -1 -2 0 poly 4 -2 0 2 0 -1 2 -1 1
+inside 4 -2 2 0 1 1 -1 0 0 -2 -1
+inside 5 -2 1 2 2 2 1 2 -2 -2 0 1 2
+intersect seg 2 -2 -1 -1 line 0 -2 1 -1
+intersect line 1 0 0 0 seg -1 2 0 -1
+intersect pt 1 -1 pt -2 1
+intersect poly 4 -1 0 0 0 0 2 -2 2 line -2 -2 -1 1
+intersect line 2 -2 2 -1 poly 3 0 1 2 -2 -2 -1
+inside 3 -2 2 2 1 -1 0 1 -1
+intersect poly 4 2 1 1 -1 2 -2 -1 -2 line 2 -2 -2 -1
+inside 5 1 -1 2 -1 -1 2 -2 0 -1 0 -2 0
+intersect line 2 -1 -1 2 pt -2 -2
+intersect poly 4 -2 -2 1 -2 2 2 1 1 seg 0 1 1 1
+intersect seg 0 2 0 0 line 1 0 1 -2
+intersect poly 4 -2 1 2 2 1 0 -1 -1 pt 0 0
+intersect poly 4 -2 2 2 0 -2 -1 -2 0 seg -2 -1 -2 -2
+inside 4 -2 -2 -1 -2 2 0 1 1 -2 1
+inside 3 2 1 2 0 0 0 1 1
+inside 3 1 -1 2 2 1 2 1 1
+intersect poly 3 0 -2 1 0 0 -1 line 0 2 -2 2
+intersect seg 0 2 -1 -2 pt 1 0
+intersect seg -1 1 -1 1 pt -2 0
+inside 5 1 -2 2 -2 -1 2 0 0 -1 0 2 0
+intersect pt 0 0 poly 4 2 2 0 0 -1 -2 -2 -1
+intersect poly 4 0 1 1 1 0 -1 0 0 poly 3 -1 -2 0 0 0 1
+intersect pt 0 2 seg 0 0 1 1
+intersect line -2 -1 1 -2 pt -1 0
+intersect line -1 -1 1 0 seg 0 0 0 1
+intersect line 2 -2 -1 0 line 0 1 -1 1
+intersect pt -2 2 poly 3 -1 -2 0 -2 -2 1
+intersect pt 1 -2 poly 5 1 -2 2 -2 2 -1 0 1 -2 1
+intersect line -1 1 2 2 poly 5 -2 -1 2 -2 1 0 -1 2 -2 2
+intersect line -2 0 1 1 line 0 -2 -2 2
+intersect seg 2 1 1 -1 seg 2 -2 -2 1
+inside 5 -2 0 2 -1 0 2 -2 2 -2 1 -1 -1
+inside 4 -2 -2 0 -2 2 -1 -1 0 0 2
+inside 3 1 2 1 1 0 0 2 -1
+intersect poly 3 -2 2 0 -1 -2 -2 poly 3 2 0 0 2 -2 2
+intersect line 2 2 1 -2 seg 2 -2 -1 2
+inside 4 1 -2 2 -1 2 0 1 2 -1 -2
+intersect line 2 0 -1 2 line 0 -2 2 -2
+intersect pt -1 1 poly 3 -1 -1 1 -2 2 2
+intersect pt 2 -2 pt 1 -2
+intersect line -2 1 1 2 poly 3 -1 2 2 1 1 1
+intersect line 2 2 -1 -2 line -1 -2 2 0
+intersect seg 2 2 -1 -1 pt 2 0
+intersect poly 4 -2 -1 0 -1 -1 2 -2 0 seg 0 0 -1 -2
+intersect line 0 -1 1 2 pt 1 -2
+intersect line 0 0 2 -2 poly 4 -2 2 1 -2 0 -2 -1 -1
+inside 4 -2 2 1 2 1 1 1 -1 2 -2
+intersect line 1 2 -1 -1 poly 4 0 -2 1 -2 2 2 1 0
+inside 4 -2 -2 2 -1 -2 2 -1 0 -2 -2
+intersect line -2 0 0 -2 seg 0 1 1 2
+intersect pt 1 2 pt 0 -2
+intersect poly 5 -1 1 1 2 1 0 2 -2 -2 0 poly 4 0 -2 2 -2 0 0 -2 1
+intersect pt 0 0 poly 4 -1 0 0 1 2 -1 -1 -1
+intersect pt 0 -1 seg -1 1 1 -2
+intersect poly 4 -2 -2 1 0 2 2 -2 1 poly 5 -1 -1 0 -1 2 0 1 1 0 1
+intersect poly 3 1 -1 1 -2 -1 -2 seg -2 2 -2 -2
+intersect seg -2 -1 -1 -1 line -2 -1 -1 2
+intersect seg 0 1 -2 2 line -2 -2 -2 2
+intersect seg 2 1 0 2 line 2 -1 -2 2
+inside 4 2 -1 1 0 0 1 -2 1 -1 1
+intersect pt 2 1 pt 0 0
+intersect pt 2 -2 line 1 -2 -1 0
+intersect line 2 0 -2 1 poly 3 -2 0 -1 1 -1 2
+intersect pt -1 -2 line -2 -2 0 1
+intersect pt 2 -2 line -1 1 -2 2
+intersect seg -1 0 -2 -2 seg -2 -1 -2 -1
+intersect seg 1 -1 1 -1 line 2 2 0 -2
+intersect line 0 1 -2 -1 poly 4 1 1 2 1 2 0 0 0
+intersect poly 3 -2 0 1 -1 0 -2 line -2 -2 2 -2
+intersect seg 1 -2 0 2 line -2 0 1 2
+intersect seg 1 -1 1 -1 line 1 -1 1 0
+intersect poly 4 2 2 1 0 1 -1 -2 -1 line 2 0 2 2
+intersect pt 1 -1 poly 3 2 -2 2 0 0 0
+intersect line 1 2 -1 -1 pt -2 0
+inside 5 -2 -1 2 -2 1 0 0 0 -1 0 1 -1
+inside 3 1 -2 -1 -1 -2 -1 -2 -2
+intersect poly 5 -2 0 1 -1 0 1 0 2 -2 1 poly 4 -2 2 1 2 1 -2 -2 0
+intersect seg 1 -1 1 1 seg -2 -1 -2 0
+intersect pt 2 1 line 0 -2 2 0
+intersect seg 1 1 2 2 seg -1 2 -2 1
+intersect seg 0 1 2 -1 line 0 0 -1 0
+intersect line 1 1 1 -2 line -1 0 0 2
+intersect pt 0 -1 seg -2 0 -2 0
+intersect pt -2 1 pt -2 2
+intersect line 0 1 0 -2 pt 0 -2
+intersect pt -2 2 seg 2 2 2 -1
+intersect pt 2 -2 line 1 2 1 0
+intersect line 2 -1 0 1 pt 1 1
+intersect pt 0 -1 poly 3 -1 -1 2 1 -1 0
+intersect poly 5 1 1 2 2 2 1 -1 -2 -1 0 line -2 -2 -2 0
+intersect line -2 2 -1 -1 seg 1 -1 -2 -2
+intersect line -1 2 -2 0 pt -2 -2
+intersect pt -1 0 poly 4 0 0 1 -2 1 1 -2 2
+intersect poly 4 2 -1 2 1 1 1 -1 1 line 1 -2 -2 1
+intersect poly 3 0 0 2 2 0 1 pt 0 -1
+inside 3 0 1 2 1 -2 -2 1 -1
+intersect pt 2 -2 poly 4 1 2 2 1 1 -2 -1 -1
+inside 3 1 -2 2 1 -1 0 0 0
+intersect pt 2 -2 poly 5 -1 0 2 1 1 0 2 -1 -1 -2
+intersect pt 0 1 line 2 -1 1 -2
+intersect line 0 -1 2 1 pt 1 0
+intersect pt -2 2 pt -1 2
+intersect seg -1 0 0 -1 pt 0 2
+inside 4 0 -1 1 2 0 2 -2 2 1 0
+intersect line 0 1 2 -1 pt -1 1
+intersect poly 3 -2 2 2 0 0 -1 line 1 2 2 1
+intersect seg 2 -2 0 1 line 1 1 2 0
+inside 4 1 -2 2 0 0 1 -2 2 -2 2
+intersect poly 3 1 -1 2 0 -1 1 seg 2 -1 1 1
+intersect line -1 2 2 2 line 0 -2 1 2
+intersect poly 4 -2 2 2 -1 2 -2 1 -1 pt 0 0
+intersect poly 4 2 1 2 0 2 -2 -1 -1 poly 5 2 -2 2 -1 2 2 1 1 -1 0
+intersect pt -2 1 seg 0 0 -1 0
+intersect line -1 -2 1 -1 seg -2 1 -2 1
+intersect seg -2 -1 -1 0 seg 1 -2 1 0
+intersect seg 2 2 -1 -2 pt 2 -2
+intersect line 2 1 1 2 poly 5 -1 2 0 1 2 2 0 0 -2 -1
+intersect seg -1 2 -1 2 poly 5 0 -1 2 -2 2 1 1 1 -2 0
+intersect seg 0 0 1 -1 poly 3 0 2 1 2 1 0
+intersect line 0 1 -2 -1 line 2 -2 -2 1
+intersect line 2 0 -2 -1 line -2 1 -1 0
+intersect seg -2 0 2 1 pt 0 -2
+inside 5 -2 -2 -1 -2 2 -2 -2 2 -2 0 -1 -2
+intersect seg -2 1 0 1 pt 2 -2
+intersect pt -2 1 poly 4 -2 -2 1 -1 2 -1 0 0
+intersect poly 4 -1 2 1 2 1 0 -2 -2 seg 0 2 -2 -2
+intersect seg 2 0 2 0 poly 3 0 2 2 1 0 -2
+inside 4 1 -2 2 -2 0 0 -1 -1 -2 -1
+intersect pt -2 -2 seg -1 -2 0 0
+intersect poly 3 0 0 1 1 0 -1 seg 1 2 1 -1
+intersect line 0 1 2 -1 poly 3 -2 2 1 1 1 -2
+intersect seg -2 2 2 0 line 0 -2 -1 -1
+inside 5 -2 1 -1 1 -1 2 2 -2 -2 -2 -1 -1
+inside 4 -2 1 0 2 2 -1 1 -2 -2 0
+intersect line -2 2 -2 0 seg -2 1 -2 1
+intersect pt 0 -1 line -1 2 1 -1
+intersect poly 3 0 1 1 2 1 0 poly 3 -2 -1 2 0 0 0
+intersect poly 4 -2 1 0 1 2 0 -2 0 pt -1 -2
+intersect poly 4 -2 1 1 2 2 2 -2 -1 pt 1 2
+intersect seg 2 2 -1 -2 poly 5 0 2 2 1 2 -2 0 -2 -1 -2
+intersect line 0 -1 0 1 line -2 -1 -2 2
+intersect seg 1 2 0 1 poly 3 -2 2 1 0 0 -1
+intersect seg 0 0 1 0 poly 4 1 1 2 1 1 -1 1 0
+intersect line 2 -2 -1 -2 line -1 -1 -1 2
+intersect line 2 -2 0 -2 pt 2 0
+intersect pt 0 -1 line 1 -1 -2 0
+intersect pt 1 0 pt 1 0
+inside 3 -2 0 1 1 0 1 -2 1
+intersect seg -1 -2 -2 1 seg 0 0 1 0
+intersect pt -2 2 seg 1 -2 -1 0
+intersect poly 3 -2 0 0 0 0 2 line 1 0 1 -1
+intersect pt 0 -1 poly 5 0 2 1 2 2 2 1 1 1 -1
+intersect poly 3 -2 0 2 -1 0 2 pt 0 -1
+intersect poly 4 -2 2 0 -1 -2 -2 -2 -1 seg 2 1 1 -2
+intersect seg -1 1 2 -2 poly 5 -1 -2 0 -2 1 -2 2 -1 1 1
+intersect seg 1 2 -1 1 line 0 2 0 0
+intersect line -2 1 -2 0 seg 2 -2 -2 2
+intersect seg 2 2 -2 1 line 0 -1 0 2
+inside 4 -1 1 -1 2 1 -1 0 -1 -2 1
+intersect poly 4 -2 2 2 2 1 1 -1 1 seg -1 2 1 -2
+inside 4 -2 0 0 0 1 0 0 2 2 2
+intersect poly 4 -2 -1 0 -2 0 -1 1 2 poly 5 -2 0 -2 2 2 2 2 -2 -2 -2
+intersect seg -2 1 2 1 poly 3 1 1 1 -1 -2 -2
+inside 5 -1 0 1 -2 2 -1 2 2 0 2 -1 2
+intersect line -1 0 -1 2 pt 0 -2
+intersect pt 0 -1 pt 0 -1
+intersect line 2 0 0 1 poly 4 -2 0 1 0 2 1 1 1
+intersect line 0 0 0 -2 line -1 -1 0 -1
+intersect seg 2 2 1 0 line 0 1 0 -2
+intersect pt 1 -2 poly 4 0 0 2 0 2 2 -1 1
+inside 4 -1 1 -1 2 1 2 -2 -1 -1 -2
+intersect seg -2 0 -2 -2 pt -2 1
+intersect line 0 0 1 -2 line 2 -1 1 2
+intersect line 2 0 1 -2 pt 1 -2
+intersect poly 4 -1 0 2 1 0 -1 -2 -1 poly 4 0 0 -1 -2 2 2 1 1
+intersect poly 4 0 -2 1 -2 2 -1 2 1 seg -1 1 1 2
+intersect line 1 -1 0 2 line 2 -1 -2 2
+intersect pt 0 0 poly 4 -2 2 -1 2 1 0 0 -1
+intersect line -1 -2 -1 2 pt 0 1
+intersect seg -2 0 -2 0 seg 0 -1 0 -1
+intersect poly 4 1 2 2 1 0 -2 -1 0 poly 4 -1 -1 2 -2 2 0 0 2
+inside 5 -1 -1 -2 -2 2 -1 2 2 -1 1 -2 -1
+intersect pt 0 0 seg 2 -1 2 -1
+inside 4 -2 -1 0 -1 1 1 -1 0 -1 1
+inside 5 -1 -1 -2 -2 -1 -2 2 1 0 0 -2 2
+intersect line -1 -2 1 1 line 2 0 -2 1
+intersect seg -2 2 0 -2 poly 4 -1 2 1 2 0 1 0 -1
+intersect line 0 1 -1 -2 pt 0 2
+intersect seg -2 2 1 -1 seg 2 -2 0 0
+intersect pt 1 -2 seg 1 1 1 0
+intersect line 1 -2 -1 -2 seg -1 0 1 0
+intersect poly 4 0 1 1 2 2 -2 1 -1 seg -1 1 1 2
+intersect seg -1 -1 -2 0 seg 0 1 -2 2
+intersect poly 4 -2 -2 1 -2 0 0 -1 2 pt -1 1
+inside 4 -1 -2 2 -1 1 2 0 0 0 -1
+intersect poly 4 -2 1 -2 2 1 1 2 0 pt 2 1
+intersect poly 4 0 2 2 1 0 -2 -2 -2 line 2 2 0 -2
+inside 5 -2 1 -1 1 1 0 0 0 -2 0 0 -1
+inside 3 -1 2 1 -1 -2 -1 0 1
+inside 3 0 0 1 -2 -1 -2 0 0
+inside 4 -1 2 2 0 2 -2 -2 -2 1 0
+intersect poly 3 -1 -2 2 1 -2 1 line 0 0 0 -1
+intersect poly 4 0 2 1 2 0 -1 -1 0 poly 4 -2 -1 2 0 0 1 0 2
+inside 3 -1 1 1 -1 1 -2 1 -1
+intersect poly 4 0 1 2 2 2 0 2 -1 pt 2 0
+inside 4 -1 0 -1 1 0 1 -1 -2 -1 2
+intersect line 0 -2 1 -1 seg -1 -2 0 0
+intersect seg 2 0 1 -2 seg 0 -1 -1 1
+intersect pt -1 -1 pt 2 -2
+inside 3 0 2 2 -1 -1 -2 -2 2
+intersect seg 2 1 2 -1 seg 2 -2 2 -2
+intersect pt -2 0 poly 4 -2 1 0 2 0 0 -2 -1
+intersect pt 0 1 pt 0 0
+intersect seg 0 1 2 1 pt 2 0
+intersect line 0 2 0 -1 poly 5 -2 -1 1 -2 2 0 0 2 -2 0
+intersect seg -2 2 1 0 line 0 -1 -1 -1
+intersect poly 4 -1 1 -1 2 1 -1 0 -2 line 1 -1 1 1
+intersect poly 4 2 2 2 1 -2 -2 -2 -1 seg 2 1 -1 0
+intersect seg -2 -2 -2 2 poly 4 -2 -2 1 -2 0 -1 -1 2
+intersect pt 1 -1 poly 3 0 -1 2 2 -1 1
+intersect line -2 2 0 -1 line 2 -2 2 0
+intersect seg 0 2 -2 1 pt 0 0
+intersect seg 2 2 0 -2 poly 4 -1 -2 2 -2 0 2 -1 1
+inside 4 -2 -1 -2 1 2 -2 -2 -2 1 -1
+intersect poly 5 -2 -1 2 -2 2 -1 0 1 -1 1 line 2 1 0 1
+intersect poly 3 -2 1 1 0 1 -2 poly 3 0 -2 1 -2 0 2
+intersect pt -1 -2 line 2 -1 2 1
+intersect pt -2 0 seg 2 2 1 2
+intersect seg 1 2 -1 -1 line -2 0 -1 -1
+intersect pt -2 -2 pt 0 1
+intersect poly 4 -1 1 2 2 1 -1 0 0 seg 0 1 2 -2
+intersect poly 4 -1 2 1 2 -1 -1 -2 0 poly 5 -2 0 0 2 2 1 1 -1 -1 -2
+inside 3 2 -1 2 1 0 2 0 1
+intersect poly 4 -2 2 2 2 0 0 -1 0 pt -1 -1
+intersect pt -1 1 pt -1 2
+intersect poly 4 -2 0 1 0 1 2 0 1 seg 1 -1 2 0
+inside 3 1 2 2 -1 -1 -1 -2 -1
+intersect line 1 0 1 -1 seg 2 -2 0 2
+intersect pt -1 -2 pt 0 2
+intersect pt 1 -2 poly 3 -1 -2 1 2 0 1
+inside 5 -2 0 -2 2 0 -1 1 -2 -2 -1 2 2
+intersect line 1 -1 1 1 pt 1 -2
+inside 4 1 1 2 0 1 0 -2 0 2 0
+intersect pt 0 -1 line -1 2 -1 1
+intersect seg -1 1 0 0 seg 2 -2 -1 -2
+intersect seg 0 2 0 -2 poly 4 0 1 2 2 1 0 -2 -1
+intersect line -2 -2 2 1 pt 1 2
+intersect seg 1 0 2 0 seg 1 -2 -1 1
+intersect pt -1 -1 seg -1 -1 2 0
+intersect line 1 -2 -2 2 pt 0 1
+intersect line 2 0 -2 0 line -1 1 1 2
+intersect poly 3 -2 -2 -1 1 -2 2 seg 1 1 1 1
+intersect pt -1 -1 pt 1 1
+intersect pt -1 1 pt 1 1
+intersect seg -2 0 2 -1 pt -2 2
+inside 4 -2 1 2 0 2 -2 0 -1 0 2
+intersect pt 1 -1 seg 2 -1 0 -1
+intersect pt -1 2 seg -1 1 0 -1
+intersect seg -1 0 -1 0 line -1 -1 1 0
+intersect seg -1 -2 -1 -2 pt 1 -1
+intersect pt 1 1 seg -1 -1 1 -1
+inside 5 0 -2 1 -2 1 -1 -2 2 -2 0 -2 -1
+intersect pt -2 2 pt -2 0
+intersect line 0 -1 -1 0 poly 4 -2 -2 -1 -1 0 0 -2 -1
+intersect line -2 0 1 0 seg -2 0 -1 1
+inside 3 -2 1 -1 1 1 2 2 1
+intersect seg 1 -1 1 0 seg 2 1 -2 0
+inside 3 -1 -1 0 2 -1 2 2 -1
+intersect line 0 1 -2 -2 pt 2 -1
+intersect line 0 2 -1 -2 seg -2 2 0 2
+intersect seg -1 -1 -1 -1 poly 4 0 -1 0 2 -1 2 -2 2
+intersect pt 2 0 poly 3 2 -1 -2 1 -2 0
+intersect seg -1 0 -1 -1 poly 3 2 -1 1 1 -2 2
+intersect pt 2 0 pt -2 -1
+intersect seg -1 1 2 1 line 1 -1 1 0
+intersect poly 3 -1 2 1 2 1 1 seg 1 -2 0 -1
+inside 3 -1 0 0 2 -1 1 -1 -2
+intersect seg 0 -2 2 -2 line -2 2 -2 0
+intersect seg 0 1 1 -1 seg -2 2 1 0
+intersect poly 4 0 -1 2 2 1 2 -2 2 poly 4 -1 1 0 0 -1 -2 -2 -2
+intersect poly 5 -2 1 1 2 2 2 2 -1 -1 -2 line 1 -1 1 0
+inside 4 -1 -1 0 0 1 2 -2 1 -1 -1
+inside 4 0 -2 2 -1 0 0 -1 1 -2 -1
+intersect seg -2 -2 2 -2 pt 1 0
+intersect line 2 0 2 -1 seg 2 1 2 1
+inside 3 1 -2 2 -1 2 0 2 -1
+intersect poly 3 2 1 2 -2 -1 -1 poly 5 -2 2 -1 2 0 2 2 1 -2 1
+inside 3 0 -1 2 2 -1 1 0 -2
+inside 3 2 -2 2 2 1 2 -2 -2
+intersect poly 4 -2 -2 -1 -1 2 -1 -2 2 seg 2 0 -1 -1
+intersect pt 1 1 pt 2 2
+intersect pt -2 0 seg 1 2 0 0
+intersect poly 4 0 2 1 0 2 -2 0 -1 pt 1 2
+intersect seg 1 2 1 -2 seg -2 2 1 1
+intersect line 2 1 -2 0 line 1 -1 0 1
+intersect poly 4 1 2 1 0 1 -1 -2 -1 poly 5 -2 -1 -2 -2 0 -1 1 -1 -1 1
+intersect pt 0 -1 pt 1 -2
+intersect line 2 -1 -1 -2 seg 0 0 -1 -1
+intersect seg 1 -2 1 -2 poly 5 2 -2 2 -1 2 0 0 1 -2 1
+intersect seg 0 -2 0 1 poly 3 2 -2 0 1 -2 2
+intersect pt 0 1 seg -1 -1 -2 1
+inside 4 0 2 1 0 1 -2 -2 -1 -1 1
+inside 4 -2 1 2 1 0 0 -2 -1 -2 2
+intersect pt 0 -2 line 2 -2 -1 -2
+intersect line 0 0 1 2 seg -2 -2 1 -2
+intersect poly 3 0 1 1 0 -2 0 poly 4 1 2 1 1 0 -1 -2 0
+intersect line -1 -2 -2 -1 seg 1 2 0 -2
+intersect line -1 2 -1 1 pt 0 1
+intersect line 0 1 -1 2 seg 2 -1 -1 1
+intersect pt -1 1 poly 4 1 -1 2 -1 2 1 2 2
+intersect pt -2 0 pt -1 2
+intersect seg -2 -1 1 -1 poly 4 -1 -2 0 -1 0 -2 1 2
+intersect line -1 0 -2 0 seg -2 1 2 0
+intersect poly 3 -2 1 -1 1 -2 0 seg 1 -2 1 1
+intersect pt -2 0 seg 1 2 2 -1
+intersect poly 3 1 1 -1 2 -2 2 seg 1 0 -1 -1
+inside 5 -2 1 0 0 2 2 1 2 -2 2 2 -2
+intersect line 2 0 0 -1 poly 4 0 0 1 -2 1 1 -2 2
+intersect pt 0 -2 seg -1 -1 2 1
+inside 4 -2 2 1 -1 -1 -1 -2 -1 -1 2
+intersect pt 0 -1 poly 5 -1 -2 0 -2 0 -1 0 2 -2 0
+intersect poly 5 -2 -2 0 -2 1 0 1 2 0 1 poly 4 -2 -1 0 0 0 -2 -2 -2
+intersect poly 4 -1 1 -1 2 1 1 2 -2 pt -1 2
+intersect pt -1 -2 line 2 -2 -2 2
+intersect seg -2 2 -2 -1 poly 3 -1 1 0 -1 -1 -2
+intersect pt 0 2 poly 5 -2 2 1 1 2 0 0 -2 -1 0
+inside 4 -2 2 2 0 1 0 1 -2 2 0
+inside 4 -2 -2 0 -1 -2 2 -2 0 0 -1
+intersect seg -1 1 0 0 seg 1 -2 2 2
+inside 5 1 0 2 -2 2 0 2 1 0 2 -2 0
+inside 5 0 0 1 2 2 -1 0 -2 -1 -2 2 2
+inside 3 2 1 0 -2 -1 -2 2 -2
+intersect line 1 2 1 -2 line -2 2 1 -2
+intersect line 0 0 2 2 line 0 0 1 -1
+intersect seg -1 0 -2 -2 line 0 2 2 0
+intersect seg -2 -2 1 -1 line -1 2 2 1
+intersect poly 3 1 -2 1 1 0 2 line 0 -2 2 0
+intersect pt -2 -2 pt 0 1
+intersect poly 5 1 -2 1 -1 2 1 -1 1 -2 0 poly 4 -2 -1 0 0 2 -1 -1 -2
+intersect pt 1 -2 line 2 -2 2 0
+inside 3 -1 2 1 -1 -2 -2 2 -2
+intersect seg -1 -2 1 0 pt 1 -2
+intersect poly 3 -2 -2 2 -2 0 -1 pt -2 -1
+intersect pt -2 -1 line 0 0 1 -2
+intersect line 2 -1 0 0 line 2 -2 2 2
+inside 4 -1 -1 -1 -2 2 2 -1 0 2 2
+intersect poly 4 -2 2 0 2 1 2 0 1 line 2 -1 -1 0
+intersect pt 2 2 line -1 -2 0 1
+intersect line 1 -1 -1 -1 pt 1 0
+intersect line -1 -2 -2 -2 seg 2 2 2 0
+intersect poly 4 -1 1 0 1 0 0 -1 0 line -2 2 1 1
+intersect poly 5 -1 -2 0 -2 2 1 0 2 -2 1 poly 4 0 2 2 2 -2 -2 -2 0
+intersect pt -2 -2 pt 0 1
+intersect line -2 1 -2 0 line 2 2 1 1
+intersect poly 3 0 -2 2 0 1 0 seg 0 -1 2 -1
+intersect seg 2 0 2 -1 pt 2 1
+intersect seg 2 2 -2 2 pt 1 -2
+intersect line -1 -2 2 0 line -2 -1 2 2
+intersect seg -1 -1 1 -1 line -1 2 2 0
+intersect poly 4 0 -2 2 1 -1 1 -2 0 seg -2 1 -2 -2
+intersect poly 4 2 0 1 1 0 2 -1 2 seg -2 1 1 1
+intersect pt -2 2 pt 0 -2
+inside 3 -1 0 1 0 0 -1 1 -1
+intersect line 2 -2 -1 0 pt -1 0
+inside 4 -2 1 -2 2 2 2 0 -2 2 -1
+intersect seg -2 0 2 1 pt 0 2
+intersect poly 3 -1 -2 2 -2 2 2 poly 4 -2 -1 0 -1 2 1 -2 1
+inside 4 -2 2 1 2 -2 -1 -2 0 1 -1
+intersect poly 4 -2 2 2 2 2 1 2 -1 poly 4 -1 0 0 2 1 -1 -1 -1
+intersect line 1 -2 2 2 poly 3 -1 1 -1 2 -2 2
+inside 4 2 0 1 2 -1 1 -2 1 1 2
+inside 4 -1 -1 1 1 2 -2 -2 -2 0 1
+intersect pt -2 0 line -2 1 0 2
+inside 3 -2 1 -2 2 1 -2 -2 -2
+intersect seg 1 -2 1 0 line 1 0 2 -1
+intersect seg -2 2 1 2 poly 3 1 1 0 -2 -2 -1
+intersect poly 3 2 -2 0 0 -2 0 pt 0 1
+intersect line -2 2 -2 -2 pt 0 -1
+intersect line 0 1 0 -1 poly 5 -2 1 -1 2 2 1 2 -2 0 -1
+inside 4 -1 1 -1 2 1 -2 -1 -2 0 -1
+intersect poly 4 -2 1 1 1 1 0 1 -1 seg 2 0 -2 1
+intersect line 1 -2 -2 2 poly 5 -1 2 2 1 2 0 0 -1 -2 -1
+intersect pt -1 -1 poly 4 -2 0 -1 0 0 -2 -2 -2
+intersect seg 0 2 0 -2 seg 1 -2 0 0
+intersect line 1 2 2 -1 pt -1 -1
+intersect seg 2 1 1 -2 line 1 1 0 2
+intersect seg -1 0 -1 -1 seg -2 2 1 2
+intersect poly 5 -1 1 -1 2 2 2 2 0 2 -1 poly 5 -2 -1 -1 -2 0 -1 1 -1 2 1
+intersect seg 0 1 -2 -1 pt 2 2
+intersect seg 2 2 2 2 pt 2 -2
+intersect line -1 0 2 0 pt 2 -2
+intersect line -1 2 1 -2 line 0 -1 1 -2
+intersect seg 2 0 0 1 pt -2 2
+intersect poly 4 -1 1 0 2 0 1 -2 -2 seg 0 0 -1 1
+intersect poly 4 -2 -2 0 -2 -1 -1 -2 1 seg 0 1 0 1
+intersect line 0 -2 -2 2 line 1 2 1 -1
+intersect poly 4 -2 1 -1 2 -2 -2 -2 0 pt 0 2
+intersect seg 2 2 -2 -2 poly 3 2 2 -1 0 -2 0
+intersect line 1 -1 -2 -1 line 2 0 2 -2
+intersect poly 4 1 -2 2 -2 -1 1 -2 1 pt 1 2
+intersect seg 0 0 2 1 line 1 2 -1 2
+inside 3 -2 0 0 -1 -2 2 2 0
+intersect line 0 0 1 -2 poly 4 -2 -2 0 -2 0 0 -1 1
+intersect seg 0 -1 -1 0 line 2 1 0 2
+inside 5 -1 1 -1 2 0 1 2 1 0 -2 2 2
+inside 4 -1 1 2 1 1 -1 0 -1 -1 2
+intersect pt 0 1 line 2 -1 2 -2
+intersect line -2 -1 1 0 poly 3 -2 1 1 1 -2 -1
+intersect poly 5 -2 1 -1 2 2 0 0 -1 -1 -1 line -1 1 -2 -2
+intersect poly 3 2 -1 0 0 -2 0 line -2 0 -2 2
+intersect poly 4 -1 1 1 2 2 1 2 -1 seg 0 -1 0 0
+intersect poly 4 -2 2 -1 2 0 2 1 0 line 0 -2 2 1
+intersect poly 3 -2 -1 2 1 -2 2 pt -2 -2
+intersect pt 0 -1 poly 3 1 2 2 -1 0 -1
+intersect line 1 -1 -1 -1 line -1 -1 0 2
+intersect seg -2 1 -1 1 pt 1 -1
+intersect line 2 0 2 2 poly 4 0 -1 2 2 1 2 -1 2
+intersect poly 4 -1 2 1 1 1 0 2 -2 pt -2 2
+intersect seg -2 1 -1 0 line 1 1 0 1
+intersect line 0 0 -2 -1 poly 3 -2 -2 -1 -1 -2 -1
+intersect pt -1 -1 pt -2 0
+intersect line 0 2 0 0 pt -2 0
+intersect seg -2 2 1 -1 poly 4 -2 -1 -2 -2 -1 0 -1 2
+inside 4 -2 -1 0 -2 2 -1 -1 2 0 2
+inside 4 -1 1 1 2 -1 -2 -2 0 1 0
+intersect pt 1 2 pt -1 1
+intersect seg 2 0 -1 1 poly 4 -1 2 0 2 -1 0 -2 -1
+intersect pt 2 -2 pt 2 -2
+inside 4 -2 0 0 1 1 -1 1 -2 -2 2
+intersect pt 1 1 pt 1 -2
+intersect line 1 -2 -1 -1 line -2 2 2 2
+intersect poly 4 0 -2 2 -2 1 -1 -2 1 poly 4 -2 1 0 1 2 2 2 -1
+intersect pt 1 0 line -2 -2 -2 1
+intersect line -1 1 0 1 poly 4 -1 2 2 1 1 -2 -2 0
+inside 4 -2 1 0 2 1 -1 1 -2 1 2
+intersect poly 4 -2 2 -1 1 1 1 -2 -2 seg 2 1 0 2
+intersect seg -1 -1 -2 -2 line -1 -2 0 2
+intersect seg -1 0 -1 0 line 0 -2 -2 0
+intersect pt -1 1 line 1 -1 2 1
+intersect line 0 2 -1 -2 pt 2 2
+intersect seg 1 -2 2 1 seg 2 -1 -2 2
+intersect poly 5 -2 -1 0 -1 1 -2 1 0 -2 2 line 2 -2 -2 -2
+intersect pt 1 -2 seg -1 0 1 2
+intersect pt -1 -1 line -2 2 2 2
+inside 4 0 2 2 2 0 0 -2 0 1 1
+intersect pt 0 -2 pt -1 0
+intersect pt 1 2 seg 2 1 0 -1
+inside 4 -1 0 -1 -2 2 1 0 2 -1 -2
+intersect line -1 0 -1 -2 poly 5 0 1 1 1 -1 -1 -2 -2 -2 -1
+inside 5 -2 2 0 2 2 2 2 1 0 0 -1 1
+intersect pt -1 2 line -2 -2 -2 -1
+inside 3 2 -2 2 0 1 0 -1 1
+intersect poly 5 -2 2 -1 2 2 1 1 0 -1 -2 line -2 -1 -1 -2
+intersect pt 2 1 pt 1 2
+intersect pt 1 0 poly 4 1 1 2 -1 0 -2 -2 -1
+intersect seg 2 0 2 0 line 2 1 -2 1
+intersect seg 0 2 -2 -2 poly 4 -2 1 -1 1 1 1 0 2
+inside 4 0 1 1 -1 2 -2 -1 -1 -1 2
+intersect pt 0 1 seg -1 -1 1 2
+intersect pt -2 1 poly 3 -1 2 2 1 1 1
+intersect line -2 1 1 -1 line 0 1 0 -2
+intersect pt 1 0 line 1 2 1 -1
+intersect line -1 -2 0 0 pt 0 1
+intersect pt 1 0 poly 3 0 0 2 -1 2 2
+inside 4 -2 2 1 -1 0 -2 -2 -2 -1 2
+intersect poly 4 0 -2 2 0 0 0 -2 1 seg 2 -2 -1 0
+intersect poly 3 1 0 2 2 0 1 seg 2 -1 2 1
+intersect seg -1 0 -2 -1 line -1 1 2 -1
+inside 5 1 2 2 2 0 -1 0 0 -2 0 -2 1
+inside 4 0 -2 2 -1 2 2 -2 2 -1 -2
+intersect line 2 0 2 1 seg -2 -2 1 -2
+intersect seg 0 1 0 1 line 1 -1 0 2
+inside 4 -1 0 2 -1 2 2 -1 1 -2 -2
+intersect seg -1 -1 -1 -2 poly 3 2 -2 -2 2 -1 0
+intersect line 2 -2 -1 1 seg -2 0 0 -2
+inside 4 0 0 2 2 0 2 -2 2 2 1
+intersect seg -1 -1 -2 2 line 0 0 1 1
+intersect poly 5 -2 -1 -1 -2 2 1 2 2 -2 1 line 1 -1 0 -2
+inside 4 2 -2 -2 0 -2 -1 -1 -1 -2 1
+intersect pt -1 2 seg 1 1 -1 -1
+intersect poly 4 -2 1 0 1 0 0 1 -1 seg -2 0 2 2
+inside 3 -1 -2 0 -2 1 -1 0 -1
+intersect line 1 2 -2 -1 pt 1 2
+intersect line 2 -1 -2 1 seg 1 -2 0 2
+intersect seg 2 -1 1 1 line 2 2 2 0
+intersect pt -1 0 line 2 -1 1 -2
+inside 4 -2 1 1 1 2 1 -2 -1 -2 -2
+inside 3 0 2 -1 0 -2 -1 -2 -1
+intersect line -2 -1 -2 -2 seg 0 -2 2 2
+intersect seg 2 0 2 -1 seg -1 0 -1 0
+intersect line -2 1 1 0 poly 4 -1 -1 2 -2 1 0 -1 0
+intersect pt 0 -1 seg 2 1 -2 -2
+intersect seg 2 -2 0 1 poly 3 2 2 2 -1 0 0
+intersect seg -1 1 0 -2 line -1 -1 -1 2
+intersect pt 0 1 pt -2 -1
+intersect seg 0 -2 -1 -1 pt -1 0
+intersect poly 4 -2 -2 -1 -2 -1 2 -2 1 poly 4 -2 2 0 2 2 -1 -1 0
+inside 4 -2 -2 2 -2 -1 2 -1 0 0 -2
+intersect pt 2 -1 seg -2 1 0 0
+intersect line -1 2 -1 -1 pt -1 0
+intersect pt 1 -2 line -2 -2 1 -1
+intersect seg 1 1 -1 0 seg 2 1 2 -2
+intersect seg -2 0 2 -2 line 1 0 2 0
+inside 5 1 -2 2 2 1 2 -2 2 0 1 1 2
+intersect pt 2 -2 line 0 -1 -2 2
+intersect line -1 -2 -1 1 seg 2 -2 1 -1
+intersect line -1 0 0 1 poly 4 -1 1 2 1 2 -1 -2 -2
+intersect poly 5 -1 1 1 0 2 0 2 -1 0 -1 pt -1 -2
+inside 4 -1 2 1 1 1 0 0 0 1 2
+intersect seg -1 -2 -2 2 seg -1 0 -1 0
+intersect pt 0 -2 poly 4 -2 -2 0 -1 2 2 0 1
+intersect poly 4 -2 -1 1 1 2 2 1 2 pt -2 0
+intersect seg 2 -2 0 2 seg 0 0 0 0
+inside 4 0 -2 1 -1 2 1 -1 0 1 0
+intersect seg 2 -2 0 1 pt 1 -1
+intersect seg -1 -2 -2 -1 seg 0 1 2 0
+intersect pt -2 -1 pt -2 -1
+intersect poly 3 1 1 0 0 -2 -1 pt -1 -1
+intersect line 0 1 1 -2 poly 3 -2 -1 0 -2 2 2
+intersect line 0 0 0 -2 seg 2 -2 0 -1
+inside 4 -1 -1 0 -2 1 1 -2 0 1 -2
+inside 3 -2 -1 2 -2 -1 2 -2 1
+intersect line 0 1 -1 -2 seg 0 -1 -2 0
+intersect pt 2 2 poly 4 0 0 1 0 0 1 -1 1
+inside 4 -2 -1 1 0 0 1 -1 0 1 2
+intersect seg -1 1 1 1 line -2 0 -2 -1
+inside 4 0 1 1 1 2 1 1 0 -1 -1
+intersect poly 4 0 -2 1 -2 1 0 0 1 pt 1 -2
+intersect seg -1 0 -1 0 line -2 1 0 -1
+intersect pt 1 -2 pt -1 0
+intersect line -1 2 -2 2 pt -1 0
+intersect poly 4 -2 2 1 1 0 0 -1 0 pt 0 -2
+intersect line 2 0 2 -1 pt 2 -1
+intersect seg 2 1 0 -1 poly 4 1 -2 1 0 0 0 -2 1
+intersect poly 3 1 -2 1 -1 -1 0 line 0 0 -2 1
+intersect poly 3 -1 1 0 -1 0 -2 poly 4 0 -2 2 -1 1 1 -2 0
+intersect poly 4 -2 -2 -1 -1 0 1 -2 0 line -2 2 2 -1
+intersect seg -1 -2 0 -1 poly 4 1 -2 2 -2 2 2 -1 1
+intersect pt 0 -1 pt 2 -2
+intersect pt -2 -1 poly 3 -1 2 2 2 1 0
+inside 5 -1 -2 2 -1 2 1 0 0 -1 0 -1 -1
+intersect pt -1 -2 pt -1 0
+intersect poly 4 -1 -1 2 -1 1 1 -1 0 line 1 0 -1 -2
+inside 4 1 -1 2 -2 1 0 -2 2 -1 2
+inside 4 -1 -1 1 0 2 2 1 1 2 1
+intersect line -2 -2 -1 -2 poly 4 2 0 2 2 1 2 0 2
+intersect pt -1 2 poly 3 -1 0 -1 -1 -2 -1
+intersect pt 0 0 poly 4 1 -2 2 -2 0 1 -2 1
+inside 4 0 0 0 1 1 -1 0 -1 -1 0
+inside 4 -2 1 -1 1 1 0 0 0 -1 -1
+intersect line 0 -1 2 1 line -2 0 0 1
+intersect line 1 0 -1 2 seg 1 2 1 -2
+intersect seg 2 0 0 -2 line 0 -2 2 1
+inside 5 1 -2 2 -2 2 1 1 0 -2 1 0 2
+intersect seg -1 -1 -2 -2 seg -2 0 2 2
+intersect line 0 -2 -2 2 line -1 1 -1 2
+intersect line -2 -2 0 -2 seg -1 1 2 2
+intersect poly 5 0 0 0 2 1 1 1 -1 -1 -2 pt -1 0

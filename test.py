@@ -9,6 +9,11 @@ import zipfile
 import urllib.error
 import urllib.request
 
+# for problems with many valid answers the test code checks its answer itself and prints WRONG if it is not valid,
+# so only whether there is a solution is compared
+def any_solution(no_solution: str):
+    return lambda lines: lines if lines[0] in ([no_solution], ["WRONG"]) else [["SOLUTION"]]
+
 # test name -> (cses problem id, transformation of output lines before comparing)
 CSES_TESTS = {
     "fenwick": (1739, None),
@@ -21,6 +26,9 @@ CSES_TESTS = {
     "tarjan_bridge": (2076, lambda lines: lines[:1] + sorted(sorted(l) for l in lines[1:])),
     "convex_hull": (2195, lambda lines: lines[:1] + sorted(lines[1:])),
     "suffix_array": (2105, None),
+    "two_sat": (1684, any_solution("IMPOSSIBLE")),
+    "gauss": (3154, any_solution("-1")),
+    "articulation_points": (2077, lambda lines: lines[:1] + [sorted(sum(lines[1:], []))]),
 }
 CSES_DATA_DIR = os.path.join("tests", "cses")
 CSES_TESTS_URL = "https://cses-tests.pages.dev/{}.zip"
@@ -67,6 +75,12 @@ def download_tests(problem_id: int, data_dir: str, label: str):
     except urllib.error.URLError as e:
         clear_status()
         print(f"  {style('✗', RED)} {label}  {style(f'downloading tests failed ({e})', RED)}")
+        sys.exit(1)
+
+    # the mirror answers with a html page instead of an error for problems it does not have
+    if not zipfile.is_zipfile(io.BytesIO(archive)):
+        clear_status()
+        print(f"  {style('✗', RED)} {label}  {style(f'no tests for cses problem {problem_id} on {CSES_TESTS_URL.format(problem_id)}', RED)}")
         sys.exit(1)
 
     # extract into a temporary directory first so that an interrupted download is not mistaken for a complete one

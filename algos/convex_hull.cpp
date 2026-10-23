@@ -1,3 +1,6 @@
+// convex_hull(a,include_collinear): replaces a with its convex hull in counter-clockwise order, starting at the smallest point
+// include_collinear: also keep points lying on hull edges
+// cross(a,b,c): >0 if a->b->c turns left, <0 if right, 0 if collinear
 struct pt{
 	ll x,y;
 	bool operator<(pt o)const{return pll(x,y)<pll(o.x,o.y);}

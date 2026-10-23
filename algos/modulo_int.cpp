@@ -1,3 +1,5 @@
+// M: integer modulo MOD (MOD must be prime for division)
+// supports + - * / and assignment versions, pow, == != <, cin, cout and use as key in set, map and unordered_map
 const ll MOD=1e9+7;
 struct M{
 	ll val;

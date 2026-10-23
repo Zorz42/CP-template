@@ -1,3 +1,5 @@
+// multiply(a,b): coefficients of the product of polynomials a and b
+// exact while (sum of a[i]^2 + sum of b[i]^2)*log2(n) < 9e14
 typedef complex<double> C;
 void fft(vc<C>&a){
 	int n=sz(a),L=__builtin_ctz(n);
@@ -18,7 +20,6 @@ void fft(vc<C>&a){
 	}
 }
 
-// polynomial multiplication
 vl multiply(const vi&a,const vi&b){
 	if(a.empty()||b.empty())return{};
 	vl res(sz(a)+sz(b)-1);

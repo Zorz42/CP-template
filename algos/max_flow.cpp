@@ -1,8 +1,11 @@
+// MaxFlow(n): graph on nodes 0..n-1
+// add(a,b,c): directed edge a->b with capacity c
+// maxflow(s,t): returns max flow from s to t, call only once
+// after maxflow, d[v]>=0 iff v is on the source side of a min cut
 struct MaxFlow{
 	struct E{int to;ll c;};
 	vc<E>e;vc<vi>g;vi d,it;
 	MaxFlow(int n):g(n),d(n),it(n){}
-	// connect a and b with capacity c
 	void add(int a,int b,ll c){
 		g[a].pb(sz(e));e.pb({b,c});
 		g[b].pb(sz(e));e.pb({a,0});
@@ -19,7 +22,6 @@ struct MaxFlow{
 		}
 		return r;
 	}
-	// call only once
 	ll maxflow(int s,int t){
 		ll f=0;
 		while(1){

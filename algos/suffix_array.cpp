@@ -1,3 +1,4 @@
+// suffix_array(s): starting indices of all suffixes of s in sorted order, s must not contain '\0' or negative chars
 vi suffix_array(string s){
 	s.pb(0);
 	int n=sz(s);
@@ -19,7 +20,7 @@ vi suffix_array(string s){
 	return p;
 }
 
-// p is suffix array (which is needed)
+// lcp(s,p): with p=suffix_array(s), l[i] is the longest common prefix of suffixes p[i] and p[i+1]
 vi lcp(const string&s,const vi&p){
 	int n=sz(s),k=0;
 	vi r(n),l(n-1);

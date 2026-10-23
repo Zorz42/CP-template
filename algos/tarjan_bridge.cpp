@@ -1,3 +1,5 @@
+// define maxN, add undirected edges to nodes[], then call tarjan_bridge(root)
+// bridges then holds every bridge {u,v} of the component of root, parallel edges are handled
 int timer,tin[maxN],low[maxN];
 vi nodes[maxN];
 vc<pii>bridges;

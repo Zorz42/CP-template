@@ -2,10 +2,11 @@ test min_cost_flow: avg: 0.05s, max: 0.10s
 test fft: avg: 0.34s, max: 0.70s
 test li_chao: avg: 0.47s, max: 0.71s
 test hash_string: avg: 0.02s, max: 0.20s
-test tarjan_bridge: avg: 0.23s, max: 0.59s
+test tarjan_bridge: avg: 0.24s, max: 0.62s
 test max_flow: avg: 0.01s, max: 0.09s
 test z_algorithm: avg: 0.02s, max: 0.18s
 test modulo_int: avg: 0.00s, max: 0.01s
-test fenwick: avg: 1.11s, max: 1.58s
-test convex_hull: avg: 0.32s, max: 0.81s
+test fenwick: avg: 1.11s, max: 1.59s
+test convex_hull: avg: 0.33s, max: 0.81s
 test suffix_array: avg: 0.02s, max: 0.03s
+test euclid: avg: 0.03s, max: 0.09s

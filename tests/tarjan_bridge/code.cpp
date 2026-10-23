@@ -16,7 +16,7 @@ void solve(){
 		nodes[a].pb(b);
 		nodes[b].pb(a);
 	}
-	tarjan_bridge(0,0);
+	tarjan_bridge();
 	sort(all(bridges));
 	cout<<bridges.size()<<"\n";
 	for(auto[i,j]:bridges)

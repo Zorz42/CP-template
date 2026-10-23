@@ -1,3 +1,4 @@
+// FT(n): n zeros, upd(i,x): a[i]+=x, qry(i): a[0]+...+a[i-1]
 struct FT{
 	vl s;
 	FT(int n):s(n){}
@@ -11,6 +12,10 @@ struct FT{
 	}
 };
 
+// FT2(h): 2D sums over points with 0<=x<h, all points that will be updated must be known in advance
+// inform(x,y) for every such point, then init(), then use upd and qry
+// upd(x,y,d): value at (x,y)+=d
+// qry(x,y): sum over x'<x,y'<y, qry(x1,y1,x2,y2): sum over x1<=x'<x2,y1<=y'<y2
 struct FT2{
 	vc<vi>ys;vc<FT>ft;
 	FT2(int h):ys(h){}

@@ -1,4 +1,4 @@
-//	z[i] pove, da se z[i] znakov zacensi z i-tim ujemajo s prvimi z[i] znaki stringa s.
+// z_function(s): z[i] is the length of the longest common prefix of s and s[i..], z[0]=0
 vi z_function(const string&s){
 	int n=sz(s),l=0,r=0;
 	vi z(n);

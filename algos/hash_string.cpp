@@ -1,3 +1,4 @@
+// FastString(s): get(l,r) returns hash of s[l..r-1], equal substrings have equal hashes
 typedef unsigned long long ull;
 const ull HM=(1ull<<61)-1,HB=chrono::steady_clock::now().time_since_epoch().count()%HM;
 ull hmul(ull a,ull b){

@@ -1,3 +1,5 @@
+// LCT(n): set of lines on integer x in [0,n)
+// add_line({k,m}): adds line y=k*x+m, get(x): minimum of all lines at x (1e18 if there are none)
 struct LCT{
 	int n;
 	vc<pll>t;

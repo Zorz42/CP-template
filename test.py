@@ -27,16 +27,46 @@ CSES_TESTS_URL = "https://cses-tests.pages.dev/{}.zip"
 TIME_LIMIT = 5
 HEAD_PATH = os.path.join("tests", "head.h")
 PERF_REPORT_PATH = "perf_report.txt"
+# times above this are highlighted, as this is the time limit on cses
+SLOW_TIME = 1
 
-def download_tests(problem_id: int, data_dir: str):
-    print(f"Downloading tests for CSES problem {problem_id}...")
+# live updating status line only works in a terminal, colors also work in github actions logs
+LIVE = sys.stdout.isatty()
+COLOR = "NO_COLOR" not in os.environ and (LIVE or os.environ.get("GITHUB_ACTIONS") == "true")
+BOLD, DIM, RED, GREEN, YELLOW, CYAN = "1", "2", "31", "32", "33", "36"
+VERDICT_COLORS = {"OK": GREEN, "WA": RED, "RTE": RED, "TLE": RED}
+
+def style(text: str, *codes: str) -> str:
+    if not COLOR:
+        return text
+    return f"\033[{';'.join(codes)}m{text}\033[0m"
+
+# shows a temporary line that is replaced by the next status or print
+def status(text: str):
+    if LIVE:
+        print(f"\r\033[K{text}", end="", flush=True)
+
+def clear_status():
+    status("")
+
+def progress_bar(done: int, total: int, width: int = 24) -> str:
+    filled = width * done // total
+    return style("━" * filled, CYAN) + style("━" * (width - filled), DIM)
+
+def format_time(t: float) -> str:
+    text = f"{t:.2f}s"
+    return style(text, YELLOW) if t > SLOW_TIME else text
+
+def download_tests(problem_id: int, data_dir: str, label: str):
+    status(f"  {style('↓', CYAN)} {label}  {style(f'downloading tests for cses problem {problem_id}', DIM)}")
     try:
         # default python user agent is blocked
         request = urllib.request.Request(CSES_TESTS_URL.format(problem_id), headers={"User-Agent": "CP-template"})
         with urllib.request.urlopen(request) as response:
             archive = response.read()
     except urllib.error.URLError as e:
-        print(f"Downloading tests failed ({e}), exiting")
+        clear_status()
+        print(f"  {style('✗', RED)} {label}  {style(f'downloading tests failed ({e})', RED)}")
         sys.exit(1)
 
     # extract into a temporary directory first so that an interrupted download is not mistaken for a complete one
@@ -77,15 +107,15 @@ def setup_cpp(cpp_path: str, algo_path: str, res_path: str):
     with open(res_path, "w") as res_file:
         res_file.write(cpp_code)
 
-def compile_cpp(cpp_path: str, res_path: str):
-    if does_file_need_updating(cpp_path, res_path):
-        print(f"Compiling {cpp_path}...")
-        # on macOS the stack size of the main thread can only be raised at link time, elsewhere it is raised with setrlimit before running
-        stack_flag = " -Wl,-stack_size,0x20000000" if sys.platform == "darwin" else ""
-        ret_val = os.system(f"g++ -o{res_path} {cpp_path} -O2 -std=c++17{stack_flag}")
-        if ret_val != 0:
-            print("Compilation failed, exiting")
-            sys.exit(1)
+# returns whether compilation succeeded and compiler errors
+def compile_cpp(cpp_path: str, res_path: str, label: str) -> (bool, str):
+    if not does_file_need_updating(cpp_path, res_path):
+        return True, ""
+    status(f"  {style('⚙', CYAN)} {label}  {style('compiling', DIM)}")
+    # on macOS the stack size of the main thread can only be raised at link time, elsewhere it is raised with setrlimit before running
+    stack_flags = ["-Wl,-stack_size,0x20000000"] if sys.platform == "darwin" else []
+    result = subprocess.run(["g++", f"-o{res_path}", cpp_path, "-O2", "-std=c++17", *stack_flags], capture_output=True, text=True)
+    return result.returncode == 0, result.stderr
 
 def raise_stack_limit():
     if sys.platform != "darwin":
@@ -126,14 +156,14 @@ def run_testcase(exec_path: str, testcase_in_path: str, testcase_out_path, trans
     else:
         return False, "WA", elapsed_time
 
-def test_file(name: str, verbose: bool) -> (int, int, str):
+# returns number of passed and failed tests, perf report line and whether compilation succeeded
+def test_file(name: str, verbose: bool, width: int) -> (int, int, str, bool):
+    label = name.ljust(width)
     directory = os.path.join("tests", name)
     if not os.path.isdir(directory):
-        print(f"> Skipping {name} (no tests found)")
-        print()
-        return 0, 0, ""
+        print(f"  {style('-', DIM)} {style(label, DIM)}  {style('no tests', DIM)}")
+        return 0, 0, "", True
 
-    print(f"> Testing {name}...")
     build_dir = os.path.join(directory, "build")
     if not os.path.isdir(build_dir):
         os.mkdir(build_dir)
@@ -143,7 +173,12 @@ def test_file(name: str, verbose: bool) -> (int, int, str):
     res_path = os.path.join(build_dir, "res.cpp")
     setup_cpp(cpp_path, algo_path, res_path)
     exec_path = os.path.join(build_dir, "exec")
-    compile_cpp(res_path, exec_path)
+    compiled, errors = compile_cpp(res_path, exec_path, label)
+    clear_status()
+    if not compiled:
+        print(f"  {style('✗', RED)} {style(label, BOLD)}  {style('compilation failed', RED, BOLD)}")
+        print("".join(f"      {line}\n" for line in errors.splitlines()))
+        return 0, 0, "", False
 
     data_dir = directory
     transform = None
@@ -151,50 +186,54 @@ def test_file(name: str, verbose: bool) -> (int, int, str):
         problem_id, transform = CSES_TESTS[name]
         data_dir = os.path.join(CSES_DATA_DIR, str(problem_id))
         if not os.path.isdir(data_dir):
-            download_tests(problem_id, data_dir)
-
-    success = 0
-    fail = 0
+            download_tests(problem_id, data_dir, label)
 
     test_files = []
     for file in os.listdir(data_dir):
-        if file.find("in") != -1:
+        if file.endswith(".in"):
             input_path = os.path.join(data_dir, file)
-            output_path = os.path.join(data_dir, file.replace("in", "out"))
-            test_files.append((input_path, output_path, file))
+            output_path = os.path.join(data_dir, file[:-3] + ".out")
+            test_files.append((input_path, output_path, file[:-3]))
 
-    # sort test files lexicographically
-    test_files.sort(key=lambda x: int(x[0].split("/")[-1].split(".")[0]))
+    # sort test files by number
+    test_files.sort(key=lambda x: int(x[2]))
 
-    avgs, maxs = 0, 0 
-
-    for input_path, output_path, file in test_files:
+    avgs, maxs = 0, 0
+    results = []
+    for i, (input_path, output_path, test_num) in enumerate(test_files):
+        status(f"  {style('…', CYAN)} {label}  {progress_bar(i, len(test_files))} {style(f'{i}/{len(test_files)}', DIM)}")
         (res, verd, elapsed) = run_testcase(exec_path, input_path, output_path, transform)
         maxs = max(maxs, elapsed)
         avgs += elapsed / len(test_files)
-        l = " " * (20 - len(file))
-        test_num = file.split(".")[0]
-        if verbose:
-            print(f"Test {test_num} {l} {verd} {elapsed:.3f}s")
-        else:
-            print(f"{test_num}: {verd}", end="   ")
+        results.append((test_num, verd, elapsed))
+    clear_status()
 
-        if res:
-            success += 1
-        else:
-            fail += 1
+    success = sum(verd == "OK" for _, verd, _ in results)
+    fail = len(results) - success
+
+    mark = style("✓", GREEN) if fail == 0 else style("✗", RED)
+    counts = style(f"{success}/{len(results)}".rjust(7), GREEN if fail == 0 else RED)
+    line = f"  {mark} {style(label, BOLD)}  {counts}   avg {format_time(avgs)}   max {format_time(maxs)}"
+    # list failed tests grouped by verdict
+    for verdict in ("WA", "RTE", "TLE"):
+        failed = [test_num for test_num, verd, _ in results if verd == verdict]
+        if failed:
+            line += f"   {style(verdict, VERDICT_COLORS[verdict], BOLD)} {' '.join(failed)}"
+    print(line)
+
+    if verbose:
+        for test_num, verd, elapsed in results:
+            print(f"      {style(test_num.rjust(4), DIM)}  {style(verd.ljust(3), VERDICT_COLORS[verd])}  {format_time(elapsed)}")
+        print()
 
     report = f"test {name}: avg: {avgs:.2f}s, max: {maxs:.2f}s\n"
-    print()
-    print(report)
-
-    return success, fail, report
+    return success, fail, report, True
 
 
 if __name__ == "__main__":
     success = 0
     fail = 0
-    req = None
+    compile_fail = 0
     allowed = set()
     verbose = False
     for i, x in enumerate(sys.argv):
@@ -212,23 +251,37 @@ if __name__ == "__main__":
             for line in report_file:
                 reports[line.split(":")[0]] = line
 
-    for file in os.listdir("algos"):
-        if file.endswith(".cpp") and (len(allowed) == 0 or file[:-4] in allowed):
-            # remove the .cpp extension
-            name = file[:-4]
-            succ, fal, report = test_file(name, verbose)
-            if report:
-                reports[f"test {name}"] = report
-            success += succ
-            fail += fal
+    # remove the .cpp extension
+    names = sorted(file[:-4] for file in os.listdir("algos") if file.endswith(".cpp"))
+    names = [name for name in names if len(allowed) == 0 or name in allowed]
+    width = max((len(name) for name in names), default=0)
+
+    print()
+    tested = sum(os.path.isdir(os.path.join("tests", name)) for name in names)
+    print(f"  {style(f'Testing {tested} algorithms', BOLD)}")
+    print()
+
+    start_time = time.time()
+    for name in names:
+        succ, fal, report, compiled = test_file(name, verbose, width)
+        if report:
+            reports[f"test {name}"] = report
+        success += succ
+        fail += fal
+        compile_fail += not compiled
 
     with open(PERF_REPORT_PATH, "w") as report_file:
         report_file.writelines(reports.values())
 
-    print(f"Success: {success}")
-    print(f"Fail: {fail}")
+    summary = [style(f"{success} passed", GREEN, BOLD)]
     if fail > 0:
-        print("FAIL")
+        summary.append(style(f"{fail} failed", RED, BOLD))
+    if compile_fail > 0:
+        summary.append(style(f"{compile_fail} failed to compile", RED, BOLD))
+    summary.append(style(f"{time.time() - start_time:.1f}s", DIM))
+    if not verbose:
+        print()
+    print("  " + style(" · ", DIM).join(summary))
+    print()
+    if fail > 0 or compile_fail > 0:
         sys.exit(1)
-    else:
-        print("OK")

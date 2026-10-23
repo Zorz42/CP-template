@@ -1,69 +1,32 @@
 struct MinCostFlow{
-	int n;
-	vc<vi>adj,cst,cap;
-	const int INF=1e9;
-
-	MinCostFlow(int n):n(n){
-		adj=vc(n,vi());
-		cst=vc(n,vi(n,0));
-		cap=vc(n,vi(n,0));
+	struct E{int to;ll c,w;};
+	int n;vc<E>e;vc<vi>g;
+	MinCostFlow(int n):n(n),g(n){}
+	void add_edge(int a,int b,ll cap,ll cost){
+		g[a].pb(sz(e));e.pb({b,cap,cost});
+		g[b].pb(sz(e));e.pb({a,0,-cost});
 	}
-
-	void add_edge(int from,int to,int capacity,int cost){
-		adj[from].pb(to);
-		adj[to].pb(from);
-		cst[from][to]=cost;
-		cst[to][from]=-cost;
-		cap[from][to]=capacity;
-	}
-
-	void shortest_paths(int v0,vi&d,vi&p){
-		d.assign(n,INF);
-		d[v0]=0;
-		vc<bool>inq(n,false);
-		queue<int>q;
-		q.push(v0);
-		p.assign(n,-1);
-		while(!q.empty()){
-			int u=q.front();
-			q.pop();
-			inq[u]=false;
-			for(int v:adj[u]){
-				if (cap[u][v]>0&&d[v]>d[u]+cst[u][v]){
-					d[v]=d[u]+cst[u][v];
-					p[v]=u;
-					if(!inq[v]){
-						inq[v]=true;
-						q.push(v);
+	pll min_cost_flow(int s,int t,ll K=LLONG_MAX){
+		ll f=0,c=0;
+		while(f<K){
+			vl d(n,LLONG_MAX);vi p(n),inq(n);
+			queue<int>q;q.push(s);d[s]=0;
+			while(sz(q)){
+				int u=q.front();q.pop();inq[u]=0;
+				for(int i:g[u]){
+					E&x=e[i];
+					if(x.c&&d[u]+x.w<d[x.to]){
+						d[x.to]=d[u]+x.w;p[x.to]=i;
+						if(!inq[x.to])inq[x.to]=1,q.push(x.to);
 					}
 				}
 			}
+			if(d[t]==LLONG_MAX)break;
+			ll r=K-f;
+			for(int v=t;v!=s;v=e[p[v]^1].to)r=min(r,e[p[v]].c);
+			for(int v=t;v!=s;v=e[p[v]^1].to)e[p[v]].c-=r,e[p[v]^1].c+=r;
+			f+=r;c+=r*d[t];
 		}
-	}
-
-	int min_cost_flow(int K,int s,int t){
-		int flow=0;
-		int cost=0;
-		vi d,p;
-		while(flow<K){
-			shortest_paths(s,d,p);
-			if(d[t]==INF)
-				break;
-			int f=K-flow;
-			int cur=t;
-			while(cur!=s){
-				f=min(f,cap[p[cur]][cur]);
-				cur=p[cur];
-			}
-			flow+=f;
-			cost+=f*d[t];
-			cur=t;
-			while(cur!=s){
-				cap[p[cur]][cur]-=f;
-				cap[cur][p[cur]]+=f;
-				cur=p[cur];
-			}
-		}
-		return flow<K?-1:cost;
+		return{f,c};
 	}
 };

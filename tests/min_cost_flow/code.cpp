@@ -10,15 +10,15 @@ void solve(){
 	MinCostFlow g(2*n+2);
 	int s=2*n,t=s+1;
 	for(int x=0;x<n;x++){
+		g.add_edge(s,x,1,0);
+		g.add_edge(n+x,t,1,0);
 		for(int y=0;y<n;y++){
 			int v;
 			cin>>v;
-			g.add_edge(s,x,1,0);
-			g.add_edge(n+y,t,1,0);
 			g.add_edge(x,n+y,1,v);
 		}
 	}
-	cout<<g.min_cost_flow(n,s,t)<<"\n";
+	cout<<g.min_cost_flow(s,t).f2<<"\n";
 }
 
 int main(){

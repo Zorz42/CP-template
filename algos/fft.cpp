@@ -1,45 +1,36 @@
-using cd=complex<double>;
-const double PI=acos(-1);
-
-void fft(vc<cd>&a,bool inv){
-	int n=(int)a.size();
-	if(n==1)
-		return;
-	vc<cd>a0(n/2),a1(n/2);
-	rep(i,(n+1)/2){
-		a0[i]=a[2*i];
-		a1[i]=a[2*i+1];
+typedef complex<double> C;
+void fft(vc<C>&a){
+	int n=sz(a),L=__builtin_ctz(n);
+	static vc<complex<long double>>R(2,1);
+	static vc<C>rt(2,1);
+	for(static int k=2;k<n;k*=2){
+		R.resize(n);rt.resize(n);
+		auto x=polar(1.0L,acosl(-1)/k);
+		fwd(i,k,2*k)rt[i]=R[i]=i&1?R[i/2]*x:R[i/2];
 	}
-	fft(a0,inv);
-	fft(a1,inv);
-	double ang=2*PI/n*(inv?-1:1);
-	cd w(1),wn(cos(ang),sin(ang));
-	rep(i,(n+1)/2){
-		a[i]=a0[i]+w*a1[i];
-		a[i+n/2]=a0[i]-w*a1[i];
-		if(inv){
-			a[i]/=2;
-			a[i+n/2]/=2;
-		}
-		w*=wn;
+	vi rev(n);
+	rep(i,n)rev[i]=(rev[i/2]|(i&1)<<L)/2;
+	rep(i,n)if(i<rev[i])swap(a[i],a[rev[i]]);
+	for(int k=1;k<n;k*=2)for(int i=0;i<n;i+=2*k)rep(j,k){
+		C z=rt[j+k]*a[i+j+k];
+		a[i+j+k]=a[i+j]-z;
+		a[i+j]+=z;
 	}
 }
 
 // polynomial multiplication
-vl multiply(vi&a,vi&b){
-	vc<cd>fa(all(a)),fb(all(b));
+vl multiply(const vi&a,const vi&b){
+	if(a.empty()||b.empty())return{};
+	vl res(sz(a)+sz(b)-1);
 	int n=1;
-	while(n<sz(a)+sz(b))
-		n<<=1;
-	fa.resize(n);
-	fb.resize(n);
-	fft(fa,0);
-	fft(fb,0);
-	rep(i,n)
-		fa[i]*=fb[i];
-	fft(fa,1);
-	vc<ll>res(n);
-	rep(i,n)
-		res[i]=round(fa[i].real());
+	while(n<sz(res))n*=2;
+	vc<C>in(n),out(n);
+	rep(i,sz(a))in[i].real(a[i]);
+	rep(i,sz(b))in[i].imag(b[i]);
+	fft(in);
+	for(C&x:in)x*=x;
+	rep(i,n)out[i]=in[-i&(n-1)]-conj(in[i]);
+	fft(out);
+	rep(i,sz(res))res[i]=llround(imag(out[i])/(4*n));
 	return res;
 }

@@ -1,7 +1,7 @@
 struct FT{
 	vl s;
 	FT(int n):s(n){}
-	void upd(int i,int x){
+	void upd(int i,ll x){
 		for(;i<sz(s);i|=i+1)s[i]+=x;
 	}
 	ll qry(int i){
@@ -18,23 +18,20 @@ struct FT2{
 		for(;x<sz(ys);x|=x+1)ys[x].pb(y);
 	}
 	void init(){
-		for(vi&v:ys)sort(all(v)),ft.pb(sz(v));
+		for(vi&v:ys)sort(all(v)),v.erase(unique(all(v)),v.end()),ft.pb(sz(v));
 	}
 	int ind(int x,int y){
-		return(int)(lower_bound(all(ys[x]),y)-ys[x].begin()); 
-  }
-	void upd(int x,int y,int dif){
-		for(;x<sz(ys);x|=x+1)
-			ft[x].upd(ind(x,y),dif);
+		return lower_bound(all(ys[x]),y)-ys[x].begin();
+	}
+	void upd(int x,int y,ll dif){
+		for(;x<sz(ys);x|=x+1)ft[x].upd(ind(x,y),dif);
 	}
 	ll qry(int x,int y){
 		ll r=0;
-		for(;x;x&=x-1)
-			r+=ft[x-1].qry(ind(x-1,y));
+		for(;x;x&=x-1)r+=ft[x-1].qry(ind(x-1,y));
 		return r;
 	}
-  ll qry(int x1,int y1,int x2,int y2){
-    return qry(x2,y2)-qry(x2,y1)-qry(x1,y2)+qry(x1,y1);
-  }
+	ll qry(int x1,int y1,int x2,int y2){
+		return qry(x2,y2)-qry(x2,y1)-qry(x1,y2)+qry(x1,y1);
+	}
 };
-

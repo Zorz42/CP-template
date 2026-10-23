@@ -59,11 +59,11 @@ bool test7(){
     a1.erase(0);
     map<M,M>a2;
     unordered_map<M,M>a3;
-    // not done yet
-    /*1+M(1);
+    1+M(1);
     1-M(1);
     1*M(1);
-    1/M(1);*/
+    1/M(1);
+    if(pii(1,2)<pii(2,1)!=true)return false;
     return true;
 }
 
@@ -95,7 +95,6 @@ void solve(){
 }
 
 int main(){
-    M::precomp();
     ios::sync_with_stdio(false);cout.tie(0);cin.tie(0);
     int t=1;//cin>>t;
     while(t--)solve();

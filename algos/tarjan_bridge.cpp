@@ -1,21 +1,17 @@
 int timer,tin[maxN],low[maxN];
-bool vis[maxN];
 vi nodes[maxN];
 vc<pii>bridges;
 
-void tarjan_bridge(int u=0,int p=0){
-	vis[u]=true;
+void tarjan_bridge(int u=0,int p=-1){
 	tin[u]=low[u]=++timer;
+	bool s=0;
 	for(int v:nodes[u]){
-		if(v!=p){
-			if(vis[v])  
-				low[u]=min(low[u],tin[v]);
-			else{
-				tarjan_bridge(v,u);
-				low[u]=min(low[u],low[v]);
-				if(low[v]>tin[u])
-					bridges.push_back({u,v});
-			}
+		if(v==p&&!s)s=1;
+		else if(tin[v])low[u]=min(low[u],tin[v]);
+		else{
+			tarjan_bridge(v,u);
+			low[u]=min(low[u],low[v]);
+			if(low[v]>tin[u])bridges.pb({u,v});
 		}
 	}
 }

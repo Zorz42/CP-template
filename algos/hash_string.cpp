@@ -1,23 +1,17 @@
-const int HMOD1=1e9+7;
-const int HMOD2=1e9+9;
-const int HX1=31;
-const int HX2=29;
- 
+typedef unsigned long long ull;
+const ull HM=(1ull<<61)-1,HB=chrono::steady_clock::now().time_since_epoch().count()%HM;
+ull hmul(ull a,ull b){
+	__uint128_t c=(__uint128_t)a*b;
+	ull r=(c&HM)+(c>>61);
+	return r>=HM?r-HM:r;
+}
+
 struct FastString{
-	string s;
-	vc<ll>h1,h2,p1,p2;
-	FastString(string s):s(s){
-		p1=p2=h1=h2={1};
-		fwd(i,1,sz(s)+1){
-			p1.pb((p1[i-1]*HX1)%HMOD1);
-			p2.pb((p2[i-1]*HX2)%HMOD2);
-			h1.pb((h1[i-1]+p1[i-1]*(s[i-1]-'a'+1))%HMOD1);
-			h2.pb((h2[i-1]+p2[i-1]*(s[i-1]-'a'+1))%HMOD2);
-		}
+	vc<ull>h,p;
+	FastString(const string&s):h(sz(s)+1),p(sz(s)+1,1){
+		rep(i,sz(s))h[i+1]=(hmul(h[i],HB)+s[i])%HM,p[i+1]=hmul(p[i],HB);
 	}
-	ll get(int l,int r){
-		ll hsh1=(h1[r]+HMOD1-h1[l])%HMOD1*p1[sz(s)-l]%HMOD1;
-		ll hsh2=(h2[r]+HMOD2-h2[l])%HMOD2*p2[sz(s)-l]%HMOD2;
-		return hsh1+(hsh2<<32);
+	ull get(int l,int r){
+		return(h[r]+HM-hmul(h[l],p[r-l]))%HM;
 	}
 };

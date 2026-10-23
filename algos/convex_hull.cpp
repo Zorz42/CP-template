@@ -1,49 +1,22 @@
-struct pt {
-    double x, y;
-    bool operator == (pt const& t) const {
-        return x == t.x && y == t.y;
-    }
+struct pt{
+	ll x,y;
+	bool operator<(pt o)const{return pll(x,y)<pll(o.x,o.y);}
+	bool operator==(pt o)const{return x==o.x&&y==o.y;}
 };
+ll cross(pt a,pt b,pt c){return(b.x-a.x)*(c.y-a.y)-(b.y-a.y)*(c.x-a.x);}
 
-int orientation(pt a, pt b, pt c) {
-    double v = a.x*(b.y-c.y)+b.x*(c.y-a.y)+c.x*(a.y-b.y);
-    if (v < 0) return -1; // clockwise
-    if (v > 0) return +1; // counter-clockwise
-    return 0;
-}
-
-bool cw(pt a, pt b, pt c, bool include_collinear) {
-    int o = orientation(a, b, c);
-    return o < 0 || (include_collinear && o == 0);
-}
-bool collinear(pt a, pt b, pt c) { return orientation(a, b, c) == 0; }
-
-void convex_hull(vector<pt>& a, bool include_collinear = false) {
-    pt p0 = *min_element(a.begin(), a.end(), [](pt a, pt b) {
-        return make_pair(a.y, a.x) < make_pair(b.y, b.x);
-    });
-    sort(a.begin(), a.end(), [&p0](const pt& a, const pt& b) {
-        int o = orientation(p0, a, b);
-        if (o == 0)
-            return (p0.x-a.x)*(p0.x-a.x) + (p0.y-a.y)*(p0.y-a.y)
-                < (p0.x-b.x)*(p0.x-b.x) + (p0.y-b.y)*(p0.y-b.y);
-        return o < 0;
-    });
-    if (include_collinear) {
-        int i = (int)a.size()-1;
-        while (i >= 0 && collinear(p0, a[i], a.back())) i--;
-        reverse(a.begin()+i+1, a.end());
-    }
-
-    vector<pt> st;
-    for (int i = 0; i < (int)a.size(); i++) {
-        while (st.size() > 1 && !cw(st[st.size()-2], st.back(), a[i], include_collinear))
-            st.pop_back();
-        st.push_back(a[i]);
-    }
-
-    if (include_collinear == false && st.size() == 2 && st[0] == st[1])
-        st.pop_back();
-
-    a = st;
+void convex_hull(vc<pt>&a,bool include_collinear=0){
+	sort(all(a));a.erase(unique(all(a)),a.end());
+	if(sz(a)<3)return;
+	vc<pt>h;
+	rep(it,2){
+		int s=sz(h);
+		for(pt p:a){
+			while(sz(h)>=s+2&&cross(h[sz(h)-2],h.back(),p)<!include_collinear)h.pop_back();
+			h.pb(p);
+		}
+		h.pop_back();reverse(all(a));
+	}
+	if(sz(h)>sz(a))h.resize(sz(a));
+	a=h;
 }

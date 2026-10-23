@@ -31,31 +31,18 @@ typedef pair<int,int> pii;
 typedef pair<ll,ll> pll;
 
 #ifdef LOC
-template<typename T1,typename T2>
-auto& operator<<(ostream& out, pair<T1, T2> a) {return out<<"("<<a.st<<", "<<a.nd<<")";}
-template<typename T>
-auto& operator<<(ostream& out, vector<T>& a) {
-	out<<"{";
-	int cnt=0;
-	for(auto b:a){
-		cnt++;
-		out<<b;
-		if(cnt!=a.size())
-			out<<", ";
-	}
-	return out<<"}";
-}
- 
+template<class A,class B>auto&operator<<(ostream&o,pair<A,B>p){return o<<"("<<p.f1<<", "<<p.f2<<")";}
+template<class T>auto&operator<<(ostream&o,const vc<T>&v){o<<"{";for(int i=0;auto&x:v)o<<(i++?", ":"")<<x;return o<<"}";}
 #define debug(x) cerr<<"[" #x "]: "<<x<<"\n";
 #else
-#define debug(x) ;
+#define debug(x)
 #endif
 
 void solve(){
 }
 
 int main(){
-	cin.tie(0);cout.tie(0);ios::sync_with_stdio(false);
+	cin.tie(0);ios::sync_with_stdio(false);
 	int t=1;//cin>>t;
 	while(t--)solve();
 	return 0;

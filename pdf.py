@@ -94,12 +94,12 @@ def write(name: str, text: str):
     with open(os.path.join(BUILD_DIR, name), "w") as file:
         file.write(text)
 
-# latex of one algorithm, titled with its name
+# latex of one algorithm, titled with its name and never split between pages
 def algo_latex(source: str) -> str:
     with open(os.path.join(ALGOS_DIR, source), "r") as file:
         code = file.read().replace("\t", "  ")
     title = source[:-4].replace("_", r"\_")
-    return f"\\subsection*{{{title}}}\n" + highlight(code, CppLexer(), FORMATTER)
+    return f"\\begin{{no_pagebreak}}\n\\subsection*{{{title}}}\n" + highlight(code, CppLexer(), FORMATTER) + "\\end{no_pagebreak}\n"
 
 def run_latex():
     # run twice so that references are resolved
